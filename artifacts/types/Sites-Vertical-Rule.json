@@ -1,0 +1,44 @@
+{
+  "id": "8e460c39-9cf6-4a78-9726-ee43ad961a8a",
+  "rev": "156-cb707114ab673bbb13de8a8993473538",
+  "name": "Sites Vertical Rule",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This block represnets a vertical rule to be shown on pages.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "toggle",
+      "helpText": "This element controls if vertical rules are added between links",
+      "key": "includeVerticalRuleBetweenLinks",
+      "label": "Include vertical rule between links"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls line color of this vertical rule",
+      "key": "lineColor",
+      "label": "Line Color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls opacity of this vertical rule",
+      "key": "opacity",
+      "label": "Opacity"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

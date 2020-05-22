@@ -1,0 +1,12 @@
+{
+  "id": "date-hbs-layout",
+  "rev": "80-12434e043027fe3918d19f032675b589",
+  "name": "Date HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/date-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

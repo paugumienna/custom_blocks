@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "classification": "site",
+  "routingMode": "anchor",
+  "lastModified": "2020-04-27T08:50:23.901Z",
+  "lastModifierId": "00000000-0000-0000-0000-000000000009",
+  "created": "2020-04-27T08:50:23.901Z",
+  "creatorId": "00000000-0000-0000-0000-000000000009",
+  "status": "ready",
+  "id": "default",
+  "rev": "1-89f12c9b3837e67a062005dea78cb237"
+}

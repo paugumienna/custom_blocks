@@ -1,0 +1,25 @@
+{
+  "id": "7ff6d01f-5dad-43c8-9e05-14eccb782a3a",
+  "rev": "118-3b41ef48df92db8cea859a3b6dfd2e14",
+  "name": "Sites Link URL",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "link",
+      "label": "url",
+      "key": "url",
+      "required": false
+    },
+    {
+      "elementType": "text",
+      "label": "key",
+      "key": "key"
+    }
+  ]
+}

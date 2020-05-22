@@ -1,0 +1,57 @@
+{
+  "id": "d8b18cb8-0673-4672-b6c9-1f0b72c89400",
+  "rev": "136-fe49ef56afab3f7f7dd5259869acb6bc",
+  "name": "Sites Styles",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "key": "typography",
+      "label": "Typography",
+      "typeRef": {
+        "id": "9785924f-f964-4116-b3cc-73266b099245"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "navigation",
+      "label": "Navigation",
+      "typeRef": {
+        "id": "0073b205-293d-4668-b57d-12f845b729dc"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "buttons",
+      "label": "Buttons",
+      "typeRef": {
+        "id": "a61407d3-9448-4f2a-ae72-0c544f42fd61"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "page",
+      "label": "Page",
+      "typeRef": {
+        "id": "ab6840f0-1ff9-4787-aef0-fd58db9e7203"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "palette",
+      "label": "Palette",
+      "typeRef": {
+        "id": "1772170a-46d8-4af1-b967-dee816749c78"
+      }
+    }
+  ]
+}

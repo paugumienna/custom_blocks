@@ -1,0 +1,97 @@
+{
+  "id": "0b1c47a9-eb31-49ec-8fd7-89ca21a36b36",
+  "rev": "156-89dd0dfa134fdf7aaaea1047ccab474d",
+  "name": "Sites Promotion",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "description": "This block represents a promotion item to be rendered on a page. A promotion is comprised by an image, a text, and a clickable button.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background for this promotion block.",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this promotion block.",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds the actual text data for this promotion block.",
+      "key": "text",
+      "label": "Text",
+      "typeRef": {
+        "id": "373c81a5-d86b-4740-8f11-62fcbccfca08"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds the image for this promotion block.",
+      "key": "image",
+      "label": "Image",
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the button for this promotion block.",
+      "key": "button",
+      "label": "Button",
+      "typeRef": {
+        "id": "dee92057-69e3-489b-b13b-15f9b28770a1"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the common settings for this block.",
+      "key": "commonSettings",
+      "label": "Common Settings",
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the layout to be applied to this promotion block.",
+      "key": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "label": "Image Left",
+          "selection": "image-left"
+        },
+        {
+          "label": "Image Right",
+          "selection": "image-right"
+        },
+        {
+          "label": "Image Top",
+          "selection": "image-top"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

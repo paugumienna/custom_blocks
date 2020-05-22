@@ -1,0 +1,24 @@
+<!-- KGT HBS Only Layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}};">
+
+    <span>{{listTitle}}</span>
+
+    {{#eq listType 'ul' }}
+    <ul>
+        <li>{{firstElement}}</li>
+        <li>{{secondElement}}</li>
+        <li>{{thirdElement}}</li>
+    </ul>
+    {{/eq}}
+
+    {{#eq listType 'ol' }}
+    <ol>
+        <li>{{firstElement}}</li>
+        <li>{{secondElement}}</li>
+        <li>{{thirdElement}}</li>
+    </ol>
+    {{/eq}}
+</div>
+<!-- End KGT HBS Only Layout -->

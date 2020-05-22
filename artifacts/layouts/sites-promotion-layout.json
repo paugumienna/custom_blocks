@@ -1,0 +1,16 @@
+{
+  "id": "sites-promotion-layout",
+  "rev": "156-91164f620441fc6e9c70761e68ad8b33",
+  "name": "sitesPromotionLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-promotion-layout.jpg"
+  },
+  "template": "/templates/sites-promotion-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

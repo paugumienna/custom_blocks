@@ -1,0 +1,24 @@
+{
+  "id": "sites-hb-image-layout-mapping",
+  "rev": "156-883ef58a44f479caab93c3bac560b505",
+  "name": "sitesHbImageLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "93f1f438-654b-40da-870e-d90ab4c93fdf"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-hb-image-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-hb-image-layout"
+        }
+      ]
+    }
+  ]
+}

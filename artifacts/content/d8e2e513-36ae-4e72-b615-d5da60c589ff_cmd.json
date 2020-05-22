@@ -1,0 +1,324 @@
+{
+  "rev": "149-8e960858a0faa482075abbdbf0fdd611",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:57.902Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "sites-block"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-social-follow-layout"
+      }
+    }
+  ],
+  "elements": {
+    "socialLinks": {
+      "values": [
+        {
+          "icon": {
+            "elementType": "text",
+            "value": "Facebook"
+          },
+          "linkAdvanced": {
+            "elementType": "group",
+            "value": {
+              "urlLink": {
+                "elementType": "group",
+                "value": {
+                  "url": {
+                    "elementType": "link",
+                    "linkText": "Facebook",
+                    "linkURL": "#",
+                    "linkDescription": "Facebook Link"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                "typeRef": {
+                  "id": "7ff6d01f-5dad-43c8-9e05-14eccb782a3a"
+                }
+              },
+              "key": {
+                "elementType": "text"
+              },
+              "name": {
+                "elementType": "text",
+                "value": "Follow on Facebook"
+              }
+            },
+            "typeRef": {
+              "id": "e1fa873c-3ed7-4ac1-8df7-57f34d55f419"
+            }
+          },
+          "altText": {
+            "elementType": "text",
+            "value": "Facebook"
+          },
+          "key": {
+            "elementType": "text"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "98f24456-bf11-4248-bca9-07e273b8dbc4"
+      }
+    },
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "openLinksInNewTab": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "background": {
+      "elementType": "group",
+      "value": {
+        "fillOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "None"
+          }
+        },
+        "backgroundColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "transparent"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background Color",
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        },
+        "gradient": {
+          "elementType": "group",
+          "value": {
+            "gradientOptions": {
+              "values": [
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                }
+              ],
+              "elementType": "group",
+              "typeRef": {
+                "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+              }
+            },
+            "angle": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gradientType": {
+              "elementType": "optionselection"
+            },
+            "position": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "shape": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "ellipse"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background gradient",
+            "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+          }
+        },
+        "imageBackground": {
+          "elementType": "group",
+          "value": {
+            "image": {
+              "elementType": "image"
+            },
+            "display": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "fill"
+              }
+            },
+            "backgroundPositionX": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "backgroundPositionY": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites background image option",
+            "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af",
+        "name": "Sites Background"
+      }
+    },
+    "linkColorScheme": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Primary"
+      }
+    },
+    "socialMediaType": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Icon"
+      }
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "displayIcons": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Horizontal"
+      }
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "left"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 16
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 16
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "elementsAlignment": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Horizontal"
+      }
+    },
+    "spacing": {
+      "elementType": "number",
+      "value": 16
+    }
+  },
+  "name": "Social",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "669768ce-44c7-4de3-83c1-a72d871e8df2",
+  "id": "d8e2e513-36ae-4e72-b615-d5da60c589ff",
+  "lastModified": "2020-05-21T06:21:57.902Z",
+  "systemModified": "2020-05-21T06:21:57.902Z",
+  "status": "ready"
+}

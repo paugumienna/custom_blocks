@@ -1,0 +1,37 @@
+{
+  "rev": "153-3544811c066fd531cce565f05b2fd6e3",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:50.340Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-breadcrumb-navigation-layout"
+      }
+    }
+  ],
+  "elements": {
+    "numberOfNavigationLevels": {
+      "elementType": "number",
+      "value": 0
+    },
+    "startingWithNavigationLevel": {
+      "elementType": "number",
+      "value": 0
+    }
+  },
+  "name": "Breadcrumb Navigation",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "6854f419-3b8b-4410-8d33-134a485d05a3",
+  "id": "215da371-624c-4e6a-87fd-9687ff2ef78e",
+  "lastModified": "2020-05-21T06:21:50.340Z",
+  "systemModified": "2020-05-21T06:21:50.340Z",
+  "status": "ready"
+}

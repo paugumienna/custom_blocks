@@ -1,0 +1,66 @@
+{
+  "id": "d1fdf6b7-faca-4b05-80a6-574c3494ef96",
+  "rev": "156-ee31eb3cb84df680e272cd2ab8161cc9",
+  "name": "Sites background image",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "key": "image",
+      "label": "Image"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "key": "imageOpacity",
+      "label": "Image opacity"
+    },
+    {
+      "elementType": "optionselection",
+      "key": "fill",
+      "label": "Fill",
+      "options": [
+        {
+          "label": "Cover",
+          "selection": "Cover"
+        },
+        {
+          "label": "Tile",
+          "selection": "Tile"
+        },
+        {
+          "label": "Full width",
+          "selection": "Full width"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "key": "imageRatio",
+      "label": "Image ratio",
+      "options": [
+        {
+          "label": "Original ratio",
+          "selection": "Original ratio"
+        }
+      ]
+    },
+    {
+      "elementType": "toggle",
+      "key": "optimizeImageFileSize",
+      "label": "Optimize image file size"
+    }
+  ]
+}

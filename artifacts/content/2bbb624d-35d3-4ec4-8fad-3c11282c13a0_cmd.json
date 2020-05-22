@@ -1,0 +1,256 @@
+{
+  "rev": "153-8640a6fa43f464955f8fe4a5596fbdd6",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:50.996Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        },
+        "top": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "image": {
+      "elementType": "group",
+      "value": {
+        "margin": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            },
+            "top": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        },
+        "image": {
+          "elementType": "image"
+        },
+        "commonSettings": {
+          "elementType": "group",
+          "value": {
+            "applyToAll": {
+              "elementType": "toggle",
+              "value": false
+            },
+            "hideOnMobile": {
+              "elementType": "toggle",
+              "value": false
+            }
+          },
+          "typeRef": {
+            "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+          }
+        },
+        "alignment": {
+          "elementType": "group",
+          "value": {
+            "alignmentOptions": {
+              "elementType": "optionselection"
+            }
+          },
+          "typeRef": {
+            "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+          }
+        },
+        "padding": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            },
+            "top": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    "commonSettings": {
+      "elementType": "group",
+      "value": {
+        "applyToAll": {
+          "elementType": "toggle",
+          "value": false
+        },
+        "hideOnMobile": {
+          "elementType": "toggle",
+          "value": false
+        }
+      },
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    "text": {
+      "elementType": "group",
+      "value": {
+        "margin": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            },
+            "top": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        },
+        "textStyle": {
+          "elementType": "group",
+          "value": {
+            "color": {
+              "elementType": "text"
+            },
+            "font": {
+              "elementType": "text"
+            },
+            "size": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "cfa7081a-921d-4f50-a543-027b983b01b5"
+          }
+        },
+        "commonSettings": {
+          "elementType": "group",
+          "value": {
+            "applyToAll": {
+              "elementType": "toggle",
+              "value": false
+            },
+            "hideOnMobile": {
+              "elementType": "toggle",
+              "value": false
+            }
+          },
+          "typeRef": {
+            "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+          }
+        },
+        "text": {
+          "elementType": "formattedtext"
+        },
+        "lineHeight": {
+          "elementType": "group",
+          "value": {
+            "lineHeightOptions": {
+              "elementType": "optionselection"
+            }
+          },
+          "typeRef": {
+            "id": "e5e97340-b03b-42ea-9d03-f8bc214f42b0"
+          }
+        },
+        "alignment": {
+          "elementType": "group",
+          "value": {
+            "alignmentOptions": {
+              "elementType": "optionselection"
+            }
+          },
+          "typeRef": {
+            "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+          }
+        },
+        "padding": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            },
+            "top": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        },
+        "linkColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "373c81a5-d86b-4740-8f11-62fcbccfca08"
+      }
+    },
+    "layout": {
+      "elementType": "optionselection"
+    }
+  },
+  "name": "Image And Text",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "bee26b87-bbcf-454b-9dc6-7a909ab13fd1",
+  "id": "2bbb624d-35d3-4ec4-8fad-3c11282c13a0",
+  "lastModified": "2020-05-21T06:21:50.996Z",
+  "systemModified": "2020-05-21T06:21:50.996Z",
+  "status": "ready"
+}

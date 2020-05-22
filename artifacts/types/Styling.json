@@ -1,0 +1,41 @@
+{
+  "id": "a93f6a4a-d086-4bb1-9bb4-69fe9cc75cdb",
+  "rev": "156-343648faf914cad82d5269214c3390c6",
+  "name": "Styling",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This item provides general styling information",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element controls the font to be used for a text.",
+      "key": "font",
+      "label": "Font"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the size.",
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element controls the color.",
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

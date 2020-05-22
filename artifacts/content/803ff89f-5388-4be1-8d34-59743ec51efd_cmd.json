@@ -1,0 +1,83 @@
+{
+  "rev": "149-30b732c3e56bf7935250067afd309d22",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-module-type.png"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:22:02.670Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Sites next theme on the basis of Bootstrap 4.4 with custom Acoustic styles.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "bootstrap",
+    "sites-theme",
+    "sites-next",
+    "sample"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "4fb15757-66d7-471e-a134-3dd863789ce9"
+      }
+    }
+  ],
+  "elements": {
+    "body": {
+      "values": [],
+      "elementType": "group",
+      "typeRef": {
+        "name": "Page Contribution",
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "head": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text",
+            "values": []
+          },
+          "key": {
+            "elementType": "text",
+            "value": "18e218cc-8c91-4502-951c-ce77b03d830f"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "always"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "e6662bbc-f682-487b-8d2a-d63c42af86f2"
+              },
+              {
+                "id": "d29a1fcc-adae-42fb-bca7-31a6f07462d7"
+              }
+            ],
+            "elementType": "reference"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "name": "Page Contribution",
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "77c51b12-f593-4aa6-aa5e-7bc3b6ca6e7b"
+    }
+  },
+  "name": "🌈 Sites Next Bootstrap Theme",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aab86460-0018-44c2-9f52-3a326e58f7f7",
+  "id": "803ff89f-5388-4be1-8d34-59743ec51efd",
+  "lastModified": "2020-05-21T06:22:02.670Z",
+  "systemModified": "2020-05-21T06:22:02.670Z",
+  "status": "ready"
+}

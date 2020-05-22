@@ -1,0 +1,29 @@
+{
+  "id": "a8a90f38-5641-41ed-a7eb-ccd69c2d873c",
+  "rev": "153-456266208ea07c1bbd498dd555750583",
+  "name": "Typography Font Style Toggles",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "toggle",
+      "key": "fontItalics",
+      "label": "fontItalics"
+    },
+    {
+      "elementType": "toggle",
+      "key": "fontUnderline",
+      "label": "fontUnderline"
+    },
+    {
+      "elementType": "toggle",
+      "key": "fontUppercase",
+      "label": "fontUppercase"
+    }
+  ]
+}

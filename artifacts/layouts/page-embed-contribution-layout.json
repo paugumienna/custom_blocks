@@ -1,0 +1,18 @@
+{
+  "id": "28760700-9fae-40c9-bcab-b40446ed4d37",
+  "rev": "154-ada3be947358583fb1e9ccd5daa6e93a",
+  "name": "📰 Page Embed Contribution Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/page-embed-contribution-layout.png"
+  },
+  "template": "/templates/page-embed-contribution-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/page-embed-contribution/{id}.html"
+}

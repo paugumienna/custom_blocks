@@ -1,0 +1,33 @@
+{
+  "rev": "1-b3018a97e463fc8970305c55bbf42bff",
+  "keywords": [],
+  "kind": [],
+  "draftStatus": "in-progress",
+  "created": "2020-05-21T07:05:50.578Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-next"
+  ],
+  "valid": true,
+  "linkedDocId": "5362fabb-e321-4222-a5c9-952ef81d8a5e",
+  "elements": {
+    "modalTitle": {
+      "elementType": "text",
+      "value": "Modal title"
+    },
+    "modalText": {
+      "elementType": "text",
+      "value": "Lorem ipsum dolor sit amet..."
+    }
+  },
+  "name": "Modal HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "5362fabb-e321-4222-a5c9-952ef81d8a5e:draft",
+  "lastModified": "2020-05-21T07:05:50.578Z",
+  "systemModified": "2020-05-21T07:05:50.578Z",
+  "status": "draft"
+}

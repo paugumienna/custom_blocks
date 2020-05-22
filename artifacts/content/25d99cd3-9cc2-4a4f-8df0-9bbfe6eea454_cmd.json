@@ -1,0 +1,80 @@
+{
+  "rev": "154-9c3027712c0332f6efc41920d1cfa6a4",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-module-type.png"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:22:02.853Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Styles for the basic building blocks.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "bootstrap",
+    "sites-theme",
+    "sites-next",
+    "sample"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "4fb15757-66d7-471e-a134-3dd863789ce9"
+      }
+    }
+  ],
+  "elements": {
+    "body": {
+      "values": [],
+      "elementType": "group",
+      "typeRef": {
+        "name": "Page Contribution",
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "head": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text",
+            "values": []
+          },
+          "key": {
+            "elementType": "text",
+            "value": "9f9ab568-9a29-45db-90f4-13ff6954d4ff"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "always"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "f0223173-1005-49e2-bb28-df9c32beda1c"
+              }
+            ],
+            "elementType": "reference"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "name": "Page Contribution",
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "554eef8b-a9a3-475c-92d1-b35a9327d3bf"
+    }
+  },
+  "name": "🧱 Basic Building Blocks Styles",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aab86460-0018-44c2-9f52-3a326e58f7f7",
+  "id": "25d99cd3-9cc2-4a4f-8df0-9bbfe6eea454",
+  "lastModified": "2020-05-21T06:22:02.853Z",
+  "systemModified": "2020-05-21T06:22:02.853Z",
+  "status": "ready"
+}

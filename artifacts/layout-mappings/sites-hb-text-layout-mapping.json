@@ -1,0 +1,24 @@
+{
+  "id": "sites-hb-text-layout-mapping",
+  "rev": "156-f60275850e41abb80308b7b633d6894c",
+  "name": "sitesHbTextLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "ac299073-48a2-446d-987d-d893257abdb3"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-hb-text-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-hb-text-layout"
+        }
+      ]
+    }
+  ]
+}

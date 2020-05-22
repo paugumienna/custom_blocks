@@ -1,0 +1,20 @@
+<!-- Sites Button Layout -->
+<div class="wch-button-wrapper" data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+  data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+  data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}};
+  {{#if background~}}{{{background.$markup}}}{{~/if}}
+">
+  <a class="btn
+    {{#eq buttonSize "Small"}}btn-sm{{/eq}}
+    {{#eq buttonSize "Medium"}}btn-md{{/eq}}
+    {{#eq buttonSize "Large"}}btn-lg{{/eq}}
+    {{#eq buttonVersion "Primary"}}btn-primary{{/eq}}
+    {{#eq buttonVersion "Secondary"}}btn-secondary{{/eq}}
+    {{#eq buttonVersion "Tertiary"}}btn-link{{/eq}}
+    {{#eq buttonColorScheme "Inverse"}}sites-theme-inverse-color{{/eq}}"
+    style="{{{alignment.$markup}}} {{{lineHeight.$markup}}} {{{style.$markup}}} margin:{{{margin.$markup}}};padding:{{{padding.$markup}}};
+      {{~#if @root.$context.editMode}}pointer-events: none; cursor: default;{{/if}}"
+    href="{{link.linkURL}}">{{label}}
+  </a>
+</div>
+<!-- End Sites Button Layout -->

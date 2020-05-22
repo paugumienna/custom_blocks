@@ -1,0 +1,24 @@
+{
+  "id": "d46a306a-7d34-4dd2-8a38-b3521c649d64",
+  "rev": "156-1d14ad8e3385386374d7c1d7199c743e",
+  "name": "Sites Theme Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "1772170a-46d8-4af1-b967-dee816749c78"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "2e326084-3025-4ceb-93af-ae87a47f92af"
+      },
+      "layouts": [
+        {
+          "id": "2e326084-3025-4ceb-93af-ae87a47f92af"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sites-button-layout",
+  "rev": "156-6c0297b6ca8b934ab4ce6c96eb272d42",
+  "name": "sitesButtonLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-button-layout.jpg"
+  },
+  "template": "/templates/sites-button-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

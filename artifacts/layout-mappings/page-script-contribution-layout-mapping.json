@@ -1,0 +1,24 @@
+{
+  "id": "4c868f97-5be9-421f-a185-4c5d06f448eb",
+  "rev": "154-a2971ae34036d96b525ac8c3f4b42c83",
+  "name": "🗺️ Page Script Contribution Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "5c473463-db07-4132-b8a1-bd40cbdf4b18"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "705089d0-9095-4d3b-9227-31d948504c1a"
+      },
+      "layouts": [
+        {
+          "id": "705089d0-9095-4d3b-9227-31d948504c1a"
+        }
+      ]
+    }
+  ]
+}

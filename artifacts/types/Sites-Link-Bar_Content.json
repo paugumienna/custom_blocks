@@ -1,0 +1,39 @@
+{
+  "id": "be68ef93-a0dc-40aa-884f-e1f8e1c47186",
+  "rev": "118-482174cd355ae982cea670ecc70c0c39",
+  "name": "Link bar content",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Label",
+      "key": "label"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "cb8d79cb-466d-40fa-8691-d13da424069f"
+      },
+      "label": "Link Advanced",
+      "key": "linkAdvanced",
+      "allowMultipleValues": false,
+      "required": false
+    },
+    {
+      "elementType": "text",
+      "label": "Key",
+      "key": "key",
+      "hidden": true
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "LinkBarContentExtension",
+    "elementConfig": {}
+  }
+}

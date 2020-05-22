@@ -1,0 +1,16 @@
+{
+  "id": "sites-video-layout",
+  "rev": "156-838c3ab27e6f30b04ec8b75bd38f50c6",
+  "name": "sitesVideoLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-video-layout.jpg"
+  },
+  "template": "/templates/sites-video-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-video-layout/{id}.html"
+}

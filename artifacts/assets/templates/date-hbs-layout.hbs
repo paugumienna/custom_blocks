@@ -1,0 +1,16 @@
+<div class="date-class" data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}"
+    style="{{{alignment.$markup}}} min-height:100px;">
+    <p> {{ firstName }} {{lastName}}</p>
+    <p>
+        {{~#eq dateFormat "MM/DD/YYYY"}}
+        {{month}}/{{day}}/{{{year}}}
+        {{/eq~}}
+        {{~#eq dateFormat "DD/MM/YYYY"}}
+        {{day}}/{{month}}/{{{year}}}
+        {{/eq~}}{{~#eq dateFormat "YYYY/MM/DD"}}
+        {{{year}}}/{{month}}/{{day}}
+        {{/eq~}}
+    </p>
+</div>

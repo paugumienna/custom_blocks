@@ -1,0 +1,16 @@
+{
+  "id": "sites-background-gradient-layout",
+  "rev": "156-0e9b33d1ccbddc7811f18874a77a6777",
+  "name": "sitesBackgroundGradientLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-background-gradient-layout.jpg"
+  },
+  "template": "/templates/sites-background-gradient-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-background-gradient-layout/{id}.html"
+}

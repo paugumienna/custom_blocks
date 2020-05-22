@@ -1,0 +1,18 @@
+{
+  "id": "1d24ecbe-27c1-4dc4-9dac-cf886fb7aa15",
+  "rev": "154-4cf09b6a87cf83e437e1276e4c8748b0",
+  "name": "📰 Page Markup Contribution Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/page-markup-contribution-layout.png"
+  },
+  "template": "/templates/page-markup-contribution-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/page-markup-contribution/{id}.html"
+}

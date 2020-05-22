@@ -1,0 +1,42 @@
+{
+  "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5",
+  "rev": "156-2bdeed9fd50b753333a2dc88a1ea3174",
+  "name": "Sites Alignment",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This element controls block alignment",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the block alignment",
+      "key": "alignmentOptions",
+      "label": "Horizontal alignment",
+      "options": [
+        {
+          "label": "Left",
+          "selection": "left"
+        },
+        {
+          "label": "Center",
+          "selection": "center"
+        },
+        {
+          "label": "Right",
+          "selection": "right"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

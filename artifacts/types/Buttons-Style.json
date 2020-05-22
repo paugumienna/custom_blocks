@@ -1,0 +1,15 @@
+{
+  "id": "a61407d3-9448-4f2a-ae72-0c544f42fd61",
+  "rev": "156-360df6ab9dae09c848ceaa0bfd6c9299",
+  "name": "Buttons Style",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": []
+}

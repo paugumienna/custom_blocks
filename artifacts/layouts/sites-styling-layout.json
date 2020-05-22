@@ -1,0 +1,16 @@
+{
+  "id": "sites-styling-layout",
+  "rev": "156-a272013fc3f5ea003a4337282280e3ad",
+  "name": "sitesStylingLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-styling-layout.jpg"
+  },
+  "template": "/templates/sites-styling-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-styling-layout/{id}.html"
+}

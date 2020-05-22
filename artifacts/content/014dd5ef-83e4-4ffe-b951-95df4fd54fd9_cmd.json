@@ -1,0 +1,30 @@
+{
+  "rev": "153-75fcc467832be8088bd3a78b964ec666",
+  "kind": [],
+  "created": "2020-05-21T06:21:50.104Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "tags": [
+    "Sites-Next",
+    "9.0.10750",
+    "sites-next"
+  ],
+  "elements": {
+    "href": {
+      "elementType": "text",
+      "value": "dist/Sites-Next/v9.0.10750/preview/styles.e9eebc7e43b75d1923ff.css"
+    },
+    "key": {
+      "elementType": "text",
+      "value": "a049ae80-8b63-4003-953e-48ecf87159ac"
+    }
+  },
+  "name": "Sites-Next - preview - styles.css",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "3a3726b8-e0b2-4f10-98ed-b1c82e851b99",
+  "id": "014dd5ef-83e4-4ffe-b951-95df4fd54fd9",
+  "lastModified": "2020-05-21T06:21:50.104Z",
+  "systemModified": "2020-05-21T06:21:50.104Z",
+  "status": "ready"
+}

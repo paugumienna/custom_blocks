@@ -1,0 +1,75 @@
+{
+  "id": "c8295d37-7235-495e-8d40-f3b8bafe4099",
+  "rev": "156-f7f22cba9e847f6da461676b93d4979f",
+  "name": "Sites Image",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents an image to be shown on the page",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Image"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the alignment defintion for this block",
+      "key": "alignment",
+      "label": "Alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this block",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the common settings for this block",
+      "key": "commonSettings",
+      "label": "Common Settings",
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

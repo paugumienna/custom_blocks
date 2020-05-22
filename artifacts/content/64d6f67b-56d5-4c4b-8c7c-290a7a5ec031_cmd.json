@@ -1,0 +1,402 @@
+{
+  "rev": "153-63b1e1bb9e4a6e8c89474c18a692c0aa",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:52.787Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-hb-image-layout"
+      }
+    }
+  ],
+  "elements": {
+    "backgroundColor": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text"
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "imageIsLocked": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "imageProfile": {
+      "elementType": "text",
+      "value": ""
+    },
+    "border": {
+      "elementType": "group",
+      "value": {
+        "borderType": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "None"
+          }
+        },
+        "borderDashed": {
+          "elementType": "group",
+          "value": {
+            "dash": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gap": {
+              "elementType": "number",
+              "value": 0
+            }
+          },
+          "typeRef": {
+            "id": "65e95f2a-ebb2-4b8a-a449-d5d286067890"
+          }
+        },
+        "borderWidth": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number",
+              "value": 0
+            },
+            "left": {
+              "elementType": "number",
+              "value": 0
+            },
+            "key": {
+              "elementType": "text"
+            },
+            "top": {
+              "elementType": "number",
+              "value": 0
+            },
+            "right": {
+              "elementType": "number",
+              "value": 0
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        },
+        "borderRadius": {
+          "elementType": "group",
+          "value": {
+            "bottomRight": {
+              "elementType": "number",
+              "value": 0
+            },
+            "topRight": {
+              "elementType": "number",
+              "value": 0
+            },
+            "key": {
+              "elementType": "text"
+            },
+            "bottomLeft": {
+              "elementType": "number",
+              "value": 0
+            },
+            "topLeft": {
+              "elementType": "number",
+              "value": 0
+            }
+          },
+          "typeRef": {
+            "id": "37b9cfbe-747d-42db-aac1-e0c77c73d371"
+          }
+        },
+        "borderColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "#047970"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "f69aa31c-7dfe-4e1f-905a-3ce8240ac4e4"
+      }
+    },
+    "image": {
+      "elementType": "image"
+    },
+    "background": {
+      "elementType": "group",
+      "value": {
+        "fillOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "None"
+          }
+        },
+        "backgroundColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "transparent"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background Color",
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        },
+        "gradient": {
+          "elementType": "group",
+          "value": {
+            "gradientOptions": {
+              "values": [
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                }
+              ],
+              "elementType": "group",
+              "typeRef": {
+                "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+              }
+            },
+            "angle": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gradientType": {
+              "elementType": "optionselection"
+            },
+            "position": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "shape": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "ellipse"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background gradient",
+            "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+          }
+        },
+        "imageBackground": {
+          "elementType": "group",
+          "value": {
+            "image": {
+              "elementType": "image"
+            },
+            "display": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "fill"
+              }
+            },
+            "backgroundPositionX": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "backgroundPositionY": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites background image option",
+            "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af",
+        "name": "Sites Background"
+      }
+    },
+    "showCaptionOnPage": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "credit": {
+      "elementType": "text"
+    },
+    "useAltTextFromSource": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "caption": {
+      "elementType": "text"
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "showCreditOnPage": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "horizontalAlignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    }
+  },
+  "name": "Image",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "93f1f438-654b-40da-870e-d90ab4c93fdf",
+  "id": "64d6f67b-56d5-4c4b-8c7c-290a7a5ec031",
+  "lastModified": "2020-05-21T06:21:52.787Z",
+  "systemModified": "2020-05-21T06:21:52.787Z",
+  "status": "ready"
+}

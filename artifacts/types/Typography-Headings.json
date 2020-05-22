@@ -1,0 +1,45 @@
+{
+  "id": "4307db69-470c-487d-954b-8e2e0b573e2f",
+  "rev": "153-8409861da9bb4e4808ec44d831b28e7f",
+  "name": "Typography Headings",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "All headings",
+          "selection": "allHeadings"
+        },
+        {
+          "label": "Each heading",
+          "selection": "eachHeading"
+        }
+      ],
+      "label": "Change",
+      "key": "headingsViewToggle"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "7629518a-9175-4f38-92f4-ba4edb8408f1"
+      },
+      "label": "All",
+      "key": "headingsAll"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "b22d8a64-a0b6-493c-bad8-ee2597415864"
+      },
+      "label": "Each",
+      "key": "headingsEach"
+    }
+  ]
+}

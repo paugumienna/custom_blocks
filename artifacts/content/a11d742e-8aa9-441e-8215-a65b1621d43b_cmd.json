@@ -1,0 +1,60 @@
+{
+  "rev": "149-e90447b308d222efc6429c9dae244c24",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/font-module-type.png"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:55.494Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "PT Serif font from https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "font"
+  ],
+  "elements": {
+    "fontFamily": {
+      "elementType": "text",
+      "value": "PT Serif"
+    },
+    "head": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text",
+            "values": [
+              "<link href=\"https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap\" rel=\"stylesheet\">"
+            ]
+          },
+          "key": {
+            "elementType": "text",
+            "value": "4965e401-5d70-42db-99af-90ffdf714cf3"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "always"
+            }
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "4022b254-5a71-4328-a0f2-495dfae18757"
+    }
+  },
+  "name": "PT Serif",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5",
+  "id": "a11d742e-8aa9-441e-8215-a65b1621d43b",
+  "lastModified": "2020-05-21T06:21:55.494Z",
+  "systemModified": "2020-05-21T06:21:55.494Z",
+  "status": "ready"
+}

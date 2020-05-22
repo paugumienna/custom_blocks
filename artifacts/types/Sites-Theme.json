@@ -1,0 +1,163 @@
+{
+  "id": "1772170a-46d8-4af1-b967-dee816749c78",
+  "rev": "156-14b445c2cefb66db44204a5e03eb73bd",
+  "name": "Sites Theme",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "description": "Simple description of the properties that define the basic styles for an acoustic theme.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "Main colors",
+      "key": "primary",
+      "label": "Primary",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Main colors",
+      "key": "secondary",
+      "label": "Secondary",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Alert colors",
+      "key": "success",
+      "label": "Success",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Alert colors",
+      "key": "info",
+      "label": "Info",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Part of alert color",
+      "key": "warning",
+      "label": "Warning",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Part of alert color",
+      "key": "danger",
+      "label": "Danger",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Part of contrast color",
+      "key": "light",
+      "label": "Light",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Part of contrast color",
+      "key": "dark",
+      "label": "Dark",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "Part of contrast color",
+      "key": "inverse",
+      "label": "Inverse",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "reference",
+      "helpText": "Describe font base",
+      "key": "base",
+      "label": "Base Font Family",
+      "restrictTypes": [
+        {
+          "id": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5"
+        }
+      ]
+    },
+    {
+      "elementType": "reference",
+      "helpText": "Describe font monospace",
+      "key": "mono",
+      "label": "Monospace Font Family",
+      "restrictTypes": [
+        {
+          "id": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5"
+        }
+      ]
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "navigation",
+      "tabs": [
+        {
+          "name": "settings",
+          "groups": [
+            {
+              "name": "typographyHeadings",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "primary",
+                "secondary"
+              ]
+            },
+            {
+              "name": "typographyBody",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "success",
+                "info",
+                "warning",
+                "danger"
+              ]
+            },
+            {
+              "name": "typographyLink",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "light",
+                "dark",
+                "inverse"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

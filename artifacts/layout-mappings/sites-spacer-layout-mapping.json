@@ -1,0 +1,24 @@
+{
+  "id": "sites-spacer-layout-mapping",
+  "rev": "156-a397ce68d775657549db5c13c7423ba6",
+  "name": "sitesSpacerLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "b2a9542d-b432-48b3-8322-2464765f323b"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-spacer-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-spacer-layout"
+        }
+      ]
+    }
+  ]
+}

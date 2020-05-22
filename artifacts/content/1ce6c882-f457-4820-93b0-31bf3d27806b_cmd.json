@@ -1,0 +1,121 @@
+{
+  "rev": "153-b258b81acc221c4029c0eb2d066fc4aa",
+  "thumbnail": {
+    "id": "cb25d0d7-035b-4746-b4a7-8c4902365132"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:50.117Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-image-layout"
+      }
+    }
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "image": {
+      "mode": "shared",
+      "asset": {
+        "id": "cb25d0d7-035b-4746-b4a7-8c4902365132"
+      },
+      "elementType": "image"
+    },
+    "commonSettings": {
+      "elementType": "group",
+      "value": {
+        "applyToAll": {
+          "elementType": "toggle",
+          "value": false
+        },
+        "hideOnMobile": {
+          "elementType": "toggle",
+          "value": false
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection"
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    }
+  },
+  "name": "Image SC",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "c8295d37-7235-495e-8d40-f3b8bafe4099",
+  "id": "1ce6c882-f457-4820-93b0-31bf3d27806b",
+  "lastModified": "2020-05-21T06:21:50.117Z",
+  "systemModified": "2020-05-21T06:21:50.117Z",
+  "status": "ready"
+}

@@ -1,0 +1,62 @@
+{
+  "rev": "129-3aa3d934b61797bfc62e34aa2921d971",
+  "creator": "paulina.gumienna",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-22T11:23:37.788Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "lastModifier": "paulina.gumienna",
+  "classification": "content",
+  "type": "List HBS Layout Type",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "showListTitle": {
+      "elementType": "toggle"
+    },
+    "listTitle": {
+      "elementType": "text",
+      "value": "Title"
+    },
+    "firstElement": {
+      "elementType": "text"
+    },
+    "secondElement": {
+      "elementType": "text"
+    },
+    "thirdElement": {
+      "elementType": "text"
+    },
+    "listType": {
+      "elementType": "optionselection"
+    }
+  },
+  "name": "List HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "baaaaaaa-bbbb-cccc-eeee-000000000000",
+  "links": {
+    "createDraft": {
+      "href": "/authoring/v1/content/baaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/content/baaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
+    },
+    "self": {
+      "href": "/authoring/v1/content/baaaaaaa-bbbb-cccc-eeee-111111110000"
+    },
+    "type": {
+      "href": "/authoring/v1/types/baaaaaaa-bbbb-cccc-eeee-000000000000"
+    }
+  },
+  "id": "baaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-22T11:53:50.898Z",
+  "systemModified": "2020-05-22T11:53:50.898Z",
+  "publishing": {
+    "status": "not-available"
+  },
+  "status": "ready"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "d403f72d-5383-423c-ba33-5cedd61c9224",
+  "rev": "156-1f2401170125f8e4120ae2787ef72350",
+  "name": "Sites Boundary",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This element controls the boundary dimensions to be used for padding/margin styling for a given block",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the top boundary",
+      "key": "top",
+      "label": "Top",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the bottom boundary",
+      "key": "bottom",
+      "label": "Bottom",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the left boundary",
+      "key": "left",
+      "label": "Left",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the right boundary",
+      "key": "right",
+      "label": "Right",
+      "minimum": 0
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "SpacingElementExtension",
+    "elementConfig": {
+      "step": 10,
+      "unit": "px"
+    }
+  }
+}

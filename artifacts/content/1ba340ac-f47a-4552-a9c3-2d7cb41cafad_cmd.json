@@ -1,0 +1,25 @@
+{
+  "rev": "143-ab8bf07b14319f17b094f6c083186c91",
+  "kind": [],
+  "created": "2020-05-21T06:21:50.100Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Rokkitt Font Definition",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": {
+    "key": {
+      "elementType": "text",
+      "value": "1e6baae4-328c-46aa-8faa-985d3a7b2965"
+    }
+  },
+  "name": "Rokkitt Font Definition",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "e4342a12-031f-41c2-848d-c2ca699b15c2",
+  "id": "1ba340ac-f47a-4552-a9c3-2d7cb41cafad",
+  "lastModified": "2020-05-21T06:21:50.100Z",
+  "systemModified": "2020-05-21T06:21:50.100Z",
+  "status": "ready"
+}

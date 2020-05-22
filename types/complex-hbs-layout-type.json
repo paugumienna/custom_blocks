@@ -1,0 +1,140 @@
+{
+  "id": "caaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "78-20d1a02df7555621c53e5615682bc00e",
+  "name": "Complex HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Complex HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "label",
+      "label": "Label",
+      "placeholder": {
+        "show": true,
+        "text": "Label text"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224",
+        "name": "Sites Boundary"
+      },
+      "label": "Margin",
+      "key": "margin",
+      "helpText": "This element controls margin values for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5",
+        "name": "Sites Alignment"
+      },
+      "label": "alignment",
+      "key": "alignment",
+      "allowMultipleValues": false,
+      "locked": false,
+      "helpText": "This element controls horizontal alignment for this block"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Blue",
+          "selection": "blue"
+        },
+        {
+          "label": "Black",
+          "selection": "black"
+        }
+      ],
+      "label": "Text color ",
+      "key": "textColor"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Small",
+          "selection": "12px"
+        },
+        {
+          "label": "Medium",
+          "selection": "18px"
+        },
+        {
+          "label": "Large",
+          "selection": "26px"
+        }
+      ],
+      "label": "Text size",
+      "key": "textSize",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the block color",
+      "key": "blockColor",
+      "label": "Block color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
+        "name": "Sites Color"
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Complex HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "label"
+          ]
+        },
+        {
+          "name": "style",
+          "elements": [
+            "textColor",
+            "textSize",
+            "blockColor"
+          ],
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "margin",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

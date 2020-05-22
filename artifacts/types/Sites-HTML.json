@@ -1,0 +1,97 @@
+{
+  "id": "85bdc88c-5b4c-4002-a665-37ba5bf95cb6",
+  "rev": "156-c7f1f530954a43d63361d4f9f9002785",
+  "name": "Sites HTML",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "displayHeight": 30,
+      "displayType": "multiLine",
+      "elementType": "text",
+      "helpText": "Provide your custom HTML code here. You can also include handlebar references to the current rendering context.",
+      "key": "code",
+      "label": "Code",
+      "minLength": 1,
+      "placeholder": {
+        "show": true,
+        "text": "Compose your HTML and Handlebar code here."
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "background",
+      "key": "background"
+    },
+    {
+      "elementType": "group",
+      "key": "horizontalAlignment",
+      "label": "Horizontal alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "html",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "code"
+          ]
+        },
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "horizontalAlignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

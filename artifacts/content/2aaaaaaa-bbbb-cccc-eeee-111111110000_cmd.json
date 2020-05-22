@@ -1,0 +1,26 @@
+{
+  "rev": "48-0f0920b998d1e2d859ebf3b3d6628ad4",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:33:10.491Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "image": {
+      "elementType": "image"
+    }
+  },
+  "name": "IMG HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "2aaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-21T06:33:10.491Z",
+  "systemModified": "2020-05-21T06:33:10.491Z",
+  "status": "ready"
+}

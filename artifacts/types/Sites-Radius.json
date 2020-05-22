@@ -1,0 +1,62 @@
+{
+  "id": "37b9cfbe-747d-42db-aac1-e0c77c73d371",
+  "rev": "153-0b2a6e10ff75f5765cd4fa111a82efff",
+  "name": "Sites Radius",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This element controls the boundary dimensions to be used for radius styling for a given block",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the top left boundary",
+      "key": "topLeft",
+      "label": "Top left",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the top right boundary",
+      "key": "topRight",
+      "label": "Top right",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the bottom left boundary",
+      "key": "bottomLeft",
+      "label": "Bottom left",
+      "minimum": 0
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "The value for the bottom right boundary",
+      "key": "bottomRight",
+      "label": "Bottom right",
+      "minimum": 0
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "RadiusElementExtension",
+    "elementConfig": {
+      "step": 10,
+      "unit": "px"
+    }
+  }
+}

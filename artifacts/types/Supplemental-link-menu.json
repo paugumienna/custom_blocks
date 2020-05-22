@@ -1,0 +1,37 @@
+{
+  "id": "7572f966-42c2-44e8-b588-121d61dafdc2",
+  "rev": "156-18cc86d32773341e3e0d3f9d5be94b5b",
+  "name": "Supplemental link menu",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "key": "linkType",
+      "label": "Link type",
+      "options": [
+        {
+          "label": "URL",
+          "selection": "URL"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "key": "linkLabel",
+      "label": "Link label"
+    },
+    {
+      "elementType": "text",
+      "key": "linkUrl",
+      "label": "Link URL"
+    }
+  ]
+}

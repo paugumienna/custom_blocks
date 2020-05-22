@@ -1,0 +1,37 @@
+{
+  "rev": "151-e54577e57e7b34f49d72e8ae8aa135dc",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:57.889Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-side-navigation-layout"
+      }
+    }
+  ],
+  "elements": {
+    "numberOfNavigationLevels": {
+      "elementType": "number",
+      "value": 1
+    },
+    "startingWithNavigationLevel": {
+      "elementType": "number",
+      "value": 2
+    }
+  },
+  "name": "Side Navigation",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "6854f419-3b8b-4410-8d33-134a485d05a3",
+  "id": "dd2ac4c6-e879-4956-bcef-c20d1b9b7092",
+  "lastModified": "2020-05-21T06:21:57.889Z",
+  "systemModified": "2020-05-21T06:21:57.889Z",
+  "status": "ready"
+}

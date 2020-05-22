@@ -1,0 +1,24 @@
+{
+  "id": "sites-link-bar-layout-mapping",
+  "rev": "156-8484a3c6156543b69d9c9775964c9737",
+  "name": "sitesLinkBarLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "d0f831c3-1b0a-41ba-8a6b-10f2eca3789a"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-link-bar-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-link-bar-layout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sites-spacer-layout",
+  "rev": "156-56262f49b2acf6a554daaa6a6afb1726",
+  "name": "sitesSpacerLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-spacer-layout.jpg"
+  },
+  "template": "/templates/sites-spacer-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-spacer-layout/{id}.html"
+}

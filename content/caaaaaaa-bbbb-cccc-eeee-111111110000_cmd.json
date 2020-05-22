@@ -1,0 +1,108 @@
+{
+  "rev": "75-6baf1326cbd929622cef7319e114cd5a",
+  "creator": "paulina.gumienna",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-22T11:23:37.811Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "lastModifier": "paulina.gumienna",
+  "classification": "content",
+  "type": "Complex HBS Layout Type",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "blockColor": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "label": {
+      "elementType": "text",
+      "value": "Label text"
+    },
+    "textColor": {
+      "elementType": "optionselection"
+    },
+    "textSize": {
+      "elementType": "optionselection"
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    }
+  },
+  "name": "Complex HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "caaaaaaa-bbbb-cccc-eeee-000000000000",
+  "links": {
+    "createDraft": {
+      "href": "/authoring/v1/content/caaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/content/caaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
+    },
+    "self": {
+      "href": "/authoring/v1/content/caaaaaaa-bbbb-cccc-eeee-111111110000"
+    },
+    "type": {
+      "href": "/authoring/v1/types/caaaaaaa-bbbb-cccc-eeee-000000000000"
+    }
+  },
+  "id": "caaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-22T11:53:50.914Z",
+  "systemModified": "2020-05-22T11:53:50.914Z",
+  "publishing": {
+    "status": "not-available"
+  },
+  "status": "ready"
+}

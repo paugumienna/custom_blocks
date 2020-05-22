@@ -1,0 +1,168 @@
+{
+  "rev": "150-761492507e9a1ef9f2220655d29b65f3",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:55.922Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-page-card-layout"
+      }
+    }
+  ],
+  "elements": {
+    "heading": {
+      "elementType": "text",
+      "value": "Heading"
+    },
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "image": {
+      "elementType": "group",
+      "value": {
+        "margin": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "key": {
+              "elementType": "text"
+            },
+            "top": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        },
+        "image": {
+          "mode": "shared",
+          "asset": {
+            "id": "7dd75941-b09d-4be9-a51c-fb2c5b9f6bb7"
+          },
+          "elementType": "image"
+        },
+        "commonSettings": {
+          "elementType": "group",
+          "value": {
+            "applyToAll": {
+              "elementType": "toggle",
+              "value": false
+            },
+            "hideOnMobile": {
+              "elementType": "toggle",
+              "value": false
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "alignment": {
+          "elementType": "group",
+          "value": {
+            "alignmentOptions": {
+              "elementType": "optionselection"
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+          }
+        },
+        "padding": {
+          "elementType": "group",
+          "value": {
+            "bottom": {
+              "elementType": "number"
+            },
+            "left": {
+              "elementType": "number"
+            },
+            "key": {
+              "elementType": "text"
+            },
+            "top": {
+              "elementType": "number"
+            },
+            "right": {
+              "elementType": "number"
+            }
+          },
+          "typeRef": {
+            "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "link": {
+      "elementType": "link",
+      "linkText": "Link",
+      "linkURL": "http://www.acoustic.co/"
+    },
+    "layout": {
+      "elementType": "optionselection"
+    },
+    "summary": {
+      "elementType": "text",
+      "value": "Summary"
+    }
+  },
+  "name": "Page Card SC",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "8eb34ed3-fbdf-439e-aaeb-00060cdeb63a",
+  "id": "b1d6f470-10a0-42e5-9502-0a2ff39cad4c",
+  "lastModified": "2020-05-21T06:21:55.922Z",
+  "systemModified": "2020-05-21T06:21:55.922Z",
+  "status": "ready"
+}

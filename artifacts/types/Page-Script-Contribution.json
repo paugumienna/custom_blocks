@@ -1,0 +1,59 @@
+{
+  "id": "5c473463-db07-4132-b8a1-bd40cbdf4b18",
+  "rev": "154-a84e05395f3540528fe2d384ddccd41a",
+  "name": "📄 Page Script Contribution",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-script-contribution-type.png"
+  },
+  "description": "A style contribution added as a <script> element to the page markup",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "Identify the type information for the <script> tag to be included",
+      "key": "type",
+      "label": "type",
+      "options": [
+        {
+          "label": "application/javascript",
+          "selection": "application/javascript"
+        },
+        {
+          "label": "module",
+          "selection": "module"
+        },
+        {
+          "label": "nomodule",
+          "selection": "nomodule"
+        }
+      ],
+      "required": true,
+      "role": [
+        "configuration"
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "The URL pointing to the script realtive to the resource base URL of this tenant.",
+      "key": "src",
+      "label": "src",
+      "required": true,
+      "role": [
+        "configuration"
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

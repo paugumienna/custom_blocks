@@ -1,0 +1,177 @@
+{
+  "rev": "153-13fa495a9b835db6c4ad681abd279f84",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:50.123Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-block",
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-spacer-layout"
+      }
+    }
+  ],
+  "elements": {
+    "background": {
+      "elementType": "group",
+      "value": {
+        "backgroundColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "transparent"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        },
+        "gradient": {
+          "elementType": "group",
+          "value": {
+            "gradientOptions": {
+              "values": [
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                }
+              ],
+              "elementType": "group",
+              "typeRef": {
+                "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+              }
+            },
+            "angle": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gradientType": {
+              "elementType": "optionselection"
+            },
+            "position": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "shape": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "ellipse"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background gradient",
+            "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+          }
+        },
+        "imageBackground": {
+          "elementType": "group",
+          "value": {
+            "image": {
+              "mode": "shared",
+              "elementType": "image"
+            },
+            "backgroundPositionX": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "backgroundPositionY": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "display": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            }
+          },
+          "typeRef": {
+            "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "fillOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "Solid color"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    "height": {
+      "elementType": "number",
+      "value": 48
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "colorOpacity": {
+      "elementType": "number",
+      "value": 100
+    }
+  },
+  "name": "Spacer",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "b2a9542d-b432-48b3-8322-2464765f323b",
+  "id": "111f98b5-2b98-4a87-b750-7e8af1f48618",
+  "lastModified": "2020-05-21T06:21:50.123Z",
+  "systemModified": "2020-05-21T06:21:50.123Z",
+  "status": "ready"
+}

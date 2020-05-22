@@ -1,0 +1,85 @@
+{
+  "id": "b2a9542d-b432-48b3-8322-2464765f323b",
+  "rev": "156-ce186687e28b079e983f751a4062484b",
+  "name": "Sites Spacer",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents a spacer allowing to add extra empty space between blocks.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the height of this spacer in pixels.",
+      "key": "height",
+      "label": "Height",
+      "minimum": 1
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "background",
+      "key": "background"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Color opacity",
+      "key": "colorOpacity",
+      "maximum": 100,
+      "minimum": 0
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "spacer",
+      "tabs": [
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "size",
+              "elements": [
+                "height"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

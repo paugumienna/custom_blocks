@@ -1,0 +1,42 @@
+{
+  "rev": "121-21b05155e6eb350c60dc601f88b1e9ba",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:33:10.545Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "showListTitle": {
+      "elementType": "toggle"
+    },
+    "listTitle": {
+      "elementType": "text",
+      "value": "Title"
+    },
+    "firstElement": {
+      "elementType": "text"
+    },
+    "secondElement": {
+      "elementType": "text"
+    },
+    "thirdElement": {
+      "elementType": "text"
+    },
+    "listType": {
+      "elementType": "optionselection"
+    }
+  },
+  "name": "List HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "baaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "baaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-21T06:33:10.545Z",
+  "systemModified": "2020-05-21T06:33:10.545Z",
+  "status": "ready"
+}

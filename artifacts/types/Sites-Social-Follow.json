@@ -1,0 +1,205 @@
+{
+  "id": "669768ce-44c7-4de3-83c1-a72d871e8df2",
+  "rev": "156-8ac42b56f99f893c819bfe531e7bc872",
+  "name": "Sites Social Follow",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This block represents a clickable \"follow\" link to be rendered on the page",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "98f24456-bf11-4248-bca9-07e273b8dbc4"
+      },
+      "helpText": "This element controls the link icon and click target for this block.",
+      "label": "Social Links",
+      "allowMultipleValues": true,
+      "key": "socialLinks",
+      "minimumValues": 0,
+      "required": false,
+      "maximumValues": 5
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the alignment definition for this block.",
+      "key": "alignment",
+      "label": "Horizontal alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the spacing to be added between clickable icons.",
+      "key": "spacing",
+      "label": "Spacing between icons​",
+      "minimum": 0
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this block.",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Horizontal",
+          "selection": "Horizontal"
+        },
+        {
+          "label": "Vertical",
+          "selection": "Vertical"
+        }
+      ],
+      "label": "Elements alignment",
+      "key": "displayIcons"
+    },
+    {
+      "elementType": "toggle",
+      "label": "Open links in new tab",
+      "key": "openLinksInNewTab"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Primary",
+          "selection": "Primary"
+        },
+        {
+          "label": "Inverse",
+          "selection": "Inverse"
+        }
+      ],
+      "label": "Link color scheme",
+      "key": "linkColorScheme",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Margin",
+      "key": "margin"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Horizontal",
+          "selection": "Horizontal"
+        },
+        {
+          "label": "Vertical",
+          "selection": "Vertical"
+        }
+      ],
+      "label": "Elements alignment",
+      "key": "elementsAlignment",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "Background",
+      "key": "background"
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Icon",
+          "selection": "Icon"
+        },
+        {
+          "label": "Icon with text",
+          "selection": "Icon with text"
+        }
+      ],
+      "label": "Social media type",
+      "key": "socialMediaType",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "socialLinks",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "socialMediaType",
+            "showMediaType",
+            "socialLinks",
+            "openLinksInNewTab"
+          ]
+        },
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "color",
+              "elements": [
+                "linkColorScheme"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "spacing",
+                "elementsAlignment",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

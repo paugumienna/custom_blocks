@@ -1,0 +1,32 @@
+{
+  "id": "e1fa873c-3ed7-4ac1-8df7-57f34d55f419",
+  "rev": "118-5c074a25b833257abf4e53d738117aba",
+  "name": "Sites link",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Social media label",
+      "key": "name"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "7ff6d01f-5dad-43c8-9e05-14eccb782a3a"
+      },
+      "label": "URL Link",
+      "key": "urlLink"
+    },
+    {
+      "elementType": "text",
+      "label": "key",
+      "key": "key"
+    }
+  ]
+}

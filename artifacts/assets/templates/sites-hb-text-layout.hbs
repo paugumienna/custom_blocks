@@ -1,0 +1,45 @@
+<!-- Sites HB Text Layout -->
+
+<div data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+	data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="
+{{~#if padding}}padding: {{{padding.$markup}}}; {{/if~}}
+{{~#if margin}}margin: {{{margin.$markup}}}; {{/if~}}
+{{#if background~}}{{{background.$markup}}}{{~/if}}
+">
+  <div style="
+    {{#eq border.borderType "Dashed"}}
+      transition: all .6s ease;
+      content:'';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background:
+          linear-gradient(90deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) top left no-repeat,
+          linear-gradient(90deg, transparent calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px), transparent calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px)) top center repeat-x,
+          linear-gradient(90deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) top right no-repeat,
+
+          linear-gradient(0deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) top left no-repeat,
+          linear-gradient(0deg, transparent calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px), transparent calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px)) center left repeat-y,
+          linear-gradient(0deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) bottom left no-repeat,
+
+          linear-gradient(90deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) bottom left no-repeat,
+          linear-gradient(90deg, transparent calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px), transparent calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px)) bottom center repeat-x,
+          linear-gradient(90deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) bottom right no-repeat,
+
+          linear-gradient(0deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) top right no-repeat,
+          linear-gradient(0deg, transparent calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2), {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px), transparent calc({{border.borderDashed.gap}}px / 2 + {{border.borderDashed.dash}}px)) center right repeat-y,
+          linear-gradient(0deg, {{border.borderColor.colorCode}}{{percenttohex border.borderColor.opacity}} 100%, transparent 100%) bottom right no-repeat;
+      background-size: {{border.borderDashed.dash}}px {{border.borderWidth.top}}px, calc({{border.borderDashed.dash}}px + {{border.borderDashed.gap}}px) {{border.borderWidth.top}}px, {{border.borderDashed.dash}}px {{border.borderWidth.top}}px, {{border.borderWidth.top}}px {{border.borderDashed.dash}}px, {{border.borderWidth.top}}px calc({{border.borderDashed.dash}}px + {{border.borderDashed.gap}}px), {{border.borderWidth.top}}px {{border.borderDashed.dash}}px;
+  {{/eq~}}
+  {{#eq border.borderType "Solid"}}
+    {{~#if border}}border-style: {{{border.borderType}}}; border-color: {{{border.borderColor.colorCode}}}{{{percenttohex border.borderColor.opacity}}}; border-width: {{{border.borderWidth.$markup}}};  border-radius: {{{border.borderRadius.$markup}}}; {{/if~}}
+  {{/eq~}}
+  ">
+  <div id="{{ $metadata.id }}" data-content-item-id="{{ $metadata.id }}" data-wch-editable="{{ $metadata.accessor }}.text.value"
+	style="{{~#if opacity}} opacity:{{divide opacity 100}};{{/if~}}{{~#if horizontalAlignment}} {{{horizontalAlignment.$markup}}} {{/if~}}
+    "
+	{{#eq textColorScheme "Inverse"}} class="sites-body-font-inverse-color sites-heading-font-inverse-color sites-link-font-inverse-color"{{/eq~}}
+  >{{{text}}}</div></div></div>
+
+<!-- End Sites HB Text Layout -->

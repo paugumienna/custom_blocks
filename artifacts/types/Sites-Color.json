@@ -1,0 +1,28 @@
+{
+  "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
+  "rev": "156-260bfaf7a418cc252170afc155b97e8b",
+  "name": "Sites Color",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This color elements represents a specific managed color represented by a color code",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The color code",
+      "key": "colorCode",
+      "label": "Color code"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

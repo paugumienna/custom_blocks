@@ -1,0 +1,24 @@
+{
+  "id": "cc0715c3-633e-43fc-8c71-bac842574210",
+  "rev": "154-d2048748c0e4621d52427f470bd4193d",
+  "name": "🗺️ Font Module Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "526bc3b7-527c-482f-98f1-384183b7ddc2"
+      },
+      "layouts": [
+        {
+          "id": "526bc3b7-527c-482f-98f1-384183b7ddc2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "8eb34ed3-fbdf-439e-aaeb-00060cdeb63a",
+  "rev": "156-904f25c8cfe4f9d7bd6899604c02947a",
+  "name": "Sites Page Card",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "This page represents a page card comprised of a heading, a summary text, an image and a clickable link.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element controls the heading of this page card.",
+      "key": "heading",
+      "label": "Heading"
+    },
+    {
+      "displayHeight": 2,
+      "displayType": "multiLine",
+      "elementType": "text",
+      "helpText": "This element controls the summary text of this page card.",
+      "key": "summary",
+      "label": "summary"
+    },
+    {
+      "elementType": "link",
+      "helpText": "This element holds the link that controls click target for this page card.",
+      "key": "link",
+      "label": "link"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds the image for this page card.",
+      "key": "image",
+      "label": "Image",
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background for this page card.",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this page card.",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the layout to be applied to this page card.",
+      "key": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "label": "Image Left",
+          "selection": "image-left"
+        },
+        {
+          "label": "Image Right",
+          "selection": "image-right"
+        },
+        {
+          "label": "Image Bottom",
+          "selection": "image-bottom"
+        },
+        {
+          "label": "Image Top",
+          "selection": "image-top"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

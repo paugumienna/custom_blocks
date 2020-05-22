@@ -1,0 +1,12 @@
+{
+  "id": "video-hbs-layout",
+  "rev": "44-4d2666e047fa56022993a9fdf914bddb",
+  "name": "Video HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/video-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

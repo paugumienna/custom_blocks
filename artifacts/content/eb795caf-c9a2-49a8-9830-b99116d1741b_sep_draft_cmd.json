@@ -1,0 +1,402 @@
+{
+  "rev": "34-85d71341a6813eea0cf8ef56e7bdf771",
+  "keywords": [],
+  "kind": [
+    "blank-page-template"
+  ],
+  "draftStatus": "in-progress",
+  "created": "2020-05-21T06:21:58.846Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Empty page with a single one-column row.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [],
+  "valid": false,
+  "linkedDocId": "eb795caf-c9a2-49a8-9830-b99116d1741b",
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-rows-layout"
+      }
+    }
+  ],
+  "elements": {
+    "backgroundColor": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "white"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "cae8e0ef-6a34-404e-8525-c6f73e8e7fd0"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "c0e6b79c-9a8a-434b-8c95-e578cfad5a52"
+        },
+        "top": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "descriptor": {
+      "elementType": "group",
+      "value": {
+        "description": {
+          "elementType": "text"
+        },
+        "primarynavcolorscheme": {
+          "elementType": "toggle"
+        },
+        "site": {
+          "elementType": "reference"
+        },
+        "showsitenavigation": {
+          "elementType": "toggle",
+          "value": true
+        },
+        "alternativepath": {
+          "elementType": "text"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "8c75a6cb-654d-4b45-acfb-45edec5236d6"
+        },
+        "readyforpublish": {
+          "elementType": "toggle"
+        },
+        "canonicalpath": {
+          "elementType": "text",
+          "value": "/eb795caf-c9a2-49a8-9830-b99116d1741b"
+        },
+        "keywords": {
+          "elementType": "text"
+        },
+        "title": {
+          "elementType": "text",
+          "value": "Blank Page"
+        }
+      },
+      "typeRef": {
+        "id": "74f83bd2-2ef6-43f9-8264-bd538e5aad28"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "44980987-6049-4c78-a5da-aaa93f000c44"
+    },
+    "editor": {
+      "elementType": "text"
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text",
+          "value": "c51e0179-3d23-4bea-b639-4b7f1a7a2669"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "rows": {
+      "values": [
+        {
+          "cells": {
+            "values": [
+              {
+                "span": {
+                  "elementType": "number",
+                  "value": 12
+                },
+                "margin": {
+                  "elementType": "group",
+                  "value": {
+                    "bottom": {
+                      "elementType": "number"
+                    },
+                    "left": {
+                      "elementType": "number"
+                    },
+                    "key": {
+                      "elementType": "text",
+                      "value": "b1e5898c-4fcc-4d8c-89df-943f4eab11b6"
+                    },
+                    "top": {
+                      "elementType": "number"
+                    },
+                    "right": {
+                      "elementType": "number"
+                    }
+                  },
+                  "typeRef": {
+                    "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+                  }
+                },
+                "key": {
+                  "elementType": "text",
+                  "value": "25efb3e2-a7ab-42a1-9af4-4f377d720798"
+                },
+                "content": {
+                  "values": [],
+                  "elementType": "group",
+                  "typeRef": {
+                    "name": "Sites Content",
+                    "id": "21a8b4fd-0236-4187-bfea-7a94283e7b80"
+                  }
+                },
+                "padding": {
+                  "elementType": "group",
+                  "value": {
+                    "bottom": {
+                      "elementType": "number"
+                    },
+                    "left": {
+                      "elementType": "number"
+                    },
+                    "key": {
+                      "elementType": "text",
+                      "value": "637ebadc-338e-4bce-81c3-b438327acbf9"
+                    },
+                    "top": {
+                      "elementType": "number"
+                    },
+                    "right": {
+                      "elementType": "number"
+                    }
+                  },
+                  "typeRef": {
+                    "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+                  }
+                }
+              }
+            ],
+            "elementType": "group",
+            "typeRef": {
+              "name": "Sites Cell",
+              "id": "d1e4dd37-8ac5-43a9-9145-1f194053b27c"
+            }
+          },
+          "background": {
+            "elementType": "group",
+            "value": {
+              "fillOptions": {
+                "elementType": "optionselection",
+                "value": {
+                  "selection": "None"
+                }
+              },
+              "backgroundColor": {
+                "elementType": "group",
+                "value": {
+                  "colorCode": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "opacity": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                "typeRef": {
+                  "name": "Sites Background Color",
+                  "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+                }
+              },
+              "gradient": {
+                "elementType": "group",
+                "value": {
+                  "gradientOptions": {
+                    "values": [
+                      {
+                        "gradientColor": {
+                          "elementType": "text",
+                          "value": "transparent"
+                        },
+                        "stop": {
+                          "elementType": "number",
+                          "value": 0
+                        },
+                        "colorOpacity": {
+                          "elementType": "text",
+                          "value": "100"
+                        },
+                        "key": {
+                          "elementType": "text"
+                        }
+                      },
+                      {
+                        "gradientColor": {
+                          "elementType": "text",
+                          "value": "transparent"
+                        },
+                        "stop": {
+                          "elementType": "number",
+                          "value": 100
+                        },
+                        "colorOpacity": {
+                          "elementType": "text",
+                          "value": "100"
+                        },
+                        "key": {
+                          "elementType": "text"
+                        }
+                      }
+                    ],
+                    "elementType": "group",
+                    "typeRef": {
+                      "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+                    }
+                  },
+                  "angle": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "gradientType": {
+                    "elementType": "optionselection"
+                  },
+                  "position": {
+                    "elementType": "optionselection",
+                    "value": {
+                      "selection": "center"
+                    }
+                  },
+                  "shape": {
+                    "elementType": "optionselection",
+                    "value": {
+                      "selection": "ellipse"
+                    }
+                  }
+                },
+                "typeRef": {
+                  "name": "Sites Background gradient",
+                  "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+                }
+              },
+              "imageBackground": {
+                "elementType": "group",
+                "value": {
+                  "image": {
+                    "elementType": "image"
+                  },
+                  "display": {
+                    "elementType": "optionselection",
+                    "value": {
+                      "selection": "fill"
+                    }
+                  },
+                  "backgroundPositionX": {
+                    "elementType": "optionselection",
+                    "value": {
+                      "selection": "center"
+                    }
+                  },
+                  "backgroundPositionY": {
+                    "elementType": "optionselection",
+                    "value": {
+                      "selection": "center"
+                    }
+                  }
+                },
+                "typeRef": {
+                  "name": "Sites background image option",
+                  "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+                }
+              }
+            },
+            "typeRef": {
+              "id": "0a92059b-de6b-476d-b291-1638a435d0af",
+              "name": "Sites Background"
+            }
+          },
+          "key": {
+            "elementType": "text",
+            "value": "24ff28f7-4fca-4862-b42d-47f519fa6271"
+          },
+          "gutter": {
+            "elementType": "number",
+            "value": 0
+          },
+          "padding": {
+            "elementType": "group",
+            "value": {
+              "bottom": {
+                "elementType": "number",
+                "value": 0
+              },
+              "left": {
+                "elementType": "number",
+                "value": 0
+              },
+              "right": {
+                "elementType": "number",
+                "value": 0
+              },
+              "top": {
+                "elementType": "number",
+                "value": 0
+              }
+            },
+            "typeRef": {
+              "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+            }
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "name": "Sites Section",
+        "id": "a4516d24-744d-4650-8477-24aa36145e66"
+      }
+    }
+  },
+  "name": "Blank Page",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "9ca02297-a564-40c9-aedc-add9c30f3d7b",
+  "id": "eb795caf-c9a2-49a8-9830-b99116d1741b:draft",
+  "lastModified": "2020-05-21T06:21:58.846Z",
+  "systemModified": "2020-05-21T06:21:58.846Z",
+  "status": "draft"
+}

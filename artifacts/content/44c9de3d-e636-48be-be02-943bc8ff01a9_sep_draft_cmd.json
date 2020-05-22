@@ -1,0 +1,78 @@
+{
+  "rev": "1-ae4ac5f8604636b99f8ce20a3dbf5e85",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/site-type.png"
+  },
+  "kind": [
+    "site"
+  ],
+  "draftStatus": "in-progress",
+  "created": "2020-05-21T06:49:37.187Z",
+  "libraryId": "default",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "tags": [],
+  "valid": true,
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "4611c4ad-3998-4ed6-b211-dc348fb3d9f6"
+      }
+    }
+  ],
+  "linkedDocId": "44c9de3d-e636-48be-be02-943bc8ff01a9",
+  "elements": {
+    "domain": {
+      "elementType": "text"
+    },
+    "styles": {
+      "elementType": "reference",
+      "value": {
+        "id": "b01e81f6-6431-4fc5-943c-bf61a935b9da"
+      }
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "logo": {
+      "elementType": "image"
+    },
+    "modules": {
+      "values": [
+        {
+          "id": "803ff89f-5388-4be1-8d34-59743ec51efd"
+        },
+        {
+          "id": "25d99cd3-9cc2-4a4f-8df0-9bbfe6eea454"
+        },
+        {
+          "id": "e01b7749-6ab6-4433-ab6a-a506a3a21650"
+        },
+        {
+          "id": "5e4697bb-4dbe-4997-9bae-2f6e7dd6c91a"
+        }
+      ],
+      "elementType": "reference"
+    },
+    "navigation": {
+      "elementType": "reference",
+      "value": {
+        "id": "b1f9294d-f145-4db7-80b5-975f37a66831"
+      }
+    },
+    "title": {
+      "elementType": "text"
+    },
+    "favicon": {
+      "elementType": "image"
+    }
+  },
+  "name": "sample site",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "40404250-aa99-427d-a5ac-cb9ce1ebb714",
+  "id": "44c9de3d-e636-48be-be02-943bc8ff01a9:draft",
+  "lastModified": "2020-05-21T06:49:37.187Z",
+  "systemModified": "2020-05-21T06:49:37.187Z",
+  "status": "draft"
+}

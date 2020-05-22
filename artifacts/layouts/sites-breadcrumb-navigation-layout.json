@@ -1,0 +1,10 @@
+{
+  "id": "sites-breadcrumb-navigation-layout",
+  "rev": "156-94622f7846896d035aafaf97814de00a",
+  "name": "sitesBreadcrumbNavigationLayout",
+  "classification": "layout",
+  "prerender": true,
+  "template": "/templates/sites-breadcrumb-navigation-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

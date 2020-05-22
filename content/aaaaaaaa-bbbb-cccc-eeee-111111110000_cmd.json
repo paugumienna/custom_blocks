@@ -1,0 +1,51 @@
+{
+  "rev": "210-693ba04e3f4caaa69505d05950ec3674",
+  "creator": "paulina.gumienna",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-22T11:23:37.838Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "lastModifier": "paulina.gumienna",
+  "classification": "content",
+  "type": "Modal HBS Layout Type",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "modalTitle": {
+      "elementType": "text",
+      "value": "Modal title"
+    },
+    "modalText": {
+      "elementType": "text",
+      "value": "Lorem ipsum dolor sit amet..."
+    }
+  },
+  "name": "Modal HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
+  "links": {
+    "createDraft": {
+      "href": "/authoring/v1/content/aaaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/content/aaaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
+    },
+    "self": {
+      "href": "/authoring/v1/content/aaaaaaaa-bbbb-cccc-eeee-111111110000"
+    },
+    "type": {
+      "href": "/authoring/v1/types/aaaaaaaa-bbbb-cccc-eeee-000000000000"
+    }
+  },
+  "id": "aaaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-22T11:53:50.895Z",
+  "systemModified": "2020-05-22T11:53:50.895Z",
+  "publishing": {
+    "status": "not-available"
+  },
+  "status": "ready"
+}

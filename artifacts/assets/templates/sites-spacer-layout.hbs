@@ -1,0 +1,10 @@
+<!-- Sites Spacer Layout -->
+
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" class="sites-page-spacer"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}" style="width:100%;
+    {{~#if height}}height: {{{height}}}px; {{/if}}
+    {{#if background~}}{{{background.$markup}}}{{~/if}}
+    ">
+</div>
+<!-- End Sites Spacer Layout -->

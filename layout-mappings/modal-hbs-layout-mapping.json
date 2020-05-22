@@ -1,0 +1,27 @@
+{
+  "id": "modal-hbs-layout-mapping",
+  "rev": "80-904cc70a76a082d5292fbe23d624cb5e",
+  "name": "Modal HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
+    "name": "Modal HBS Layout Type"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "modal-hbs-layout",
+        "name": "Modal HBS Layout"
+      },
+      "layouts": [
+        {
+          "id": "modal-hbs-layout",
+          "name": "Modal HBS Layout"
+        }
+      ]
+    }
+  ]
+}

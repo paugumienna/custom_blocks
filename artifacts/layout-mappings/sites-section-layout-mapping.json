@@ -1,0 +1,24 @@
+{
+  "id": "sites-section-layout-mapping",
+  "rev": "156-1ea35886029e6b30ffeb6400e9614061",
+  "name": "sitesSectionLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "a4516d24-744d-4650-8477-24aa36145e66"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-section-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-section-layout"
+        }
+      ]
+    }
+  ]
+}

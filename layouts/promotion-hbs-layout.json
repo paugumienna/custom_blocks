@@ -1,0 +1,9 @@
+{
+  "id": "promotion-hbs-layout",
+  "rev": "32-ca660b87751d40e76c807bc6bf827627",
+  "name": "promotionComponentLayout",
+  "classification": "layout",
+  "prerender": false,
+  "template": "/templates/promotion-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

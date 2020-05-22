@@ -1,0 +1,175 @@
+{
+  "id": "dee92057-69e3-489b-b13b-15f9b28770a1",
+  "rev": "156-e88a963dbeccb352bdc8873a3df031b6",
+  "name": "Sites Button",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents a clickable button.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The button label",
+      "key": "label",
+      "label": "Label",
+      "placeholder": {
+        "show": true,
+        "text": "Button text"
+      }
+    },
+    {
+      "elementType": "link",
+      "helpText": "The link providing the href value for this button.",
+      "key": "link",
+      "label": "URL"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the alignment to be applied to this button",
+      "key": "alignment",
+      "label": "Alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Primary",
+          "selection": "Primary"
+        },
+        {
+          "label": "Inverse",
+          "selection": "Inverse"
+        }
+      ],
+      "label": "Button color scheme",
+      "key": "buttonColorScheme",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Small",
+          "selection": "Small"
+        },
+        {
+          "label": "Medium",
+          "selection": "Medium"
+        },
+        {
+          "label": "Large",
+          "selection": "Large"
+        }
+      ],
+      "label": "Button size",
+      "key": "buttonSize",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Primary",
+          "selection": "Primary"
+        },
+        {
+          "label": "Secondary",
+          "selection": "Secondary"
+        },
+        {
+          "label": "Tertiary",
+          "selection": "Tertiary"
+        }
+      ],
+      "label": "Button version",
+      "key": "buttonVersion",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "button",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "label",
+            "link"
+          ]
+        },
+        {
+          "name": "style",
+          "elements": [
+            "buttonColorScheme",
+            "buttonSize",
+            "buttonVersion"
+          ],
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "margin",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

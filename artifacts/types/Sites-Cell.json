@@ -1,0 +1,61 @@
+{
+  "id": "d1e4dd37-8ac5-43a9-9145-1f194053b27c",
+  "rev": "156-d689c940ae5f4629301614fb0acc2b53",
+  "name": "Sites Cell",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This element represents a cell container contained in a page row.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the number of grid columns to span",
+      "key": "span",
+      "label": "Column span",
+      "maximum": 12,
+      "minimum": 1,
+      "required": false
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this cell",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this cell",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "allowMultipleValues": true,
+      "elementType": "group",
+      "helpText": "This element controls the list of block content to be rendered in this cell",
+      "key": "content",
+      "label": "Content",
+      "required": false,
+      "typeRef": {
+        "id": "21a8b4fd-0236-4187-bfea-7a94283e7b80"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

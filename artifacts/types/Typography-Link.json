@@ -1,0 +1,50 @@
+{
+  "id": "e0c98c95-3059-4068-bed2-86a25a175862",
+  "rev": "153-58d4e1cc0f8a3a3db4dfbe2ecd3cecc5",
+  "name": "Typography Link",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "This element controls the primary color for this link",
+      "key": "linkPrimaryColor",
+      "label": "Primary color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the primary hover color for this link",
+      "key": "linkPrimaryHoverColor",
+      "label": "Primary hover color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the inverse color for this link",
+      "key": "linkInverseColor",
+      "label": "Inverse color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the inverse hover color for this link",
+      "key": "linkInverseHoverColor",
+      "label": "Inverse hover color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    }
+  ]
+}

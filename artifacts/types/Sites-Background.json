@@ -1,0 +1,77 @@
+{
+  "id": "0a92059b-de6b-476d-b291-1638a435d0af",
+  "rev": "156-3ff3ade956da0346aedd0c564fa2fd03",
+  "name": "Sites Background",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This element controls the background styling for a given block",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the fill behavior applied to the bakground image",
+      "key": "fillOptions",
+      "label": "Fill",
+      "options": [
+        {
+          "label": "None",
+          "selection": "None"
+        },
+        {
+          "label": "Gradient",
+          "selection": "Gradient"
+        },
+        {
+          "label": "Solid color",
+          "selection": "Solid color"
+        },
+        {
+          "label": "Background image",
+          "selection": "Background image"
+        }
+      ]
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background color for this item",
+      "key": "backgroundColor",
+      "label": "Color",
+      "typeRef": {
+        "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background color for this item",
+      "key": "gradient",
+      "label": "Gradient",
+      "typeRef": {
+        "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background color for this item",
+      "key": "imageBackground",
+      "label": "Image",
+      "typeRef": {
+        "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "BackgroundExtension",
+    "elementConfig": {}
+  }
+}

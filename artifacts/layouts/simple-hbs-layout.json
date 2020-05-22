@@ -1,0 +1,12 @@
+{
+  "id": "simple-hbs-layout",
+  "rev": "72-beab3b27999bed28819dfed4348d9ef0",
+  "name": "Simple HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/simple-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

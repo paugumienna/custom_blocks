@@ -1,0 +1,9 @@
+<!-- Sites Image Layout -->
+
+<img class="sites-image-layout" data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+  style="{{{alignment.$markup}}}
+  {{~#if padding}}padding: {{{padding.$markup}}}; {{/if}}
+  {{~#if margin}}margin: {{{margin.$markup}}}; {{/if}}"
+  src="{{$context.hub.resourceUrl.origin}}{{image.url}}">
+
+<!-- End Sites Image Layout -->

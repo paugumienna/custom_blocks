@@ -1,0 +1,36 @@
+{
+  "rev": "153-f3224a6e9acc076c5ed61f8c1246ffdb",
+  "kind": [],
+  "created": "2020-05-21T06:21:50.381Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "tags": [
+    "Sites-Next",
+    "9.0.10750",
+    "sites-next"
+  ],
+  "elements": {
+    "key": {
+      "elementType": "text",
+      "value": "f03508b0-1f73-476c-989c-d0d2ac7441e3"
+    },
+    "src": {
+      "elementType": "text",
+      "value": "dist/Sites-Next/v9.0.10750/preview/runtime-es5.409e6590615fb48d139f.js"
+    },
+    "type": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "nomodule"
+      }
+    }
+  },
+  "name": "Sites-Next - preview - runtime-es5.js",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "5c473463-db07-4132-b8a1-bd40cbdf4b18",
+  "id": "1cf01fc7-271a-4173-bb9f-6366878e025e",
+  "lastModified": "2020-05-21T06:21:50.381Z",
+  "systemModified": "2020-05-21T06:21:50.381Z",
+  "status": "ready"
+}

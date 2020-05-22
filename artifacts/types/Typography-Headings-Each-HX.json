@@ -1,0 +1,22 @@
+{
+  "id": "159714fc-9f37-46b9-a463-0408645c3bb2",
+  "rev": "153-fb696910aba5e4af49442bb41901c494",
+  "name": "Typography Headings Each HX",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "cf4f34c6-aed7-45e1-ba71-f8e0f4d2bc49"
+      },
+      "label": "Size (px)",
+      "key": "headingFontSize"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sites-background-layout",
+  "rev": "156-571016bf6f27fc15babef1ac1d46e075",
+  "name": "sitesBackgroundLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-background-layout.jpg"
+  },
+  "template": "/templates/sites-background-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-background-layout/{id}.html"
+}

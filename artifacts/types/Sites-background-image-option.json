@@ -1,0 +1,86 @@
+{
+  "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361",
+  "rev": "153-05e11cf0c7a4c91d5a510ff0265eb0ba",
+  "name": "Sites background image option",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "key": "image",
+      "label": "Image"
+    },
+    {
+      "elementType": "optionselection",
+      "key": "display",
+      "label": "Display",
+      "options": [
+        {
+          "label": "Fit image",
+          "selection": "center"
+        },
+        {
+          "label": "Fill image",
+          "selection": "fill"
+        },
+        {
+          "label": "Tile image",
+          "selection": "tile"
+        },
+        {
+          "label": "Stretch image",
+          "selection": "full-width"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "key": "backgroundPositionX",
+      "label": "Position x",
+      "options": [
+        {
+          "label": "Left",
+          "selection": "left"
+        },
+        {
+          "label": "Center",
+          "selection": "center"
+        },
+        {
+          "label": "Right",
+          "selection": "right"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "key": "backgroundPositionY",
+      "label": "Position y",
+      "options": [
+        {
+          "label": "Top",
+          "selection": "top"
+        },
+        {
+          "label": "Center",
+          "selection": "center"
+        },
+        {
+          "label": "Bottom",
+          "selection": "bottom"
+        }
+      ]
+    }
+  ]
+}

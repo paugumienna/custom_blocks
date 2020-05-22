@@ -1,0 +1,194 @@
+{
+  "id": "93f1f438-654b-40da-870e-d90ab4c93fdf",
+  "rev": "156-975a8b67a148f91506431f3448c22e72",
+  "name": "Sites HB Image",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents an image to be shown on the page",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Source image"
+    },
+    {
+      "elementType": "toggle",
+      "key": "imageIsLocked",
+      "label": "Image is locked"
+    },
+    {
+      "elementType": "group",
+      "key": "backgroundColor",
+      "label": "Background color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "text",
+      "key": "caption",
+      "label": "Caption"
+    },
+    {
+      "elementType": "toggle",
+      "key": "showCaptionOnPage",
+      "label": "Show on page"
+    },
+    {
+      "elementType": "text",
+      "key": "credit",
+      "label": "Credit"
+    },
+    {
+      "elementType": "toggle",
+      "key": "showCreditOnPage",
+      "label": "Show on page"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the alignment defintion for this block",
+      "key": "alignment",
+      "label": "Alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this block",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the text opacity",
+      "key": "opacity",
+      "label": "Image opacity",
+      "uiExtensions": {
+        "elementBuiltin": "OpacitySliderExtension",
+        "elementConfig": {
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "horizontalAlignment",
+      "label": "Horizontal alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "border",
+      "label": "Border",
+      "typeRef": {
+        "id": "f69aa31c-7dfe-4e1f-905a-3ce8240ac4e4"
+      }
+    },
+    {
+      "elementType": "toggle",
+      "label": "Use alt text from source",
+      "key": "useAltTextFromSource"
+    },
+    {
+      "elementType": "group",
+      "label": "Background",
+      "key": "background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "text",
+      "key": "imageProfile",
+      "label": "Image profile"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "image",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "image"
+          ]
+        },
+        {
+          "name": "style",
+          "elements": [
+            "opacity"
+          ],
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "horizontalAlignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "border",
+              "type": "twisty",
+              "initialState": "collapsed",
+              "elements": [
+                "border"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

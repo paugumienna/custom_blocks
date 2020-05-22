@@ -1,0 +1,44 @@
+<div data-content-item-id="{{@root.$metadata.id}}" data-wch-editable="{{ $metadata.accessor }}"
+  data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}" style="height:100%; {{~#if @root.alignment}}{{@root.alignment.$markup}}; {{/if}}
+    {{~#if margin.left}} margin-left:{{margin.left}}px; {{~/if~}}
+		{{~#if margin.right}} margin-right:{{margin.right}}px; {{~/if~}}
+		{{~#if margin.top}} margin-top:{{margin.top}}px; {{~/if~}}
+		{{~#if margin.bottom}} margin-bottom:{{margin.bottom}}px; {{~/if~}}
+    {{#if background~}}{{{background.$markup}}}{{~/if}}
+   ">
+  <p style="display: flex;
+          {{~#if @root.padding}}padding: {{@root.padding.$markup}}; {{/if}} margin: 0;
+          {{~#eq elementsAlignment "Horizontal"}} flex-direction: row; {{/eq~}}
+          {{~#eq elementsAlignment "Vertical"}} flex-direction: column; {{/eq~}}
+          {{~#eq alignment.alignmentOptions "left"}} justify-content: flex-start; {{/eq~}}
+          {{~#eq alignment.alignmentOptions "center"}} justify-content: center; {{/eq~}}
+          {{~#eq alignment.alignmentOptions "right"}} justify-content: flex-end; {{/eq~}}">
+    {{#each links}}
+    <span style="
+          {{~#eq @root.elementsAlignment "Vertical"}}
+            {{~#unless @first}}
+              margin-top:{{@root.spacingBetweenLinks}}px;
+            {{~/unless~}}
+          {{/eq~}}
+          {{~#eq @root.elementsAlignment "Horizontal"}}
+            {{~#unless @first}}
+              margin-left:{{@root.spacingBetweenLinks}}px;
+            {{~/unless~}}
+          {{/eq~}}">
+      <a class="{{#eq @root.buttonColorScheme "Inverse"}}sites-theme-inverse-color{{/eq}}"
+        style="text-decoration: none; {{~#if @root.$context.editMode}}pointer-events: none; cursor: default;{{/if}}" href="{{linkAdvanced.urlLink.url.linkURL}}" {{~#if @root.openLinksInNewTab }}
+        target="_blank" {{~/if~}}>
+        {{~#if label}}{{label}}{{else}}New link{{~/if~}}
+      </a>
+      {{#eq @root.verticalRule.includeVerticalRuleBetweenLinks true}}
+      {{~#if (not @last)}}
+      <span
+        style="display: inline-block; vertical-align:top; border-left:1px solid
+                {{~#if @root.verticalRule.lineColor.colorCode}} {{@root.verticalRule.lineColor.colorCode}} {{~/if~}};
+                {{~#if @root.verticalRule.opacity includeZero=true}}opacity:{{divide @root.verticalRule.opacity 100}}; {{~/if~}};">&nbsp;</span>
+      {{~/if~}}
+      {{/eq~}}
+    </span>
+    {{/each}}
+  </p>
+</div>

@@ -1,0 +1,77 @@
+{
+  "fileName": "acoustic5.jpg",
+  "metadata": {
+    "width": 150,
+    "height": 150
+  },
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "caption": "",
+  "mediaId": "150c74db-fc32-48b5-b057-6726e77e42ac",
+  "path": "/dxdam/7d/7dd75941-b09d-4be9-a51c-fb2c5b9f6bb7/acoustic5.jpg",
+  "digest": "3NwiQWoPgBC8R9uH3rHlsQ==",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "renditions": {
+    "default": {
+      "id": "r=a26100ac-355e-408d-9d13-da0100133164&a=7dd75941-b09d-4be9-a51c-fb2c5b9f6bb7",
+      "source": "/authoring/v1/resources/a26100ac-355e-408d-9d13-da0100133164"
+    }
+  },
+  "id": "7dd75941-b09d-4be9-a51c-fb2c5b9f6bb7",
+  "usageRights": {
+    "categories": []
+  },
+  "systemModified": "2020-05-21T06:19:16.852Z",
+  "rev": "213-76ba3809ff1c72eb58ee7f9d176a43cf",
+  "altText": "",
+  "resource": "a26100ac-355e-408d-9d13-da0100133164",
+  "created": "2020-05-21T06:19:16.204Z",
+  "mediaType": "image/jpeg",
+  "classification": "asset",
+  "assetType": "image",
+  "tags": {
+    "suggested": [
+      "classification:O ring",
+      "classification:fastener",
+      "classification:restraint (chains)",
+      "classification:gasket",
+      "classification:jade green color",
+      "classification:bottle green color"
+    ],
+    "declined": [],
+    "values": [
+      "classification:O ring",
+      "classification:fastener",
+      "classification:restraint (chains)",
+      "classification:gasket",
+      "classification:jade green color",
+      "classification:bottle green color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "categoryIds": [],
+  "cognitive": {
+    "classifications": [
+      "O ring",
+      "fastener",
+      "restraint (chains)",
+      "gasket",
+      "jade green color",
+      "bottle green color"
+    ],
+    "colors": {
+      "lightMuted": "#b4dcdc",
+      "darkMuted": "#188070",
+      "lightVibrant": "#7cf4cc",
+      "vibrant": "#22f2aa",
+      "muted": "#089061",
+      "darkVibrant": "#20a792"
+    },
+    "status": "complete"
+  },
+  "fileSize": 6846,
+  "name": "acoustic5.jpg",
+  "lastModified": "2020-05-21T06:19:16.852Z",
+  "status": "ready"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "4611c4ad-3998-4ed6-b211-dc348fb3d9f6",
+  "rev": "154-fe57136bd2b6d6962e98583a47bd7d05",
+  "name": "📰 Site Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/site-layout.png"
+  },
+  "template": "/templates/site-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/site-layout/{id}.html"
+}

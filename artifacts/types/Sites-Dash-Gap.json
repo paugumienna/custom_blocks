@@ -1,0 +1,31 @@
+{
+  "id": "65e95f2a-ebb2-4b8a-a449-d5d286067890",
+  "rev": "153-c3610564e0cc63c6aba490de1adad8ae",
+  "name": "Sites Dash Gap",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This element controls the dash and gap dimensions of a dashed border",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Dash",
+      "key": "dash",
+      "helpText": "The size of the dashes"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Gap",
+      "key": "gap",
+      "helpText": "The size of the gap between dashes"
+    }
+  ]
+}

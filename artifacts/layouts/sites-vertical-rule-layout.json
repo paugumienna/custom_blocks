@@ -1,0 +1,16 @@
+{
+  "id": "sites-vertical-rule-layout",
+  "rev": "156-b90b47fb602537ffea749282bf984ded",
+  "name": "sitesVerticalRuleLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-vertical-rule-layout.jpg"
+  },
+  "template": "/templates/sites-vertical-rule-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-vertical-rule-layout/{id}.html"
+}

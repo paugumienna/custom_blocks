@@ -1,0 +1,47 @@
+<!-- My Layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}}" ;>
+    <span>My layout is working!</span>
+    <div>
+        <a href="#img1">
+            <img src="{{image.url}}" class="thumbnail">
+        </a>
+        <a href="#" class="lightbox" id="img1">
+            <img src="{{image.url}}">
+        </a>
+    </div>
+</div>
+
+
+<style>
+    .thumbnail {
+        max-width: 40px;
+    }
+
+    .lightbox {
+        display: none;
+
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        top: 0;
+        left: 0;
+        background: black;
+    }
+
+    .lightbox img {
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: 2%;
+    }
+
+    .lightbox:target {
+        outline: none;
+        display: block;
+    }
+</style>
+{{log .}}
+<!-- End My Layout -->

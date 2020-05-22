@@ -1,0 +1,16 @@
+{
+  "id": "sites-social-link-layout",
+  "rev": "156-effa2bf0239eb0d1895c1a175016566c",
+  "name": "sitesSocialLinkLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-social-link-layout.jpg"
+  },
+  "template": "/templates/sites-social-link-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-social-link-layout/{id}.html"
+}

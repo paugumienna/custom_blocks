@@ -1,0 +1,18 @@
+{
+  "id": "sites-rows-layout",
+  "rev": "156-2d24fb5401469a0694e7400dff0098a5",
+  "name": "sitesRowsLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-rows-layout.jpg"
+  },
+  "template": "/templates/sites-rows-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

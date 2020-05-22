@@ -1,0 +1,16 @@
+{
+  "id": "sites-radius-layout",
+  "rev": "153-d6769eda60567512b60cf9b9608dec1e",
+  "name": "sitesRadiusLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-radius-layout.jpg"
+  },
+  "template": "/templates/sites-radius-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-radius-layout/{id}.html"
+}

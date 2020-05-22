@@ -1,0 +1,16 @@
+{
+  "id": "sites-boundary-layout",
+  "rev": "156-e1904b3b7021b2331131af84898f12df",
+  "name": "sitesBoundaryLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-boundary-layout.jpg"
+  },
+  "template": "/templates/sites-boundary-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-boundary-layout/{id}.html"
+}

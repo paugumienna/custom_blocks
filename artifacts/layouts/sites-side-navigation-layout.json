@@ -1,0 +1,10 @@
+{
+  "id": "sites-side-navigation-layout",
+  "rev": "156-f6ad63416feb86c4e3d8d3d2aa2c6863",
+  "name": "sitesSideNavigationLayout",
+  "classification": "layout",
+  "prerender": true,
+  "template": "/templates/sites-side-navigation-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

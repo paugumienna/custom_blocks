@@ -1,0 +1,16 @@
+{
+  "id": "sites-alignment-layout",
+  "rev": "156-0e54817e4f82a7b237a422adbfa046d4",
+  "name": "sitesAlignmentLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-alignment-layout.jpg"
+  },
+  "template": "/templates/sites-alignment-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-alignment-layout/{id}.html"
+}

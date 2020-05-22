@@ -1,0 +1,50 @@
+{
+  "id": "daaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "82-1756b4746c573b5db86e78c1722f6046",
+  "name": "Simple HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Simple HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "label",
+      "label": "Label",
+      "placeholder": {
+        "show": true,
+        "text": "Label text"
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Simple HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "Settings",
+          "elements": [
+            "label"
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "40404250-aa99-427d-a5ac-cb9ce1ebb714",
+  "rev": "154-5afd3d7be0b8ed823d0ccdc3eb933ec4",
+  "name": "📄 Site",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "site"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/site-type.png"
+  },
+  "contentThumbnail": {
+    "imageElement": "logo",
+    "source": "imageElementOrType"
+  },
+  "description": "This item describes an individual site in the site model. The \"id\" value of this content item is considered the ID for the site. It provides the anchor point that all Page-Descriptor elements of all pages in the site are pointing to. It further defines the site navigation strucutre and the page modules to be added to all pages of this site. Page modules are used to manage style files and JavaScript libraries that shall be loaded into all pages of the site.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "allowMultipleValues": true,
+      "elementType": "reference",
+      "fieldLabel": "Content item",
+      "helpText": "The list of page modules to be added to the pages of this site.",
+      "key": "modules",
+      "label": "Page Modules",
+      "minimumValues": 0,
+      "restrictTypes": [
+        {
+          "id": "aab86460-0018-44c2-9f52-3a326e58f7f7"
+        },
+        {
+          "id": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5"
+        }
+      ],
+      "role": [
+        "configuration"
+      ]
+    },
+    {
+      "elementType": "reference",
+      "helpText": "The page navigation content item for this site.",
+      "key": "navigation",
+      "label": "Navigation",
+      "required": true,
+      "restrictTypes": [
+        {
+          "id": "843fb991-7413-4517-bfcb-b59fc4b1f449"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "The title for this site.",
+      "key": "title",
+      "label": "Title"
+    },
+    {
+      "elementType": "text",
+      "helpText": "The domain name for this site.",
+      "key": "domain",
+      "label": "Domain"
+    },
+    {
+      "acceptType": [
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The favicon for this site.",
+      "key": "favicon",
+      "label": "FAV icon"
+    },
+    {
+      "elementType": "image",
+      "helpText": "The logo for this site.",
+      "key": "logo",
+      "label": "Logo"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "reference",
+      "helpText": "The reference to the site global styles ie. Button, Typography, Navigation, and Page",
+      "key": "styles",
+      "label": "Theme",
+      "role": [
+        "configuration"
+      ]
+    }
+  ]
+}

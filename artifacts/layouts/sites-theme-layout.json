@@ -1,0 +1,19 @@
+{
+  "id": "2e326084-3025-4ceb-93af-ae87a47f92af",
+  "rev": "156-eee6f645792cebb238c4ba434ca880f1",
+  "name": "Sites Theme Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body",
+    "mode:json"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-theme-layout.jpg"
+  },
+  "template": "/templates/sites-theme-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

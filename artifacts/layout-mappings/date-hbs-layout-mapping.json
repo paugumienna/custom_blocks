@@ -1,0 +1,24 @@
+{
+  "id": "date-hbs-layout-mapping",
+  "rev": "72-1e91227c6dae324ba4ee5246fe6b678b",
+  "name": "Date HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "1aaaaaaa-bbbb-cccc-eeee-000000000000"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "date-hbs-layout"
+      },
+      "layouts": [
+        {
+          "id": "date-hbs-layout"
+        }
+      ]
+    }
+  ]
+}

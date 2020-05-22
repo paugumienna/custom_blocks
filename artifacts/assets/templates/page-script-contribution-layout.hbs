@@ -1,0 +1,5 @@
+{{#eq type 'nomodule' ~}}
+<script nomodule type="application/javascript" crossorigin="anonymous" src="{{$context.hub.resourceUrl.href}}{{src}}"></script>
+{{else ~}}
+<script type="{{type}}" crossorigin="anonymous" src="{{$context.hub.resourceUrl.href}}{{src}}"></script>
+{{/eq ~}}

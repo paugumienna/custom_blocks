@@ -1,0 +1,24 @@
+{
+  "id": "sites-radius-layout-mapping",
+  "rev": "153-2b6bf9905343e665e16bf3cae206dc64",
+  "name": "sitesRadiusLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "37b9cfbe-747d-42db-aac1-e0c77c73d371"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-radius-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-radius-layout"
+        }
+      ]
+    }
+  ]
+}

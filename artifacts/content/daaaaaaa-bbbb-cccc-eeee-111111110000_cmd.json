@@ -1,0 +1,27 @@
+{
+  "rev": "71-58402d5b96495fc45fcdcdf6ac44fe51",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:33:10.617Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "label": {
+      "elementType": "text",
+      "value": "This is some new HBS block!"
+    }
+  },
+  "name": "Simple HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "daaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "daaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-21T06:33:10.617Z",
+  "systemModified": "2020-05-21T06:33:10.617Z",
+  "status": "ready"
+}

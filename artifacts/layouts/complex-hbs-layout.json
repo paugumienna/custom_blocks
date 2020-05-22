@@ -1,0 +1,12 @@
+{
+  "id": "complex-hbs-layout",
+  "rev": "70-9e100281fdaeed0b3a5966ec26494837",
+  "name": "Complex HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/complex-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

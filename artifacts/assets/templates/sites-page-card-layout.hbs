@@ -1,0 +1,14 @@
+<!-- Start sites-page-card-layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+  class="sites-page-card-container" style="{{{background.$markup}}}{{{alignment.$markup}}}{{{lineHeight.$markup}}}{{{textStyle.$markup}}}
+  {{~#if padding}}padding: {{{padding.$markup}}}; {{/if}}
+  {{~#if margin}}margin: {{{margin.$markup}}}; {{/if}}">
+  <img src="{{$context.hub.resourceUrl.origin}}{{image.image.url}}" class="sites-page-card-image">
+  <div class="sites-page-card-content-wrapper">
+    <h1 class="sites-page-card-heading">{{heading}}</h1>
+    <p class="sites-page-card-summary">{{summary}}</p>
+    <p>
+      <a class="sites-page-card-link" href="{{{link.linkURL}}}">{{link.linkText}}</a>
+  </div>
+</div>
+<!-- End sites-page-card-layout -->

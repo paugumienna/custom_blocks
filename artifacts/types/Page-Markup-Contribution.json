@@ -1,0 +1,32 @@
+{
+  "id": "2b0cd235-16ad-42ec-aea7-a05df105604c",
+  "rev": "154-8dd37039437db7cade4cac57f3884f77",
+  "name": "📄 Page Markup Contribution",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-markup-contribution-type.png"
+  },
+  "description": "A page markup contribution directly added into the markup",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "allowMultipleValues": false,
+      "elementType": "text",
+      "helpText": "The markup to be added.",
+      "key": "markup",
+      "label": "Markup"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

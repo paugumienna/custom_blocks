@@ -1,0 +1,16 @@
+{
+  "id": "sites-line-height-layout",
+  "rev": "156-76f9a99177b1b656f2042a8bb6325697",
+  "name": "sitesLineHeightLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-line-height-layout.jpg"
+  },
+  "template": "/templates/sites-line-height-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-line-height-layout/{id}.html"
+}

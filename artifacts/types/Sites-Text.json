@@ -1,0 +1,105 @@
+{
+  "id": "373c81a5-d86b-4740-8f11-62fcbccfca08",
+  "rev": "156-1509bdfb1f91d42b0a004c70359137e5",
+  "name": "Sites Text",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "formattedtext",
+      "helpText": "The actual formatted text",
+      "key": "text",
+      "label": "text",
+      "placeholder": {
+        "show": true,
+        "text": "Text"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds a reference to the text styling to be applied to this text block",
+      "key": "textStyle",
+      "label": "Text Style",
+      "typeRef": {
+        "id": "cfa7081a-921d-4f50-a543-027b983b01b5"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds a reference to a color defintion to by applied to links in this text block",
+      "key": "linkColor",
+      "label": "Link Color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds a reference to the baground defintion for this text block",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds a reference to the alignment defintion for this text block",
+      "key": "alignment",
+      "label": "Alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element holds a reference to the line hight defintion for this text block",
+      "key": "lineHeight",
+      "label": "Line Height",
+      "typeRef": {
+        "id": "e5e97340-b03b-42ea-9d03-f8bc214f42b0"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "A reference to a boundary item providing the padding values for this text block",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "A reference to a boundary item providing the margin values for this text block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "A reference to a common settings definition to be applied to this text block",
+      "key": "commonSettings",
+      "label": "Common Settings",
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

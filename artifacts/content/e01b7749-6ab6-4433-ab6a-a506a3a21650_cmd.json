@@ -1,0 +1,182 @@
+{
+  "rev": "151-acd978427157de8137ba10eca283cd6d",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-module-type.png"
+  },
+  "kind": [],
+  "created": "2020-05-21T06:21:57.909Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "tags": [
+    "Sites-Next",
+    "9.0.10750",
+    "sites-next"
+  ],
+  "elements": {
+    "body": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text"
+          },
+          "key": {
+            "elementType": "text",
+            "value": "21724672-b9d4-4cdf-a30e-2fb9abc4307f"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "live"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "a58492d9-5fc2-4e73-9fad-643c4768aa30"
+              },
+              {
+                "id": "6c77e83f-49a3-4fa1-b356-edfdf7bd4ca7"
+              },
+              {
+                "id": "c3cf2b54-94ae-4438-b1de-a9c75be3dae6"
+              },
+              {
+                "id": "d8c1953f-1068-4cfc-b354-14e0f21627b8"
+              },
+              {
+                "id": "558876b1-15f3-4b78-9c1a-cc1ac6bfa1bd"
+              },
+              {
+                "id": "d6e0fa2b-bdff-4bae-a2bd-636f3f7478f5"
+              },
+              {
+                "id": "b51d1279-0597-464e-bd60-843231160394"
+              },
+              {
+                "id": "b27a3504-f512-48a7-b3f6-5b317ba03b17"
+              }
+            ],
+            "elementType": "reference"
+          }
+        },
+        {
+          "embed": {
+            "elementType": "text"
+          },
+          "key": {
+            "elementType": "text",
+            "value": "67784482-2c56-4316-8321-494b288324c9"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "preview"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "38390274-42f9-4c63-9328-5ac6f5b985da"
+              },
+              {
+                "id": "1cf01fc7-271a-4173-bb9f-6366878e025e"
+              },
+              {
+                "id": "76e930da-61e5-4d1a-8740-1d37b4f2ddf8"
+              },
+              {
+                "id": "5feff16a-f352-466a-a813-feac6ec82c24"
+              },
+              {
+                "id": "ead1a418-1718-4ebc-9b97-309b7ec898ea"
+              },
+              {
+                "id": "c0a2fc84-0e01-455f-8968-17a167156ff9"
+              },
+              {
+                "id": "0c014568-bb61-4e5b-9a0c-f34b29682bbf"
+              },
+              {
+                "id": "c875776b-3fda-4b5e-a7e7-7ee21ebee3d3"
+              }
+            ],
+            "elementType": "reference"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "head": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text"
+          },
+          "key": {
+            "elementType": "text",
+            "value": "c84b79b8-1e98-41ed-89d5-38db012a8193"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "live"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "5cee122c-6383-445f-8442-d23d1eeac0c9"
+              }
+            ],
+            "elementType": "reference"
+          }
+        },
+        {
+          "embed": {
+            "elementType": "text"
+          },
+          "key": {
+            "elementType": "text",
+            "value": "7228fab2-7dd5-49a4-8792-426b8d035bb8"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "preview"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "014dd5ef-83e4-4ffe-b951-95df4fd54fd9"
+              }
+            ],
+            "elementType": "reference"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "e01b7749-6ab6-4433-ab6a-a506a3a21650"
+    },
+    "preview": {
+      "elementType": "image"
+    }
+  },
+  "name": "Sites-Next - Profile",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aab86460-0018-44c2-9f52-3a326e58f7f7",
+  "id": "e01b7749-6ab6-4433-ab6a-a506a3a21650",
+  "lastModified": "2020-05-21T06:21:57.909Z",
+  "systemModified": "2020-05-21T06:21:57.909Z",
+  "status": "ready"
+}

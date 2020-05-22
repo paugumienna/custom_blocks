@@ -1,0 +1,38 @@
+{
+  "id": "713b5843-8fac-40dd-b504-7e03b8c83091",
+  "rev": "155-d5d108e5843daaa1025bc903d7f7b15c",
+  "name": "Sites Background Color",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element controls the background color for this item",
+      "key": "colorCode",
+      "label": "Color code"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the opacity of the background color for this item",
+      "key": "opacity",
+      "label": "Opacity",
+      "maximum": 100,
+      "minimum": 0
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

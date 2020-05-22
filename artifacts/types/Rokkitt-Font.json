@@ -1,0 +1,23 @@
+{
+  "id": "e4342a12-031f-41c2-848d-c2ca699b15c2",
+  "rev": "143-a8c12422653c1364c7ed88020a76e34e",
+  "name": "Rokkitt-Font",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "description": "Definition of the Rokkitt Font",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

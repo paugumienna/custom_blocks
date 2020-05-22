@@ -1,0 +1,10 @@
+<!-- Sites Section Layout -->
+<div class="row no-gutters sites-section" data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+  style="{{#if background~}}{{{background.$markup}}}{{~/if}} {{#if padding~}}padding: {{{padding.$markup}}};{{~/if}}">
+    {{#each cells~}}
+    <div class="col-sm{{#if span}}-{{{span}}}{{/if~}}" {{~#if gutter}} style="--sites-section-gutter-width: {{{gutter}}}px"{{/if}}>
+      {{{$markup}}}
+    </div>
+    {{~/each}}
+</div>
+<!-- End Sites Section Layout -->

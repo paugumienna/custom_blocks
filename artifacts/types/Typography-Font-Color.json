@@ -1,0 +1,32 @@
+{
+  "id": "4c49edb5-459a-4b76-a74d-c6bd1498223d",
+  "rev": "153-5c4c38595805de4183ff8c4e8f2521ec",
+  "name": "Typography Font Color",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "This element controls the primary color for this font",
+      "key": "fontPrimaryColor",
+      "label": "Primary",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the inverse color for this font",
+      "key": "fontInverseColor",
+      "label": "Inverse",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    }
+  ]
+}

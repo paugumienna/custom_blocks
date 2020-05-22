@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{$metadata.locale}}">
+    <head>
+        {{! Some metadata }}
+        <title>{{$metadata.name}}</title>
+        <meta charset="UTF-8">
+        {{#if $metadata.keywords ~}}
+        <meta name="keywords" content="{{join $metadata.keywords}}">
+        {{/if ~}}
+        {{#if $metadata.description ~}}
+        <meta name="description" content="{{$metadata.description}}">
+        {{/if ~}}
+        {{! WCH config }}
+        <link rel="dns-prefetch" id="wch-config-api-url" href="{{$context.hub.apiUrl.href}}">
+        <link rel="dns-prefetch" id="wch-config-delivery-url" href="{{$context.hub.resourceUrl.href}}">
+        <base href="{{$context.hub.resourceUrl.href}}">
+        {{#forIn $context.seeds ~}}
+        <meta name="wch-config-seed-{{@key}}" content="{{.}}">
+        {{/forIn ~}}
+        {{! WCH performance }}
+        <link rel="preload" crossorigin="anonymous" as="fetch" href="{{$context.hub.apiUrl.href}}delivery/v1/search?fl=document%3A%5Bjson%5D&amp;fq=classification%3A(%22content%22)&amp;q=string1%3A(%22{{encodeURI descriptor.canonicalpath}}%22)&amp;-wch-seed={{encodeURI $context.seeds.content}}">
+        {{#forIn $context.prefetch ~}}
+        <link rel="prefetch" crossorigin="anonymous" as="fetch" href="{{../$context.hub.apiUrl.href}}{{.}}">
+        {{/forIn ~}}
+        {{! Head contributions from the profile }}
+        {{{descriptor.site.$markups.head}}}
+    </head>
+    <body>
+        <app-root>
+        {{! The actual content of the page }}
+        {{#each content ~}}
+            {{! ESI include of the content }}
+            <esi:include
+                src="{{../$context.hub.apiUrl.href}}delivery/v1/rendering/render/content/{{encodeURI $metadata.id }}?-wch-seed={{encodeURI ../$context.seeds.content}}"
+                onerror="continue"
+            />
+        {{{trim $markup}}}
+        {{/each ~}}
+        </app-root>
+        {{! Body contributions from the profile }}
+        {{{descriptor.site.$markups.body}}}
+    </body>
+</html>
+

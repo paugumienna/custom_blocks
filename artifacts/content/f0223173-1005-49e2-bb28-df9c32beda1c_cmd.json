@@ -1,0 +1,37 @@
+{
+  "rev": "154-4ef8948a4e6f67d3aad6ebdc7f58ceee",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:59.084Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "CSS for the basic building blocks.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "959979be-cfd2-47c4-8764-5a89b725da7e"
+      }
+    }
+  ],
+  "elements": {
+    "href": {
+      "elementType": "text",
+      "value": "dxauth/css/sites-next-content/data-basic-building-blocks.css"
+    },
+    "key": {
+      "elementType": "text",
+      "value": "2e7e10f7-54f4-4605-8960-c831dfab2ee2"
+    }
+  },
+  "name": "🧱 Basic Building Block CSS",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "3a3726b8-e0b2-4f10-98ed-b1c82e851b99",
+  "id": "f0223173-1005-49e2-bb28-df9c32beda1c",
+  "lastModified": "2020-05-21T06:21:59.084Z",
+  "systemModified": "2020-05-21T06:21:59.084Z",
+  "status": "ready"
+}

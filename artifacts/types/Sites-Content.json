@@ -1,0 +1,236 @@
+{
+  "id": "21a8b4fd-0236-4187-bfea-7a94283e7b80",
+  "rev": "158-7b6063e0a87d7bc1f667053549614c6f",
+  "name": "Sites Content",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "description": "This element represent a content block of variable type. The possible types are represented by corresponding elements each. The element named \"selected\" identifies the actual block content item of the corresponding type. To support an additional block content type, you need to add a corresponding element of that type and a corresponding option value in the \"selected\" element definition.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Button\"",
+      "key": "button",
+      "label": "Button",
+      "typeRef": {
+        "id": "dee92057-69e3-489b-b13b-15f9b28770a1"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Devider\"",
+      "key": "divider",
+      "label": "Divider",
+      "typeRef": {
+        "id": "d550249a-83b2-4e46-96d1-519732fa5787"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites HTML\"",
+      "key": "html",
+      "label": "HTML",
+      "typeRef": {
+        "id": "85bdc88c-5b4c-4002-a665-37ba5bf95cb6"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Sites\"",
+      "key": "image",
+      "label": "Image",
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites HB Image\"",
+      "key": "hbImage",
+      "label": "HB Image",
+      "typeRef": {
+        "id": "93f1f438-654b-40da-870e-d90ab4c93fdf"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Image And Text\"",
+      "key": "imageAndText",
+      "label": "Image And Text",
+      "typeRef": {
+        "id": "bee26b87-bbcf-454b-9dc6-7a909ab13fd1"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Promotion\"",
+      "key": "promotion",
+      "label": "Promotion",
+      "typeRef": {
+        "id": "0b1c47a9-eb31-49ec-8fd7-89ca21a36b36"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Social Follow\"",
+      "key": "socialFollow",
+      "label": "Social Follow",
+      "typeRef": {
+        "id": "669768ce-44c7-4de3-83c1-a72d871e8df2"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Spacer\"",
+      "key": "spacer",
+      "label": "Spacer",
+      "typeRef": {
+        "id": "b2a9542d-b432-48b3-8322-2464765f323b"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Text\"",
+      "key": "text",
+      "label": "Text",
+      "typeRef": {
+        "id": "373c81a5-d86b-4740-8f11-62fcbccfca08"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites HB Text\"",
+      "key": "hbText",
+      "label": "HB Text",
+      "typeRef": {
+        "id": "ac299073-48a2-446d-987d-d893257abdb3"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Link Bar\"",
+      "key": "linkBar",
+      "label": "Link Bar",
+      "typeRef": {
+        "id": "d0f831c3-1b0a-41ba-8a6b-10f2eca3789a"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Sites Video\"",
+      "key": "video",
+      "label": "Video",
+      "typeRef": {
+        "id": "a84f2c97-33bb-45fa-8156-25141df73055"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The element holding the block content if the block is of type \"Page Card\"",
+      "key": "pageCard",
+      "label": "Page Card",
+      "typeRef": {
+        "id": "8eb34ed3-fbdf-439e-aaeb-00060cdeb63a"
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "daaaaaaa-bbbb-cccc-eeee-000000000000"
+      },
+      "label": "Simple",
+      "key": "simple"
+    },
+    {
+      "elementType": "reference",
+      "helpText": "The element holding the block content if the block is a shared block",
+      "key": "reference",
+      "label": "reference"
+    },
+    {
+      "elementType": "optionselection",
+      "helpText": "This element identifies the element that holds actual block content for this item.",
+      "key": "selected",
+      "label": "selected",
+      "options": [
+        {
+          "label": "Button",
+          "selection": "button"
+        },
+        {
+          "label": "Divider",
+          "selection": "divider"
+        },
+        {
+          "label": "HTML",
+          "selection": "html"
+        },
+        {
+          "label": "Image",
+          "selection": "image"
+        },
+        {
+          "label": "HB Image",
+          "selection": "hbImage"
+        },
+        {
+          "label": "Image and Text",
+          "selection": "imageAndText"
+        },
+        {
+          "label": "Image Group",
+          "selection": "imageGroup"
+        },
+        {
+          "label": "Promotion",
+          "selection": "promotion"
+        },
+        {
+          "label": "Social Follow",
+          "selection": "socialFollow"
+        },
+        {
+          "label": "Spacer",
+          "selection": "spacer"
+        },
+        {
+          "label": "Text",
+          "selection": "text"
+        },
+        {
+          "label": "HB Text",
+          "selection": "hbText"
+        },
+        {
+          "label": "Link bar",
+          "selection": "linkBar"
+        },
+        {
+          "label": "Video",
+          "selection": "video"
+        },
+        {
+          "label": "Page Card",
+          "selection": "pageCard"
+        },
+        {
+          "label": "Reference",
+          "selection": "reference"
+        }
+      ],
+      "required": true
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "modal-hbs-layout",
+  "rev": "72-a33af4c2cc1978fe00915ed5518d3a53",
+  "name": "Modal HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/modal-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

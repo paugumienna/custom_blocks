@@ -1,0 +1,169 @@
+{
+  "id": "d0f831c3-1b0a-41ba-8a6b-10f2eca3789a",
+  "rev": "156-b1e6e78fc253bb667f78135b4e5e8763",
+  "name": "Sites Link Bar",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This block represents a list of links to be rendered on a page",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "be68ef93-a0dc-40aa-884f-e1f8e1c47186"
+      },
+      "label": "Link text",
+      "key": "links",
+      "allowMultipleValues": true,
+      "minimumValues": 0,
+      "fieldLabel": "Links",
+      "required": false,
+      "maximumValues": 7
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Primary",
+          "selection": "Primary"
+        },
+        {
+          "label": "Inverse",
+          "selection": "Inverse"
+        }
+      ],
+      "label": "Button color scheme",
+      "key": "buttonColorScheme",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "alignment",
+      "helpText": "This element controls the alignment defintion for this link bar.",
+      "label": "Alignment",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the spacing between links.",
+      "key": "spacingBetweenLinks",
+      "label": "Spacing between links",
+      "minimum": 0
+    },
+    {
+      "elementType": "group",
+      "key": "padding",
+      "helpText": "This element controls the padding values for this link bar.",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Horizontal",
+          "selection": "Horizontal"
+        },
+        {
+          "label": "Vertical",
+          "selection": "Vertical"
+        }
+      ],
+      "label": "Elements alignment",
+      "key": "elementsAlignment",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "Background",
+      "key": "background"
+    },
+    {
+      "elementType": "toggle",
+      "label": "Open links in new tab",
+      "key": "openLinksInNewTab"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "linkBar",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "links",
+            "openLinksInNewTab"
+          ]
+        },
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "color",
+              "elements": [
+                "buttonColorScheme"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "spacingBetweenLinks",
+                "elementsAlignment",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "224-9156301de45081ebc91a33e8dc3f75af",
+  "name": "Modal HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Modal HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "Modal title",
+      "key": "modalTitle",
+      "label": "Modal title",
+      "placeholder": {
+        "show": true,
+        "text": "Modal title"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Modal text",
+      "key": "modalText",
+      "label": "Modal text"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Modal HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "Settings",
+          "elements": [
+            "modalTitle",
+            "modalText"
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "705089d0-9095-4d3b-9227-31d948504c1a",
+  "rev": "154-acdc0d3ef4aef99190ac3ce52a4cc86f",
+  "name": "📰 Page Script Contribution Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/page-script-contribution-layout.jpg"
+  },
+  "template": "/templates/page-script-contribution-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/page-script-contribution/{id}.html"
+}

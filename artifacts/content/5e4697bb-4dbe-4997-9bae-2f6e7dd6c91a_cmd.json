@@ -1,0 +1,52 @@
+{
+  "rev": "151-de1eddd6fbbf7cb1e6740164e79d71ec",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-module-type.png"
+  },
+  "kind": [],
+  "created": "2020-05-21T06:21:52.126Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Pre-Connect directives for Google Fonts",
+  "classification": "content",
+  "locale": "en",
+  "tags": [],
+  "elements": {
+    "head": {
+      "values": [
+        {
+          "embed": {
+            "elementType": "text",
+            "values": [
+              "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com/\" crossorigin>"
+            ]
+          },
+          "key": {
+            "elementType": "text",
+            "value": "cf9bc339-69ff-4666-ab06-f4d90f776e6b"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "always"
+            }
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "eb76e4d3-6413-4f39-877f-6d5569804b9e"
+    }
+  },
+  "name": "Google Font Preconnect",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "aab86460-0018-44c2-9f52-3a326e58f7f7",
+  "id": "5e4697bb-4dbe-4997-9bae-2f6e7dd6c91a",
+  "lastModified": "2020-05-21T06:21:52.126Z",
+  "systemModified": "2020-05-21T06:21:52.126Z",
+  "status": "ready"
+}

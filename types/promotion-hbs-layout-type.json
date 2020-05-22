@@ -1,0 +1,231 @@
+{
+  "id": "4aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "31-2daeb6fc9193609b527c04e7f5dba81a",
+  "name": "Promotion HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Promotion HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "label",
+      "label": "Label",
+      "placeholder": {
+        "show": true,
+        "text": "label"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the block color",
+      "key": "buttonColor",
+      "label": "button color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
+        "name": "Sites Color"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "buttonLabel",
+      "label": "button Label",
+      "placeholder": {
+        "show": true,
+        "text": "button text"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "text",
+      "label": "Text",
+      "placeholder": {
+        "show": true,
+        "text": "text"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "The URL",
+      "key": "URL",
+      "label": "URL",
+      "placeholder": {
+        "show": true,
+        "text": "#"
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224",
+        "name": "Sites Boundary"
+      },
+      "label": "padding",
+      "key": "padding",
+      "helpText": "This element controls padding values for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224",
+        "name": "Sites Boundary"
+      },
+      "label": "paddingButton",
+      "key": "paddingButton",
+      "helpText": "This element controls paddingButton values for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5",
+        "name": "Sites Alignment"
+      },
+      "label": "alignment",
+      "key": "alignment",
+      "allowMultipleValues": false,
+      "locked": false,
+      "helpText": "This element controls horizontal alignment for this block"
+    },
+    {
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Image"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af",
+        "name": "Sites Background"
+      },
+      "label": "background",
+      "key": "background",
+      "locked": false,
+      "helpText": "This element controls background for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "373c81a5-d86b-4740-8f11-62fcbccfca08",
+        "name": "Sites Text"
+      },
+      "label": "text Style",
+      "key": "textStyle",
+      "locked": false,
+      "helpText": "This element controls textStyle for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
+        "name": "Sites Color"
+      },
+      "label": "buttonTextColor",
+      "key": "buttonTextColor",
+      "locked": false,
+      "helpText": "This element controls buttonTextColor for this block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
+        "name": "Sites Color"
+      },
+      "label": "linkColor",
+      "key": "linkColor",
+      "locked": false,
+      "helpText": "This element controls linkColor for this block"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Promotion HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "Promotion style",
+          "groups": [
+            {
+              "name": "General",
+              "elements": [
+                "background",
+                "padding"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "Text",
+              "elements": [
+                "label",
+                "text",
+                "textStyle",
+                "linkColor"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "Button",
+              "elements": [
+                "buttonLabel",
+                "buttonColor",
+                "paddingButton",
+                "buttonTextColor",
+                "URL"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "Image",
+              "elements": [
+                "image"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        },
+        {
+          "name": "layouts",
+          "elements": [
+            "textColor",
+            "textSize",
+            "blockColor"
+          ],
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sites-divider-layout",
+  "rev": "156-ba4b55dd4a590d3fdc615847aa63f7c0",
+  "name": "sitesDividerLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-divider-layout.jpg"
+  },
+  "template": "/templates/sites-divider-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-divider-layout/{id}.html"
+}

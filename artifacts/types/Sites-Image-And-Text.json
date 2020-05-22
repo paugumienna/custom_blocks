@@ -1,0 +1,96 @@
+{
+  "id": "bee26b87-bbcf-454b-9dc6-7a909ab13fd1",
+  "rev": "156-7d81ae8b8ec2fd811bb207a4976950b8",
+  "name": "Sites Image And Text",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents a combination of image and accompanying text",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "helpText": "This element controls the background defintion for this block",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the common settings for this text block",
+      "key": "commonSettings",
+      "label": "Common Settings",
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The text data for this block",
+      "key": "text",
+      "label": "Text",
+      "typeRef": {
+        "id": "373c81a5-d86b-4740-8f11-62fcbccfca08"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Image",
+      "typeRef": {
+        "id": "c8295d37-7235-495e-8d40-f3b8bafe4099"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the image and text layout to be applied to this block.",
+      "key": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "label": "Image Left",
+          "selection": "image-left"
+        },
+        {
+          "label": "Image Right",
+          "selection": "image-right"
+        },
+        {
+          "label": "Image Bottom",
+          "selection": "image-bottom"
+        },
+        {
+          "label": "Image Top",
+          "selection": "image-top"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

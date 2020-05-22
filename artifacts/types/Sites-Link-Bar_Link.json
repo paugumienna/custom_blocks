@@ -1,0 +1,48 @@
+{
+  "id": "cb8d79cb-466d-40fa-8691-d13da424069f",
+  "rev": "153-5f2392161cf08465a85a1a62ce8f90f2",
+  "name": "Link Bar Link",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "External pages",
+          "selection": "externalPages"
+        },
+        {
+          "label": "Sites pages",
+          "selection": "sitesPages"
+        }
+      ],
+      "label": "Type of link",
+      "key": "linkOptions",
+      "required": false
+    },
+    {
+      "elementType": "text",
+      "label": "Name",
+      "key": "name"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "7ff6d01f-5dad-43c8-9e05-14eccb782a3a"
+      },
+      "label": "URL Link",
+      "key": "urlLink"
+    },
+    {
+      "elementType": "text",
+      "label": "key",
+      "key": "key"
+    }
+  ]
+}

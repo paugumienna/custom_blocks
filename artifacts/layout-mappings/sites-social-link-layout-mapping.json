@@ -1,0 +1,24 @@
+{
+  "id": "sites-social-link-layout-mapping",
+  "rev": "156-244d6dc5645d28efef31f3ae56f3c315",
+  "name": "sitesSocialLinkLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "98f24456-bf11-4248-bca9-07e273b8dbc4"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-social-link-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-social-link-layout"
+        }
+      ]
+    }
+  ]
+}

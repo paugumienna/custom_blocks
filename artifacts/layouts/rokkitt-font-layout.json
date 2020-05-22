@@ -1,0 +1,13 @@
+{
+  "id": "7b84ecfc-b99f-4167-a9d0-b625ab04eedd",
+  "rev": "143-d501aa356c86de8f9650770719141e21",
+  "name": "Rokkitt Font Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/rokkitt-font-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/rokkitt/{id}.html"
+}

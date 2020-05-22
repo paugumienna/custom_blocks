@@ -1,0 +1,19 @@
+{
+  "id": "526bc3b7-527c-482f-98f1-384183b7ddc2",
+  "rev": "154-936d8b6419c2ed0d51df8c2e7c9a7854",
+  "name": "📰 Font Module Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body",
+    "mode:json"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/font-module-layout.png"
+  },
+  "template": "/templates/font-module-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/font-module/{id}.html"
+}

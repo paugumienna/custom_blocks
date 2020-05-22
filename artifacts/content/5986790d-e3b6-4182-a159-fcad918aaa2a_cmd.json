@@ -1,0 +1,116 @@
+{
+  "rev": "142-4ece74d76d13a476e3090c6dc9ef8d10",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:52.126Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Palette with some fancy values.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [],
+  "elements": {
+    "success": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "green"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "f3955346-1193-4be5-acf4-27a0bfbef872"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "warning": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "red"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "99e68466-2de0-4a3c-a637-390923dd4d41"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "secondary": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "green"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "b34f1ab2-9588-430e-8421-e34ff60e6084"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "info": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "yellow"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "4e094cd6-3e33-469f-91a7-bae904168d1c"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "primary": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "navy"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "20b62199-9860-4b7e-ba7b-beb6fa933039"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "danger": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "crimson"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "d2d54cbf-2cdc-40a1-bd63-a5aae7bb2130"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    }
+  },
+  "name": "🎨 Fancy Theme Palette",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "1772170a-46d8-4af1-b967-dee816749c78",
+  "id": "5986790d-e3b6-4182-a159-fcad918aaa2a",
+  "lastModified": "2020-05-21T06:21:52.126Z",
+  "systemModified": "2020-05-21T06:21:52.126Z",
+  "status": "ready"
+}

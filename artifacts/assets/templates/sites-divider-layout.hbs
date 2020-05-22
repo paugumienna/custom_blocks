@@ -1,0 +1,51 @@
+<!-- Sites Divider Layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+  data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="display:flex;
+ {{#eq alignment.alignmentOptions "left"}}
+justify-content:flex-start;{{/eq~}}
+
+ {{#eq alignment.alignmentOptions "center"}}
+justify-content:center;{{/eq~}}
+ {{#eq alignment.alignmentOptions "right"}}
+justify-content:flex-end;{{/eq~}}
+    {{~#if margin}}
+    margin: {{{margin.$markup}}}; {{/if~}}
+    {{~#if padding}} padding: {{{padding.$markup}}}; {{/if~}}
+    {{#if background~}}{{{background.$markup}}}{{~/if}}
+">
+  <hr style="{{{alignment.$markup}}}
+    {{~#if opacity}} opacity:{{divide opacity 100}};{{/if~}}
+    {{~#if lineWeight}}
+    border-width:{{lineWeight}}px 0px 0px 0px;{{/if~}}
+    {{~#if lineColor.colorCode}}
+    border-color:{{lineColor.colorCode}};{{/if~}}
+    {{~#if lineType}}
+    border-style:{{lineType}};
+   {{/if~}}
+    {{~#if lineWidth}} width: {{{lineWidth}}}{{{unit}}}; {{/if~}}
+    {{~#if background}} background-color: {{{background.backgroundColor.colorCode}}}; {{/if~}}  {{~#if backgroundGradient.includeGradient }}
+        {{#eq backgroundGradient.gradientType "Vertical linear gradient"}} background-image:linear-gradient({{backgroundGradient.color1 }},
+	    {{backgroundGradient.color2}}) !important; {{/eq~}}
+        {{#eq backgroundGradient.gradientType "Horizontal linear gradient"}}
+	    background-image: linear-gradient(to right,
+        {{backgroundGradient.color1 }}, {{backgroundGradient.color2}}) !important; {{/eq~}}
+	    {{#eq backgroundGradient.gradientType "Radial gradient"}}
+        background-image: radial-gradient({{backgroundGradient.color1 }},
+	{{backgroundGradient.color2}}) !important; {{/eq~}}
+    {{~/if~}}
+    {{~#if background.includeBackgroundImage}}
+    background-image: url({{$context.hub.resourceUrl.origin}}{{background.image.renditions.default.url}});{{/if}}
+    {{#eq background.fillOptions 'center'}}
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:center;{{/eq}}
+        {{#eq background.fillOptions 'tile'}}
+        background-repeat: repeat;
+        background-size: contain;{{/eq}}
+        {{#eq background.fillOptions 'full-width'}}
+        background-size: cover;
+        background-repeat: no-repeat;{{/eq}}
+        {{#eq alignment.alignmentOptions "left"}}margin-left:0;{{/eq~}}
+        {{#eq alignment.alignmentOptions "right"}}margin-right:0;{{/eq~}}">
+</div>
+<!-- End Sites Divider Layout -->

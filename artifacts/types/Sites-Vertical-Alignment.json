@@ -1,0 +1,42 @@
+{
+  "id": "1643163e-b29f-4509-8295-aa9f47dfca7b",
+  "rev": "153-98d0d4e172b70a34c905686e667e730a",
+  "name": "Sites Vertical Alignment",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This element controls block alignment",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the block alignment",
+      "key": "alignmentOptions",
+      "label": "Vertical alignment",
+      "options": [
+        {
+          "label": "Top",
+          "selection": "top"
+        },
+        {
+          "label": "Center",
+          "selection": "center"
+        },
+        {
+          "label": "Bottom",
+          "selection": "bottom"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

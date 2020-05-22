@@ -1,0 +1,101 @@
+{
+  "fileName": "rokkitt.png",
+  "metadata": {
+    "width": 331,
+    "height": 332
+  },
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "caption": "",
+  "mediaId": "0ecda5cf-317c-4ad2-87d6-ac4894b2ffc2",
+  "path": "/dxdam/c2/c2cddce6-291c-4db5-a0de-ee116e2c247a/rokkitt.png",
+  "digest": "nwj3qkr0ZNrxJ10M0uKvxA==",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "renditions": {
+    "default": {
+      "id": "r=92f683b2-cc55-4ce5-a367-ba7aa9515045&a=0c0b5e0c-c35f-4921-a633-fbcc7753150c",
+      "source": "/authoring/v1/resources/92f683b2-cc55-4ce5-a367-ba7aa9515045"
+    }
+  },
+  "id": "0c0b5e0c-c35f-4921-a633-fbcc7753150c",
+  "usageRights": {
+    "categories": []
+  },
+  "systemModified": "2020-05-21T06:19:18.189Z",
+  "rev": "197-02fc11d8eabd12a968c9dc8e86e2e9d0",
+  "altText": "",
+  "resource": "92f683b2-cc55-4ce5-a367-ba7aa9515045",
+  "created": "2020-05-21T06:19:16.989Z",
+  "mediaType": "image/png",
+  "classification": "asset",
+  "assetType": "image",
+  "tags": {
+    "suggested": [
+      "classification:written document",
+      "classification:gazette",
+      "classification:newspaper",
+      "classification:medium",
+      "classification:zinnia",
+      "classification:flower",
+      "classification:flowering plant",
+      "classification:plant",
+      "classification:fringe tree",
+      "classification:tree",
+      "classification:tulip tree",
+      "classification:print media",
+      "classification:olive green color",
+      "classification:orange color"
+    ],
+    "declined": [],
+    "values": [
+      "classification:written document",
+      "classification:gazette",
+      "classification:newspaper",
+      "classification:medium",
+      "classification:zinnia",
+      "classification:flower",
+      "classification:flowering plant",
+      "classification:plant",
+      "classification:fringe tree",
+      "classification:tree",
+      "classification:tulip tree",
+      "classification:print media",
+      "classification:olive green color",
+      "classification:orange color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "categoryIds": [],
+  "cognitive": {
+    "classifications": [
+      "written document",
+      "gazette",
+      "newspaper",
+      "medium",
+      "zinnia",
+      "flower",
+      "flowering plant",
+      "plant",
+      "fringe tree",
+      "tree",
+      "tulip tree",
+      "print media",
+      "olive green color",
+      "orange color"
+    ],
+    "colors": {
+      "lightMuted": "#c4bcb4",
+      "darkMuted": "#554c43",
+      "lightVibrant": "#c4bcb4",
+      "vibrant": "#8e7f70",
+      "muted": "#b8b4ac",
+      "darkVibrant": "#4a423a"
+    },
+    "status": "complete"
+  },
+  "fileSize": 24308,
+  "name": "rokkitt.png",
+  "lastModified": "2020-05-21T06:19:18.189Z",
+  "status": "ready"
+}

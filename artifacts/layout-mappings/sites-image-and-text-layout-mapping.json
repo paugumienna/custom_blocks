@@ -1,0 +1,24 @@
+{
+  "id": "sites-image-and-text-layout-mapping",
+  "rev": "156-91f446c874d6b2e6d1e0e5cb5d37d781",
+  "name": "sitesImageAndTextLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "bee26b87-bbcf-454b-9dc6-7a909ab13fd1"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-image-and-text-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-image-and-text-layout"
+        }
+      ]
+    }
+  ]
+}

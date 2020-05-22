@@ -1,0 +1,16 @@
+{
+  "id": "sites-image-and-text-layout",
+  "rev": "156-f3c54bbb088e46100bf01441d64aa430",
+  "name": "sitesImageAndTextLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-image-and-text-layout.jpg"
+  },
+  "template": "/templates/sites-image-and-text-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-image-and-text-layout/{id}.html"
+}

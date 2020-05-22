@@ -1,0 +1,133 @@
+{
+  "id": "ba8963a2-6c05-40dc-9bd4-02f817b2db84",
+  "rev": "153-92bb1d2e7271dd6ea16a2a0f5e5ac33c",
+  "name": "Typography Font Style",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Bellota",
+          "selection": "Bellota"
+        },
+        {
+          "label": "Cinzel",
+          "selection": "Cinzel"
+        },
+        {
+          "label": "Eb Garamond",
+          "selection": "Eb Garamond"
+        },
+        {
+          "label": "Fira Code",
+          "selection": "Fira Code"
+        },
+        {
+          "label": "Maven Pro",
+          "selection": "Maven Pro"
+        },
+        {
+          "label": "Merriweather",
+          "selection": "Merriweather"
+        },
+        {
+          "label": "Montserrat",
+          "selection": "Montserrat"
+        },
+        {
+          "label": "National 2",
+          "selection": "National 2"
+        },
+        {
+          "label": "Open Sans",
+          "selection": "Open Sans"
+        },
+        {
+          "label": "Open Sans Condensed",
+          "selection": "Open Sans Condensed"
+        },
+        {
+          "label": "Oswald",
+          "selection": "Oswald"
+        },
+        {
+          "label": "PT Serif",
+          "selection": "PT Serif"
+        },
+        {
+          "label": "Quicksand",
+          "selection": "Quicksand"
+        },
+        {
+          "label": "Rokkitt",
+          "selection": "Rokkitt"
+        },
+        {
+          "label": "Roboto",
+          "selection": "Roboto"
+        },
+        {
+          "label": "Rosario",
+          "selection": "Rosario"
+        },
+        {
+          "label": "Ruda",
+          "selection": "Ruda"
+        },
+        {
+          "label": "Source Sans Pro",
+          "selection": "Source Sans Pro"
+        },
+        {
+          "label": "Times New Roman",
+          "selection": "Times New Roman"
+        },
+        {
+          "label": "Work Sans",
+          "selection": "Work Sans"
+        }
+      ],
+      "label": "Font",
+      "key": "fontFamily",
+      "allowMultipleValues": false
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Light",
+          "selection": "200"
+        },
+        {
+          "label": "Regular",
+          "selection": "400"
+        },
+        {
+          "label": "Medium",
+          "selection": "500"
+        },
+        {
+          "label": "Bold",
+          "selection": "700"
+        }
+      ],
+      "label": "Weight",
+      "key": "fontWeight"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "a8a90f38-5641-41ed-a7eb-ccd69c2d873c"
+      },
+      "label": "Styles",
+      "key": "fontStyleToggles"
+    }
+  ]
+}

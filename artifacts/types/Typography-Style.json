@@ -1,0 +1,76 @@
+{
+  "id": "9785924f-f964-4116-b3cc-73266b099245",
+  "rev": "156-136553b31803fd32e0367371621d9390",
+  "name": "Typography Style",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "4307db69-470c-487d-954b-8e2e0b573e2f"
+      },
+      "label": "HEADINGS",
+      "key": "typographyHeadings"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "af90edef-5625-48aa-b45d-76efa81c2a97"
+      },
+      "label": "BODY",
+      "key": "typographyBody"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "e0c98c95-3059-4068-bed2-86a25a175862"
+      },
+      "label": "LINK",
+      "key": "typographyLink"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "tabs": [
+        {
+          "name": "typography",
+          "groups": [
+            {
+              "name": "typographyHeadings",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "typographyHeadings"
+              ]
+            },
+            {
+              "name": "typographyBody",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "typographyBody"
+              ]
+            },
+            {
+              "name": "typographyLink",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "typographyLink"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "6854f419-3b8b-4410-8d33-134a485d05a3",
+  "rev": "156-f4ad99ac182a8c5c10e6c215c1c8015b",
+  "name": "Sites Navigation Component",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This block renders the navigation for the current site",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the navigation nesting level to start from.",
+      "key": "startingWithNavigationLevel",
+      "label": "Starting with Navigation Level",
+      "required": true
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the number of navigation nesting levels to show.",
+      "key": "numberOfNavigationLevels",
+      "label": "Number of Navigation Levels",
+      "required": true
+    }
+  ]
+}

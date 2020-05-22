@@ -1,0 +1,156 @@
+{
+  "id": "ac299073-48a2-446d-987d-d893257abdb3",
+  "rev": "156-733fbd528cc58064164947f8703d3669",
+  "name": "Sites HB Text",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "formattedtext",
+      "helpText": "The actual formatted text",
+      "key": "text",
+      "label": "text",
+      "placeholder": {
+        "show": true,
+        "text": "Text"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this text block",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the margin values for this text block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Primary",
+          "selection": "Primary"
+        },
+        {
+          "label": "Inverse",
+          "selection": "Inverse"
+        }
+      ],
+      "label": "Text color scheme",
+      "key": "textColorScheme",
+      "uiExtensions": {
+        "elementBuiltin": "TextSelectionExtension",
+        "elementConfig": {}
+      }
+    },
+    {
+      "elementType": "group",
+      "key": "border",
+      "label": "Border",
+      "typeRef": {
+        "id": "f69aa31c-7dfe-4e1f-905a-3ce8240ac4e4"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the text opacity",
+      "key": "opacity",
+      "label": "Opacity",
+      "uiExtensions": {
+        "elementBuiltin": "OpacitySliderExtension",
+        "elementConfig": {
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Horizontal alignment",
+      "key": "horizontalAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "Background",
+      "key": "background"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "tabs": [
+        {
+          "name": "style",
+          "elements": [
+            "opacity"
+          ],
+          "groups": [
+            {
+              "name": "color",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "textColorScheme"
+              ]
+            },
+            {
+              "name": "spacing",
+              "type": "twisty",
+              "initialState": "collapsed",
+              "elements": [
+                "padding",
+                "margin",
+                "horizontalAlignment"
+              ]
+            },
+            {
+              "name": "background",
+              "type": "twisty",
+              "initialState": "collapsed",
+              "elements": [
+                "background"
+              ]
+            },
+            {
+              "name": "border",
+              "type": "twisty",
+              "initialState": "collapsed",
+              "elements": [
+                "border"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

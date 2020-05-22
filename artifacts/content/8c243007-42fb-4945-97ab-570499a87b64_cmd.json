@@ -1,0 +1,160 @@
+{
+  "rev": "140-d3fb45432cf6072f45833814b1382ad0",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:54.510Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Palette with the Bootstrap default values.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [],
+  "elements": {
+    "success": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#cfdda4"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "f3955346-1193-4be5-acf4-27a0bfbef872"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "mono": {
+      "elementType": "reference",
+      "value": {
+        "id": "be6a57e7-dc51-4213-a025-a1be9a7b3d10"
+      }
+    },
+    "warning": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#81915e"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "99e68466-2de0-4a3c-a637-390923dd4d41"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "secondary": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "lightgray"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "b34f1ab2-9588-430e-8421-e34ff60e6084"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "info": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#607234"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "4e094cd6-3e33-469f-91a7-bae904168d1c"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "dark": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#f0ad4e"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "5b236bc4-2ab1-4ce4-90c7-06dde1115170"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "base": {
+      "elementType": "reference",
+      "value": {
+        "id": "9e72ad20-d65a-4e06-afa2-794edfa71d79"
+      }
+    },
+    "light": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#f0ad4e"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "4e51cc6a-2e6e-4f62-8886-917d8a219326"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "primary": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#a3cb37"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "20b62199-9860-4b7e-ba7b-beb6fa933039"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "danger": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#ccc4c9"
+        },
+        "key": {
+          "elementType": "text",
+          "value": "d2d54cbf-2cdc-40a1-bd63-a5aae7bb2130"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    }
+  },
+  "name": "🎨 California Desert Theme Palette",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "1772170a-46d8-4af1-b967-dee816749c78",
+  "id": "8c243007-42fb-4945-97ab-570499a87b64",
+  "lastModified": "2020-05-21T06:21:54.510Z",
+  "systemModified": "2020-05-21T06:21:54.510Z",
+  "status": "ready"
+}

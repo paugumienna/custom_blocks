@@ -1,0 +1,30 @@
+<!-- Sites Image Layout -->
+
+<div {{#unless image.renditions.default.url}}class="target wch-image-container" {{/unless}} data-wch-editable="{{ $metadata.accessor }}.image.value"
+	data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}" data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="
+	{{~#if horizontalAlignment}} {{{horizontalAlignment.$markup}}} {{/if~}}
+	{{~#if border}}border-style: {{{border.borderType}}}; border-color: {{{border.borderColor.colorCode}}}{{{percenttohex border.borderColor.opacity}}}; border-width: {{{border.borderWidth.$markup}}};  border-radius: {{{border.borderRadius.$markup}}}; {{/if~}}
+	{{~#if opacity}}opacity:{{divide opacity 100}};{{/if~}}
+	{{~#if padding}}padding: {{{padding.$markup}}}; {{/if~}}
+	{{~#if margin}}margin: {{{margin.$markup}}}; {{/if~}}
+  {{#if background~}}{{{background.$markup}}}{{~/if}}
+  ">
+	{{!-- {{~#if image.renditions.default.url ~}} --}}
+  {{#if image.link}}<a href="{{image.link.url}}" target="{{image.link.target}}">{{/if}}
+  {{#if image.url}}
+	<img data-content-item-id="{{$metadata.id}}" data-wch-editable="{{ $metadata.accessor }}.image" class="sites-image-layout"
+	{{#eq useAltTextFromSource true}}alt="{{image.asset.altText}}"{{/eq~}}
+	{{#eq useAltTextFromSource false}}alt="{{image.altText}}"{{/eq~}}
+	src="{{$context.hub.resourceUrl.origin}}{{image.url}}" {{#if image.renditions.default.width}}width="{{ image.renditions.default.width }}"{{/if}}  {{#if image.renditions.default.height}}height="{{ image.renditions.default.height }}"{{/if}}>
+  {{~else~}}
+	<div data-content-item-id="{{$metadata.id}}" data-wch-editable="{{ $metadata.accessor }}.image"></div>
+  {{/if}}
+  {{#if image.link}}</a>{{/if}}
+	{{#if showCaptionOnPage}}<span>{{{caption}}}</span>{{/if}}
+	{{!-- {{~else~}}
+		<div data-content-item-id="{{$metadata.id}}" data-wch-editable="{{ $metadata.accessor }}.image">
+		</div>
+	{{/if~}} --}}
+</div>
+
+<!-- End Sites Image Layout -->

@@ -1,0 +1,27 @@
+{{!-- head contributions of the module --}}
+{{#eq $layoutMode "head"}}
+{{!-- assemble the contributions by the fonts --}}
+{{{base.$markups.head}}}
+{{{mono.$markups.head}}}
+{{/eq}}
+{{!-- body contributions of the module --}}
+{{#eq $layoutMode "body"}}
+{{!-- assemble the contributions by the fonts --}}
+{{{base.$markups.body}}}
+{{{mono.$markups.body}}}
+{{/eq}}
+{{!-- in default mode we create the JSON descriptor for the theme --}}
+{{#unlessEq $layoutMode "head"}}
+{{#unlessEq $layoutMode "body"}}
+{
+  "sites-theme": {{{stringify .}}}
+  {{!-- set the font family --}}
+  {{#if base.$markup}}
+  , "sitesThemeBase": {{{base.$markup}}}
+  {{/if}}
+  {{#if mono.$markup}}
+  , "sitesThemeMono": {{{mono.$markup}}}
+  {{/if}}
+}
+{{/unlessEq}}
+{{/unlessEq}}

@@ -1,0 +1,35 @@
+{
+  "id": "3a3726b8-e0b2-4f10-98ed-b1c82e851b99",
+  "rev": "154-d0a94c3262e3a4c8fff5f21e33ea18b6",
+  "name": "📄 Page Style Contribution",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-style-contribution-type.png"
+  },
+  "description": "A style contribution added as a <link rel=\"stylesheet\" href=\"...\"> element to the page markup",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The URL pointing to the style resource realtive to the resource base URL of this tenant.",
+      "key": "href",
+      "label": "href",
+      "required": true,
+      "role": [
+        "configuration"
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

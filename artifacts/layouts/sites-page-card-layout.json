@@ -1,0 +1,16 @@
+{
+  "id": "sites-page-card-layout",
+  "rev": "156-c7538e805639b452d02767fd1743cbd2",
+  "name": "sitesPageCardLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-image-and-text-layout.jpg"
+  },
+  "template": "/templates/sites-page-card-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-page-card-layout/{id}.html"
+}

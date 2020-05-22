@@ -1,0 +1,16 @@
+{
+  "id": "sites-link-bar-layout",
+  "rev": "156-0d259c7afac52604e3d51113e1544677",
+  "name": "sitesLinkBarLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-link-bar-layout.jpg"
+  },
+  "template": "/templates/sites-link-bar-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-link-bar-layout/{id}.html"
+}

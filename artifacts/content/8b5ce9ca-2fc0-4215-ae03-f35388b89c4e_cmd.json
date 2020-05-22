@@ -1,0 +1,34 @@
+{
+  "rev": "149-3275bb59c46d774644df8c7f9bde9fa9",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/font-module-type.png"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:54.168Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Arial Font definition",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "font"
+  ],
+  "elements": {
+    "fontFamily": {
+      "elementType": "text",
+      "value": "Arial,Helvetica Neue,Helvetica,sans-serif"
+    },
+    "key": {
+      "elementType": "text",
+      "value": "2022b254-5a71-4328-a0f2-495dfae18757"
+    }
+  },
+  "name": "✍️ Arial",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5",
+  "id": "8b5ce9ca-2fc0-4215-ae03-f35388b89c4e",
+  "lastModified": "2020-05-21T06:21:54.168Z",
+  "systemModified": "2020-05-21T06:21:54.168Z",
+  "status": "ready"
+}

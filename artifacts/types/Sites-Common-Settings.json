@@ -1,0 +1,35 @@
+{
+  "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343",
+  "rev": "156-49dfc0a5628aca7c7fc0a16aedc8591c",
+  "name": "Sites Common Settings",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This element defines a set of common settings that can be appied to all blocks",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "toggle",
+      "helpText": "?",
+      "key": "applyToAll",
+      "label": "Apply to all"
+    },
+    {
+      "elementType": "toggle",
+      "helpText": "This element controls if the should not be rendred on mobile devices",
+      "key": "hideOnMobile",
+      "label": "Hide on mobile",
+      "locked": false
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

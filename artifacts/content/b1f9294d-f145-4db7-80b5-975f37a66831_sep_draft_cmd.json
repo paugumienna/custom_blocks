@@ -1,0 +1,39 @@
+{
+  "rev": "2-46f1e75a0d33c6916a469172d5a742d8",
+  "kind": [],
+  "draftStatus": "in-progress",
+  "created": "2020-05-21T06:49:35.954Z",
+  "libraryId": "default",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "tags": [],
+  "valid": true,
+  "linkedDocId": "b1f9294d-f145-4db7-80b5-975f37a66831",
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-navigation-layout"
+      }
+    }
+  ],
+  "elements": {
+    "navigation": {
+      "elementType": "text",
+      "value": "[{\"id\":\"a47f9d31-dcca-477d-87b5-b4aa16b1652b\",\"children\":[]}]"
+    },
+    "defaultPage": {
+      "elementType": "text"
+    },
+    "key": {
+      "elementType": "text"
+    }
+  },
+  "name": "sample site navigation",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "843fb991-7413-4517-bfcb-b59fc4b1f449",
+  "id": "b1f9294d-f145-4db7-80b5-975f37a66831:draft",
+  "lastModified": "2020-05-21T07:01:02.410Z",
+  "systemModified": "2020-05-21T07:01:02.410Z",
+  "status": "draft"
+}

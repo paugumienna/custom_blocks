@@ -1,0 +1,49 @@
+{
+  "id": "98f24456-bf11-4248-bca9-07e273b8dbc4",
+  "rev": "156-0cf018c076941f5f3bb77fea5144ced9",
+  "name": "Sites Social Link",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "description": "This item represents a link to social follow link.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element controls the common settings for this block.",
+      "key": "icon",
+      "label": "Icon"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "e1fa873c-3ed7-4ac1-8df7-57f34d55f419"
+      },
+      "label": "Link Advanced",
+      "key": "linkAdvanced",
+      "allowMultipleValues": false,
+      "required": false
+    },
+    {
+      "elementType": "text",
+      "key": "altText",
+      "helpText": "This element controls the alternative text for this link.",
+      "label": "Alt text"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "SocialLinksContentExtension",
+    "elementConfig": {}
+  }
+}

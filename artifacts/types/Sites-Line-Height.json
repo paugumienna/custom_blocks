@@ -1,0 +1,46 @@
+{
+  "id": "e5e97340-b03b-42ea-9d03-f8bc214f42b0",
+  "rev": "156-aed618756d7317f73393250ba3f76ef9",
+  "name": "Sites Line Height",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This item controls the line hight of a text block",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "This element selects the specific line hight to be applied to a text block",
+      "key": "lineHeightOptions",
+      "label": "Line height options",
+      "options": [
+        {
+          "label": ".8",
+          "selection": "0.8"
+        },
+        {
+          "label": "1",
+          "selection": "1"
+        },
+        {
+          "label": "1.5",
+          "selection": "1.5"
+        },
+        {
+          "label": "2",
+          "selection": "2"
+        }
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

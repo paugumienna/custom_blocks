@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{$metadata.locale}}">
+    <head>
+        {{! Some metadata }}
+        <title>{{$metadata.name}}</title>
+        <meta charset="UTF-8">
+        {{#if $metadata.keywords ~}}
+        <meta name="keywords" content="{{join $metadata.keywords}}">
+        {{/if ~}}
+        {{#if $metadata.description ~}}
+        <meta name="description" content="{{$metadata.description}}">
+        {{/if ~}}
+        {{! WCH config }}
+        <link rel="dns-prefetch" id="wch-config-api-url" href="{{$context.hub.apiUrl.href}}">
+        <link rel="dns-prefetch" id="wch-config-delivery-url" href="{{$context.hub.resourceUrl.href}}">
+        <base href="{{$context.hub.resourceUrl.href}}">
+        {{#forIn $context.seeds ~}}
+        <meta name="wch-config-seed-{{@key}}" content="{{.}}">
+        {{/forIn ~}}
+        {{! WCH performance }}
+        <link rel="preload" crossorigin="anonymous" as="fetch" href="{{$context.hub.apiUrl.href}}delivery/v1/search?fl=document%3A%5Bjson%5D&amp;fq=classification%3A(%22content%22)&amp;q=string1%3A(%22{{encodeURI descriptor.canonicalpath}}%22)&amp;-wch-seed={{encodeURI $context.seeds.content}}">
+        {{#forIn $context.prefetch ~}}
+        <link rel="prefetch" crossorigin="anonymous" as="fetch" href="{{../$context.hub.apiUrl.href}}{{.}}">
+        {{/forIn ~}}
+        {{! Head contributions from the profile }}
+        {{{descriptor.site.$markups.head}}}
+    </head>
+    <body>
+        <app-root>
+        {{! The actual content of the page }}
+
+		<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+		  class="container-fluid sites-rows-layout-container"
+		  style="
+		    {{~#if backgroundColor.colorCode}} background-color: {{backgroundColor.colorCode}}; {{/if}}
+		    {{~#if width}}width: {{width}}px; {{/if}}
+		    {{~#if padding}}padding: {{{padding.$markup}}}; {{/if}}
+		    {{~#if margin}}margin: {{{margin.$markup}}}; {{/if}}"
+		  data-id="{{id}}">
+
+		  {{#each rows}}
+		  <div data-key="{{key}}">{{{$markup}}}</div>
+		  {{/each}}
+
+		</div>
+
+        </app-root>
+        {{! Body contributions from the profile }}
+        {{{descriptor.site.$markups.body}}}
+
+<!-- {{{stringify .}}} -->
+    </body>
+</html>

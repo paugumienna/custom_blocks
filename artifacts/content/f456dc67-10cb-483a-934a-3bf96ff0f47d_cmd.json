@@ -1,0 +1,69 @@
+{
+  "rev": "143-36c0988b834f03fb0593968735f023ed",
+  "thumbnail": {
+    "id": "0c0b5e0c-c35f-4921-a633-fbcc7753150c"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:59.588Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Self hosted Rokkitt font",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "font"
+  ],
+  "elements": {
+    "fontFamily": {
+      "elementType": "text",
+      "value": "'Rokkitt', serif"
+    },
+    "head": {
+      "values": [
+        {
+          "key": {
+            "elementType": "text",
+            "value": "3965e401-5d70-42db-99af-90ffdf714cf3"
+          },
+          "mode": {
+            "elementType": "optionselection",
+            "value": {
+              "selection": "always"
+            }
+          },
+          "reference": {
+            "values": [
+              {
+                "id": "1ba340ac-f47a-4552-a9c3-2d7cb41cafad"
+              }
+            ],
+            "elementType": "reference"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    "key": {
+      "elementType": "text",
+      "value": "2022b254-5a71-4328-a0f2-495dfae18757"
+    },
+    "preview": {
+      "mode": "shared",
+      "asset": {
+        "id": "0c0b5e0c-c35f-4921-a633-fbcc7753150c"
+      },
+      "elementType": "image"
+    }
+  },
+  "name": "Rokkitt",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5",
+  "id": "f456dc67-10cb-483a-934a-3bf96ff0f47d",
+  "lastModified": "2020-05-21T06:21:59.588Z",
+  "systemModified": "2020-05-21T06:21:59.588Z",
+  "status": "ready"
+}

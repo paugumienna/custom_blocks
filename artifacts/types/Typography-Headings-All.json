@@ -1,0 +1,30 @@
+{
+  "id": "7629518a-9175-4f38-92f4-ba4edb8408f1",
+  "rev": "153-c41132e7be30beeeb92aadf4fec47479",
+  "name": "Typography Headings All",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "ba8963a2-6c05-40dc-9bd4-02f817b2db84"
+      },
+      "label": "Font Style",
+      "key": "headingFontStyle"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "4c49edb5-459a-4b76-a74d-c6bd1498223d"
+      },
+      "label": "Font Color",
+      "key": "headingFontColor"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "list-hbs-layout-mapping",
+  "rev": "80-bde38ebf220942b7634e7833f9e3b698",
+  "name": "List HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "baaaaaaa-bbbb-cccc-eeee-000000000000",
+    "name": "List HBS Layout Type"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "list-hbs-layout",
+        "name": "List HBS Layout"
+      },
+      "layouts": [
+        {
+          "id": "list-hbs-layout",
+          "name": "List HBS Layout"
+        }
+      ]
+    }
+  ]
+}

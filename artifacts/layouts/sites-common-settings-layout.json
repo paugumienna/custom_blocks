@@ -1,0 +1,16 @@
+{
+  "id": "sites-common-settings-layout",
+  "rev": "156-965ba320c03bba12de9dbb46c61cbe20",
+  "name": "sitesCommonSettingsLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-common-settings-layout.jpg"
+  },
+  "template": "/templates/sites-common-settings-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-common-settings-layout/{id}.html"
+}

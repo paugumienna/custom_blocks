@@ -1,0 +1,24 @@
+{
+  "id": "sites-color-layout-mapping",
+  "rev": "156-3959c2cff10cdc7dbd48535a481b57e8",
+  "name": "sitesColorLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-color-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-color-layout"
+        }
+      ]
+    }
+  ]
+}

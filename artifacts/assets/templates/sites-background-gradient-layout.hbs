@@ -1,0 +1,6 @@
+{{#eq gradient.gradientType "Linear"}}
+  background: linear-gradient({{#each gradientOptions}}{{gradientColor}}{{/each}}) !important;
+{{/eq~}}
+{{#eq gradient.gradientType "Radial"}}
+  background: radial-gradient({{#each gradientOptions}}{{gradientColor}}{{/each}}) !important;
+{{/eq~}}

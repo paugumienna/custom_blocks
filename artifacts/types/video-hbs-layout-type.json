@@ -1,0 +1,46 @@
+{
+  "id": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "36-47e37629134d85a06fe959d942839929",
+  "name": "Video HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Video HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "video",
+      "helpText": "This element holds the reference to the video asset",
+      "key": "video",
+      "label": "Video"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Video HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "Settings",
+          "elements": [
+            "video"
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "styling-layout-mapping",
+  "rev": "156-ccaa96dd2317179340c848ee3b47f600",
+  "name": "stylingLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "a93f6a4a-d086-4bb1-9bb4-69fe9cc75cdb"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "styling-layout"
+      },
+      "layouts": [
+        {
+          "id": "styling-layout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "1bf63f43-ae44-450e-a46d-93f132d688e4",
+  "rev": "154-e79ca15521edd4b0ba5cde8277d68967",
+  "name": "🗺️ Page Markup Contribution Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "2b0cd235-16ad-42ec-aea7-a05df105604c"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "1d24ecbe-27c1-4dc4-9dac-cf886fb7aa15"
+      },
+      "layouts": [
+        {
+          "id": "1d24ecbe-27c1-4dc4-9dac-cf886fb7aa15"
+        }
+      ]
+    }
+  ]
+}

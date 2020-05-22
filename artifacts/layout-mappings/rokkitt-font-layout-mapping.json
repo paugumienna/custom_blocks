@@ -1,0 +1,24 @@
+{
+  "id": "06168220-c3b4-494a-a013-661345c71fa8",
+  "rev": "143-c56d0d0fcee448399366fc4fc2e3a957",
+  "name": "Rokkitt Font Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "e4342a12-031f-41c2-848d-c2ca699b15c2"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "7b84ecfc-b99f-4167-a9d0-b625ab04eedd"
+      },
+      "layouts": [
+        {
+          "id": "7b84ecfc-b99f-4167-a9d0-b625ab04eedd"
+        }
+      ]
+    }
+  ]
+}

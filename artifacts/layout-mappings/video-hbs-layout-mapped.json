@@ -1,0 +1,24 @@
+{
+  "id": "video-hbs-layout-mapping",
+  "rev": "36-277785f23a3a775b340d7e9332cb9bed",
+  "name": "Video HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "3aaaaaaa-bbbb-cccc-eeee-000000000000"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "video-hbs-layout"
+      },
+      "layouts": [
+        {
+          "id": "video-hbs-layout"
+        }
+      ]
+    }
+  ]
+}

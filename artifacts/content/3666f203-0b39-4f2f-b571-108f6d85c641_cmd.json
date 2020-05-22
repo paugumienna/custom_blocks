@@ -1,0 +1,99 @@
+{
+  "rev": "153-7615454bbd6c559d000abe9fc4897e81",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:51.178Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-image-layout"
+      }
+    }
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        },
+        "top": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "image": {
+      "elementType": "image"
+    },
+    "commonSettings": {
+      "elementType": "group",
+      "value": {
+        "applyToAll": {
+          "elementType": "toggle",
+          "value": false
+        },
+        "hideOnMobile": {
+          "elementType": "toggle",
+          "value": false
+        }
+      },
+      "typeRef": {
+        "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
+      }
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number"
+        },
+        "left": {
+          "elementType": "number"
+        },
+        "right": {
+          "elementType": "number"
+        },
+        "top": {
+          "elementType": "number"
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    }
+  },
+  "name": "Image",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "c8295d37-7235-495e-8d40-f3b8bafe4099",
+  "id": "3666f203-0b39-4f2f-b571-108f6d85c641",
+  "lastModified": "2020-05-21T06:21:51.178Z",
+  "systemModified": "2020-05-21T06:21:51.178Z",
+  "status": "ready"
+}

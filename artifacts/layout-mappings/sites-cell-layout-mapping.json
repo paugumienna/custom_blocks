@@ -1,0 +1,24 @@
+{
+  "id": "sites-cell-layout-mapping",
+  "rev": "156-7eb509c33856d79855385660e452686f",
+  "name": "sitesCellLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "d1e4dd37-8ac5-43a9-9145-1f194053b27c"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-cell-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-cell-layout"
+        }
+      ]
+    }
+  ]
+}

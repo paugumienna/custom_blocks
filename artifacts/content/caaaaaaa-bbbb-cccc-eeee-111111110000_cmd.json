@@ -1,0 +1,88 @@
+{
+  "rev": "67-f90e5316a95b85b4d08006e6ffc1992b",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:33:10.525Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "blockColor": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "label": {
+      "elementType": "text",
+      "value": "Label text"
+    },
+    "textColor": {
+      "elementType": "optionselection"
+    },
+    "textSize": {
+      "elementType": "optionselection"
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    }
+  },
+  "name": "Complex HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "caaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "caaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-21T06:33:10.525Z",
+  "systemModified": "2020-05-21T06:33:10.525Z",
+  "status": "ready"
+}

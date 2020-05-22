@@ -1,0 +1,37 @@
+{{~#eq fillOptions 'Solid color'}}background-color: {{{backgroundColor.colorCode}}}{{{percenttohex backgroundColor.opacity}}};{{/eq~}}
+{{~#eq fillOptions 'Background image'}}
+  {{~#if imageBackground.image~}}
+    background-image: url({{$context.hub.resourceUrl.origin}}{{imageBackground.image.url}}); background-position: {{imageBackground.backgroundPositionY}} {{imageBackground.backgroundPositionX}};
+    {{~#eq imageBackground.display 'center'~}}
+      background-size: contain; background-repeat: no-repeat;
+    {{~/eq~}}
+    {{~#eq imageBackground.display 'tile'~}}
+      background-repeat: repeat; background-size: contain;
+    {{~/eq~}}
+    {{~#eq imageBackground.display 'full-width'~}}
+      background-size: cover; background-repeat: no-repeat;
+    {{~/eq~}}
+    {{~#eq imageBackground.display 'fill'~}}
+      background-size: auto; background-repeat: no-repeat;
+    {{~/eq~}}
+  {{~/if~}}
+{{~/eq~}}
+{{~#eq fillOptions 'Gradient'}}
+  {{~#eq gradient.gradientType 'Linear'~}}
+    background-image: linear-gradient({{gradient.angle}}deg,
+    {{~#each gradient.gradientOptions~}}
+      {{gradientColor}}{{percenttohex colorOpacity}} {{stop}}% {{~#unless @last}},{{~/unless~}}
+    {{~/each}}) !important;
+  {{~/eq~}}
+  {{~#eq gradient.gradientType 'Radial'~}}
+    background-image: radial-gradient({{#eq gradient.shape 'circle'}}circle{{/eq}} {{#eq gradient.shape 'ellipse'}}ellipse{{/eq}} at
+    {{~#eq gradient.position 'center'}} center{{/eq~}}
+    {{~#eq gradient.position 'top left'}} top left{{/eq~}}
+    {{~#eq gradient.position 'top right'}} top right{{/eq~}}
+    {{~#eq gradient.position 'bottom right'}} bottom right{{/eq~}}
+    {{~#eq gradient.position 'bottom left'}} bottom left{{/eq~}},
+    {{~#each gradient.gradientOptions~}}
+      {{~gradientColor}}{{percenttohex colorOpacity}} {{stop}}% {{~#unless @last}},{{~/unless~}}
+    {{~/each~}}) !important;
+  {{~/eq~}}
+{{~/eq~}}

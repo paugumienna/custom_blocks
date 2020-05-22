@@ -1,0 +1,14 @@
+<!-- Sites Cell Layout -->
+
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+  style="display: block; width: 100%; min-height: 1rem;
+    {{~#if padding}}padding: {{{padding.$markup}}}; {{/if}}
+    {{~#if margin}}margin: {{{margin.$markup}}}; {{/if}}">
+
+    {{#each content}}
+    <div style="display: block;">{{{$markup}}}</div>
+    {{/each}}
+
+</div>
+
+<!-- End Sites Cell Layout -->

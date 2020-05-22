@@ -1,0 +1,110 @@
+{
+  "id": "baaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "133-79293211b2330e06fcbc44c784ee98f3",
+  "name": "List HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "List HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Ordered list",
+          "selection": "ol"
+        },
+        {
+          "label": "Unordered list",
+          "selection": "ul"
+        }
+      ],
+      "label": "List type",
+      "key": "listType"
+    },
+    {
+      "elementType": "text",
+      "helpText": "The tlist title",
+      "key": "listTitle",
+      "label": "List title",
+      "placeholder": {
+        "show": true,
+        "text": "List title"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "First element",
+      "key": "firstElement",
+      "label": "First element",
+      "placeholder": {
+        "show": true,
+        "text": "First element"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Second element",
+      "key": "secondElement",
+      "label": "Second element",
+      "placeholder": {
+        "show": true,
+        "text": "Second element"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Third element",
+      "key": "thirdElement",
+      "label": "Third element",
+      "placeholder": {
+        "show": true,
+        "text": "Third element"
+      }
+    },
+    {
+      "elementType": "toggle",
+      "key": "showListTitle",
+      "label": "Show list title"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "List HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "listTitle",
+            "listType",
+            "firstElement",
+            "secondElement",
+            "thirdElement"
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

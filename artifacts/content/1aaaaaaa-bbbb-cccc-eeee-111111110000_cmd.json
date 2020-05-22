@@ -1,0 +1,51 @@
+{
+  "rev": "71-456fe264da7243f7b8329f2c70291f8e",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:33:10.514Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "year": {
+      "elementType": "text",
+      "value": "2020"
+    },
+    "lastName": {
+      "elementType": "text",
+      "value": "Doe"
+    },
+    "firstName": {
+      "elementType": "text",
+      "value": "John"
+    },
+    "dateFormat": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "DD/MM/YYYY"
+      }
+    },
+    "day": {
+      "elementType": "text",
+      "value": "01"
+    },
+    "month": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "01"
+      }
+    }
+  },
+  "name": "Date HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "1aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "id": "1aaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-21T06:33:10.514Z",
+  "systemModified": "2020-05-21T06:33:10.514Z",
+  "status": "ready"
+}

@@ -1,0 +1,74 @@
+{
+  "fileName": "acoustic4.jpg",
+  "metadata": {
+    "width": 150,
+    "height": 150
+  },
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "caption": "",
+  "mediaId": "8d6db50f-3a8a-4d46-8d48-df458a0147b2",
+  "path": "/dxdam/cb/cb25d0d7-035b-4746-b4a7-8c4902365132/acoustic4.jpg",
+  "digest": "mskEzGxT5EtP7WW4YMsk6A==",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "renditions": {
+    "default": {
+      "id": "r=e7eeab50-7732-403f-ae3a-1801b1ad792e&a=cb25d0d7-035b-4746-b4a7-8c4902365132",
+      "source": "/authoring/v1/resources/e7eeab50-7732-403f-ae3a-1801b1ad792e"
+    }
+  },
+  "id": "cb25d0d7-035b-4746-b4a7-8c4902365132",
+  "usageRights": {
+    "categories": []
+  },
+  "systemModified": "2020-05-21T06:19:17.524Z",
+  "rev": "214-3324d1ab84ebb17d59c726013060ec4b",
+  "altText": "",
+  "resource": "e7eeab50-7732-403f-ae3a-1801b1ad792e",
+  "created": "2020-05-21T06:19:16.616Z",
+  "mediaType": "image/jpeg",
+  "classification": "asset",
+  "assetType": "image",
+  "tags": {
+    "suggested": [
+      "classification:O ring",
+      "classification:fastener",
+      "classification:restraint (chains)",
+      "classification:greenish blue color",
+      "classification:jade green color"
+    ],
+    "declined": [],
+    "values": [
+      "classification:O ring",
+      "classification:fastener",
+      "classification:restraint (chains)",
+      "classification:greenish blue color",
+      "classification:jade green color"
+    ],
+    "analysis": "complete"
+  },
+  "isManaged": true,
+  "categoryIds": [],
+  "cognitive": {
+    "classifications": [
+      "O ring",
+      "fastener",
+      "restraint (chains)",
+      "greenish blue color",
+      "jade green color"
+    ],
+    "colors": {
+      "lightMuted": "#a0d4d4",
+      "darkMuted": "#0d8b75",
+      "lightVibrant": "#70f4c8",
+      "vibrant": "#31f3af",
+      "muted": "#089060",
+      "darkVibrant": "#10ac90"
+    },
+    "status": "complete"
+  },
+  "fileSize": 6543,
+  "name": "acoustic4.jpg",
+  "lastModified": "2020-05-21T06:19:17.524Z",
+  "status": "ready"
+}

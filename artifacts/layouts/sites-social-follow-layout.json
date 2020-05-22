@@ -1,0 +1,16 @@
+{
+  "id": "sites-social-follow-layout",
+  "rev": "156-0451e75e23c8eef375535a875580018c",
+  "name": "sitesSocialFollowLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-social-follow-layout.jpg"
+  },
+  "template": "/templates/sites-social-follow-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-social-follow-layout/{id}.html"
+}

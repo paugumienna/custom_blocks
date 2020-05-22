@@ -1,0 +1,419 @@
+{
+  "id": "0073b205-293d-4668-b57d-12f845b729dc",
+  "rev": "134-60f53ae6666218d353678c30ee27a84c",
+  "name": "Navigation Style",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "primarySiteLogo",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "key": "siteTitleType",
+      "label": "Site title type",
+      "options": [
+        {
+          "label": "Image",
+          "selection": "Image"
+        },
+        {
+          "label": "Text",
+          "selection": "Text"
+        }
+      ]
+    },
+    {
+      "allowMultipleValues": false,
+      "elementType": "image",
+      "key": "primarySiteLogo",
+      "label": "Primary site logo"
+    },
+    {
+      "elementType": "text",
+      "label": "Site title text",
+      "key": "siteTitleText"
+    },
+    {
+      "elementType": "optionselection",
+      "key": "link",
+      "label": "Link",
+      "options": [
+        {
+          "label": "Site page",
+          "selection": "Site page"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "key": "linkToSitePage",
+      "label": "Link to site page",
+      "options": [
+        {
+          "label": "Home",
+          "selection": "Home"
+        }
+      ]
+    },
+    {
+      "elementType": "toggle",
+      "key": "hidePageOnSiteNavigation",
+      "label": "Hide page on site navigation"
+    },
+    {
+      "elementType": "optionselection",
+      "key": "sourceOfMenuContent",
+      "label": "Source of menu content",
+      "options": [
+        {
+          "label": "Site page tree",
+          "selection": "Site page tree"
+        }
+      ]
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "key": "depthOfNavigation",
+      "label": "Depth of navigation",
+      "minimum": 0
+    },
+    {
+      "elementType": "toggle",
+      "key": "showSupplementalMenu",
+      "label": "Show supplemental menu"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "be68ef93-a0dc-40aa-884f-e1f8e1c47186"
+      },
+      "label": "Link text",
+      "key": "links",
+      "allowMultipleValues": true,
+      "minimumValues": 0,
+      "fieldLabel": "Element type",
+      "required": false
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      },
+      "label": "Background color",
+      "key": "backgroundColor"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Padding",
+      "key": "padding"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Margin",
+      "key": "margin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Title Horizontal Alignment",
+      "key": "titleHorizontalAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "1643163e-b29f-4509-8295-aa9f47dfca7b"
+      },
+      "label": "Title Vertical Alignment",
+      "key": "titleVerticalAlignment"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Image scale",
+      "key": "imageScale",
+      "minimum": 0
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Horizontal Alignment",
+      "key": "primaryhorizontalalignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "1643163e-b29f-4509-8295-aa9f47dfca7b"
+      },
+      "label": "Vertical Alignment",
+      "key": "primaryVerticalAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Primary Padding",
+      "key": "primaryPadding"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Primary Margin",
+      "key": "primaryMargin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Second Text Alignment",
+      "key": "secondTextAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Second Padding",
+      "key": "secondPadding"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Second Margin",
+      "key": "secondMargin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      },
+      "label": "Second Background color",
+      "key": "secondBackgroundColor"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      },
+      "label": "Hover on element color",
+      "key": "hoverOnElementColor"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Supplemental Menu alignment",
+      "key": "supplementalMenuAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "1643163e-b29f-4509-8295-aa9f47dfca7b"
+      },
+      "label": "Supplemental Vertical Alignment",
+      "key": "supplementalVerticalAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Supplemental Padding",
+      "key": "supplementalPadding"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Supplemental Margin",
+      "key": "supplementalMargin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "af90edef-5625-48aa-b45d-76efa81c2a97"
+      },
+      "label": "Title Typography",
+      "key": "titleTypography"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "af90edef-5625-48aa-b45d-76efa81c2a97"
+      },
+      "label": "Primary Typography",
+      "key": "primaryTypography"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "af90edef-5625-48aa-b45d-76efa81c2a97"
+      },
+      "label": "Second Typography",
+      "key": "secondTypography"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "af90edef-5625-48aa-b45d-76efa81c2a97"
+      },
+      "label": "Supplemental Typography",
+      "key": "supplementalTypography"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "navigation",
+      "tabs": [
+        {
+          "name": "settings",
+          "groups": [
+            {
+              "name": "siteTitle",
+              "elements": [
+                "siteTitleType",
+                "primarySiteLogo",
+                "siteTitleText"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "supplementalMenu",
+              "elements": [
+                "showSupplementalMenu",
+                "links"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            }
+          ]
+        },
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "overall",
+              "elements": [
+                "backgroundColor",
+                "padding",
+                "margin"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "siteTitle",
+              "elements": [
+                "titleHorizontalAlignment",
+                "titleVerticalAlignment",
+                "imageScale"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "primaryMenu",
+              "elements": [
+                "primaryhorizontalalignment",
+                "primaryVerticalAlignment",
+                "primaryPadding",
+                "primaryMargin"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "secondLevelMenu",
+              "elements": [
+                "secondTextAlignment",
+                "secondPadding",
+                "secondMargin",
+                "secondBackgroundColor",
+                "hoverOnElementColor"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "supplementalMenu",
+              "elements": [
+                "supplementalMenuAlignment",
+                "supplementalVerticalAlignment",
+                "supplementalPadding",
+                "supplementalMargin"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        },
+        {
+          "name": "typography",
+          "groups": [
+            {
+              "name": "siteTitle",
+              "elements": [
+                "titleTypography"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "primaryMenu",
+              "elements": [
+                "primaryTypography"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "secondLevelMenu",
+              "elements": [
+                "secondTypography"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "supplementalMenu",
+              "elements": [
+                "supplementalTypography"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

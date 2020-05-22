@@ -1,0 +1,18 @@
+{
+  "id": "4fb15757-66d7-471e-a134-3dd863789ce9",
+  "rev": "154-6ed4f04f25cbb8d5038aeb35e23ffb6f",
+  "name": "📰 Page Module Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/page-module-layout.png"
+  },
+  "template": "/templates/page-module-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/page-module/{id}.html"
+}

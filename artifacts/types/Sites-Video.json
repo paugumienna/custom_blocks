@@ -1,0 +1,129 @@
+{
+  "id": "a84f2c97-33bb-45fa-8156-25141df73055",
+  "rev": "156-8cfb53f98e97b1e5bded9208c81aa525",
+  "name": "Sites Video",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "custom-ui"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "This block represents a video to be rendered on pages.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "video",
+      "helpText": "This element holds the reference to the video asset",
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "elementType": "toggle",
+      "key": "muteVideoByDefault",
+      "label": "Mute video by default"
+    },
+    {
+      "elementType": "toggle",
+      "key": "autoPlay",
+      "label": "Autoplay"
+    },
+    {
+      "elementType": "toggle",
+      "key": "loop",
+      "label": "Loop"
+    },
+    {
+      "elementType": "toggle",
+      "key": "showPlayControls",
+      "label": "Show play controls"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Margin",
+      "key": "margin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Padding",
+      "key": "padding"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "Horizontal alignment",
+      "key": "horizontalAlignment"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "Background",
+      "key": "background"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "video",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "video",
+            "autoPlay",
+            "loop",
+            "muteVideoByDefault",
+            "acceptAllUpdates"
+          ]
+        },
+        {
+          "name": "style",
+          "elements": [
+            "showPlayControls"
+          ],
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "horizontalAlignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

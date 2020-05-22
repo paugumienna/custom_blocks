@@ -1,0 +1,16 @@
+{
+  "id": "sites-cell-layout",
+  "rev": "156-0f1f8d4dd9fc277ebc9fdf93b832250d",
+  "name": "sitesCellLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-cell-layout.jpg"
+  },
+  "template": "/templates/sites-cell-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e3b87a0e-2648-4a6a-9f22-9871e3bf07ae",
+  "rev": "154-19674811c96815d2deaea5912c65fbda",
+  "name": "🗺️ Page Embed Contribution Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "eedce4a0-9647-4301-9247-6793e08652ea"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "28760700-9fae-40c9-bcab-b40446ed4d37"
+      },
+      "layouts": [
+        {
+          "id": "28760700-9fae-40c9-bcab-b40446ed4d37"
+        }
+      ]
+    }
+  ]
+}

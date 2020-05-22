@@ -1,0 +1,34 @@
+{
+  "rev": "151-503f312c3b2470cb89f71e70b7cd0bbb",
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/font-module-type.png"
+  },
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:52.918Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Times New Roman Font definition",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "font"
+  ],
+  "elements": {
+    "fontFamily": {
+      "elementType": "text",
+      "value": "TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif"
+    },
+    "key": {
+      "elementType": "text",
+      "value": "2022b254-5a71-4328-a0f2-495dfae18757"
+    }
+  },
+  "name": "✍️ Times New Roman",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5",
+  "id": "6735f23e-648d-4893-93d0-201b86a22393",
+  "lastModified": "2020-05-21T06:21:52.918Z",
+  "systemModified": "2020-05-21T06:21:52.918Z",
+  "status": "ready"
+}

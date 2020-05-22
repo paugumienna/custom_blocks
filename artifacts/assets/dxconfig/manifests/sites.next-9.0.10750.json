@@ -1,0 +1,130 @@
+{
+  "assets": {
+    "/dist/Sites-Next/v9.0.10750/live/3rdpartylicenses.txt": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/3rdpartylicenses.txt"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/favicon.ico": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/favicon.ico"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/index.html": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/index.html"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/main-es2015.29bd5bffebf371d5b3d2.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/main-es2015.29bd5bffebf371d5b3d2.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/main-es2015.29bd5bffebf371d5b3d2.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/main-es2015.29bd5bffebf371d5b3d2.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/main-es5.29bd5bffebf371d5b3d2.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/main-es5.29bd5bffebf371d5b3d2.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/main-es5.29bd5bffebf371d5b3d2.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/main-es5.29bd5bffebf371d5b3d2.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/polyfills-es2015.ad43355f606984dedbdc.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/polyfills-es2015.ad43355f606984dedbdc.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/polyfills-es2015.ad43355f606984dedbdc.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/polyfills-es2015.ad43355f606984dedbdc.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/polyfills-es5.4011c4d26c0951e6a1fb.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/polyfills-es5.4011c4d26c0951e6a1fb.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/polyfills-es5.4011c4d26c0951e6a1fb.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/polyfills-es5.4011c4d26c0951e6a1fb.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/runtime-es2015.409e6590615fb48d139f.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/runtime-es2015.409e6590615fb48d139f.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/runtime-es2015.409e6590615fb48d139f.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/runtime-es2015.409e6590615fb48d139f.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/runtime-es5.409e6590615fb48d139f.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/runtime-es5.409e6590615fb48d139f.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/runtime-es5.409e6590615fb48d139f.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/runtime-es5.409e6590615fb48d139f.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/styles.e9eebc7e43b75d1923ff.css": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/styles.e9eebc7e43b75d1923ff.css"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/styles.e9eebc7e43b75d1923ff.css.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/styles.e9eebc7e43b75d1923ff.css.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/vendor-es2015.c5e398ab954bc793aa65.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/vendor-es2015.c5e398ab954bc793aa65.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/vendor-es2015.c5e398ab954bc793aa65.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/vendor-es2015.c5e398ab954bc793aa65.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/vendor-es5.c5e398ab954bc793aa65.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/vendor-es5.c5e398ab954bc793aa65.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/live/vendor-es5.c5e398ab954bc793aa65.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/live/vendor-es5.c5e398ab954bc793aa65.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/3rdpartylicenses.txt": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/3rdpartylicenses.txt"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/favicon.ico": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/favicon.ico"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/index.html": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/index.html"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/main-es2015.bb65295546dfc18689e9.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/main-es2015.bb65295546dfc18689e9.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/main-es2015.bb65295546dfc18689e9.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/main-es2015.bb65295546dfc18689e9.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/main-es5.bb65295546dfc18689e9.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/main-es5.bb65295546dfc18689e9.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/main-es5.bb65295546dfc18689e9.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/main-es5.bb65295546dfc18689e9.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/polyfills-es2015.ad43355f606984dedbdc.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/polyfills-es2015.ad43355f606984dedbdc.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/polyfills-es2015.ad43355f606984dedbdc.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/polyfills-es2015.ad43355f606984dedbdc.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/polyfills-es5.4011c4d26c0951e6a1fb.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/polyfills-es5.4011c4d26c0951e6a1fb.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/polyfills-es5.4011c4d26c0951e6a1fb.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/polyfills-es5.4011c4d26c0951e6a1fb.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/runtime-es2015.409e6590615fb48d139f.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/runtime-es2015.409e6590615fb48d139f.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/runtime-es2015.409e6590615fb48d139f.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/runtime-es2015.409e6590615fb48d139f.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/runtime-es5.409e6590615fb48d139f.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/runtime-es5.409e6590615fb48d139f.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/runtime-es5.409e6590615fb48d139f.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/runtime-es5.409e6590615fb48d139f.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/styles.e9eebc7e43b75d1923ff.css": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/styles.e9eebc7e43b75d1923ff.css"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/styles.e9eebc7e43b75d1923ff.css.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/styles.e9eebc7e43b75d1923ff.css.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/vendor-es2015.aa3e85c52bd08813cf07.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/vendor-es2015.aa3e85c52bd08813cf07.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/vendor-es2015.aa3e85c52bd08813cf07.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/vendor-es2015.aa3e85c52bd08813cf07.js.map"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/vendor-es5.aa3e85c52bd08813cf07.js": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/vendor-es5.aa3e85c52bd08813cf07.js"
+    },
+    "/dist/Sites-Next/v9.0.10750/preview/vendor-es5.aa3e85c52bd08813cf07.js.map": {
+      "path": "/dist/Sites-Next/v9.0.10750/preview/vendor-es5.aa3e85c52bd08813cf07.js.map"
+    }
+  }
+}

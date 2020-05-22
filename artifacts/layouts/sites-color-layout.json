@@ -1,0 +1,16 @@
+{
+  "id": "sites-color-layout",
+  "rev": "156-2244e73ad52b05c64f59b4df9096cca6",
+  "name": "sitesColorLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-color-layout.jpg"
+  },
+  "template": "/templates/sites-color-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-color-layout/{id}.html"
+}

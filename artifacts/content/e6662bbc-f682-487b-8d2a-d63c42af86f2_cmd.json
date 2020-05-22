@@ -1,0 +1,35 @@
+{
+  "rev": "149-54ed20a44a6464b84d19e292f48180f3",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:58.192Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "Bootstrap 4.4 styles based on CSS variables from the Acoustic Theme.",
+  "classification": "content",
+  "locale": "en",
+  "tags": [],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "959979be-cfd2-47c4-8764-5a89b725da7e"
+      }
+    }
+  ],
+  "elements": {
+    "href": {
+      "elementType": "text",
+      "value": "dxauth/css/bootstrap/bootstrap.css"
+    },
+    "key": {
+      "elementType": "text",
+      "value": "bc4ad8f3-5e6d-46b5-8098-8de5f990d327"
+    }
+  },
+  "name": "Sites Bootstrap Styles",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "3a3726b8-e0b2-4f10-98ed-b1c82e851b99",
+  "id": "e6662bbc-f682-487b-8d2a-d63c42af86f2",
+  "lastModified": "2020-05-21T06:21:58.192Z",
+  "systemModified": "2020-05-21T06:21:58.192Z",
+  "status": "ready"
+}

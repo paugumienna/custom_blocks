@@ -1,0 +1,16 @@
+{
+  "id": "sites-hb-text-layout",
+  "rev": "156-167d64c1a4dcced1f27f030d7a978829",
+  "name": "sitesHbTextLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-text-layout.jpg"
+  },
+  "template": "/templates/sites-hb-text-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

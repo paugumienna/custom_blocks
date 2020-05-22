@@ -1,0 +1,315 @@
+{
+  "rev": "149-edcfc1265292b6130e3a013a2c93b30d",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:59.939Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-next",
+    "sites-block"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-link-bar-layout"
+      }
+    }
+  ],
+  "elements": {
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "openLinksInNewTab": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "buttonColorScheme": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Primary"
+      }
+    },
+    "background": {
+      "elementType": "group",
+      "value": {
+        "backgroundColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "transparent"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        },
+        "gradient": {
+          "elementType": "group",
+          "value": {
+            "gradientOptions": {
+              "values": [
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                }
+              ],
+              "elementType": "group",
+              "typeRef": {
+                "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+              }
+            },
+            "angle": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gradientType": {
+              "elementType": "optionselection"
+            },
+            "position": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "shape": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "ellipse"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background gradient",
+            "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+          }
+        },
+        "imageBackground": {
+          "elementType": "group",
+          "value": {
+            "image": {
+              "mode": "shared",
+              "elementType": "image"
+            },
+            "backgroundPositionX": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "backgroundPositionY": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "display": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            }
+          },
+          "typeRef": {
+            "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "fillOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "Solid color"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "links": {
+      "values": [
+        {
+          "label": {
+            "elementType": "text",
+            "value": "Default Link"
+          },
+          "linkAdvanced": {
+            "elementType": "group",
+            "value": {
+              "linkOptions": {
+                "elementType": "optionselection",
+                "value": {
+                  "selection": "externalPages"
+                }
+              },
+              "name": {
+                "elementType": "text",
+                "value": "Dafault link"
+              },
+              "urlLink": {
+                "elementType": "group",
+                "value": {
+                  "url": {
+                    "elementType": "link",
+                    "linkText": "Link text",
+                    "linkDescription": "Link description",
+                    "linkURL": "#"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                "typeRef": {
+                  "id": "7ff6d01f-5dad-43c8-9e05-14eccb782a3a"
+                }
+              },
+              "key": {
+                "elementType": "text"
+              }
+            },
+            "typeRef": {
+              "id": "cb8d79cb-466d-40fa-8691-d13da424069f"
+            }
+          },
+          "key": {
+            "elementType": "text"
+          }
+        }
+      ],
+      "elementType": "group",
+      "typeRef": {
+        "id": "be68ef93-a0dc-40aa-884f-e1f8e1c47186"
+      }
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "spacingBetweenLinks": {
+      "elementType": "number",
+      "value": 16
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 16
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 16
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "elementsAlignment": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "Horizontal"
+      }
+    }
+  },
+  "name": "Link Bar",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "d0f831c3-1b0a-41ba-8a6b-10f2eca3789a",
+  "id": "fd34cbc1-a918-446a-83d1-ff587b094873",
+  "lastModified": "2020-05-21T06:21:59.939Z",
+  "systemModified": "2020-05-21T06:21:59.939Z",
+  "status": "ready"
+}

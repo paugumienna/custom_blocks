@@ -1,0 +1,65 @@
+{
+  "id": "354743b2-f89a-482b-b447-2b5a2367c8bd",
+  "rev": "154-a0a9dfad16c056eeee95d8c7dc10b1a0",
+  "name": "📄 Page Contribution",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-contribution-type.png"
+  },
+  "description": "An set of related markup contributions to be added to markup of individual pages. Page contributions can contribute to both, the \"head\" and the \"body\" element of the page.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "allowMultipleValues": true,
+      "elementType": "text",
+      "fieldLabel": "Private",
+      "helpText": "Embed this contribution directly into the markup of this page. This field contains the markup of the contributions.",
+      "key": "embed",
+      "label": "embed",
+      "minimumValues": 0
+    },
+    {
+      "allowMultipleValues": true,
+      "elementType": "reference",
+      "fieldLabel": "Shared",
+      "helpText": "Reference a shared page contribution.",
+      "key": "reference",
+      "label": "reference",
+      "minimumValues": 0
+    },
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls if the contribution is meant to be added to pages rendered for \"previeww\" or \"live\" mode. This allows for example to add additional Page Module (like inline-editing modules) only when the page is rendered in preview mode in the authoring UI. This allows to avoid uneccessary bandwith consumption when serving your live. You can use the option \"always\" to include this contributions in both modes (i.e. in \"live\" and \"preview\" mode)",
+      "key": "mode",
+      "label": "Mode",
+      "options": [
+        {
+          "label": "Always",
+          "selection": "always"
+        },
+        {
+          "label": "Live",
+          "selection": "live"
+        },
+        {
+          "label": "Preview",
+          "selection": "preview"
+        }
+      ],
+      "required": true
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

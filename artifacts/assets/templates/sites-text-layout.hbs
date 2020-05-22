@@ -1,0 +1,9 @@
+<!-- Sites Text Layout -->
+
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}" 
+  style="{{{background.$markup}}}{{{alignment.$markup}}}{{{lineHeight.$markup}}}{{{textStyle.$markup}}}
+  {{~#if padding}}padding: {{{padding.$markup}}}; {{/if}}
+  {{~#if margin}}margin: {{{margin.$markup}}}; {{/if}}"
+>{{{text}}}</div>
+
+<!-- End Sites Text Layout -->

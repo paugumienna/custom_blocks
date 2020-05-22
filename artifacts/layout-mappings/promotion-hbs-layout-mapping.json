@@ -1,0 +1,21 @@
+{
+  "id": "promotion-hbs-layout-mapping",
+  "rev": "23-6f0349b3b2f66e4d31b9a007eaa9f64f",
+  "name": "promotionComponentLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "4aaaaaaa-bbbb-cccc-eeee-000000000000"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "promotion-hbs-layout"
+      },
+      "layouts": [
+        {
+          "id": "promotion-hbs-layout"
+        }
+      ]
+    }
+  ]
+}

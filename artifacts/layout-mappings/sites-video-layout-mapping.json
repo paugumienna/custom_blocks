@@ -1,0 +1,24 @@
+{
+  "id": "sites-video-layout-mapping",
+  "rev": "156-d9738af78642184f660fa9b2ea081b60",
+  "name": "sitesVideoLayoutMapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "a84f2c97-33bb-45fa-8156-25141df73055"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sites-video-layout"
+      },
+      "layouts": [
+        {
+          "id": "sites-video-layout"
+        }
+      ]
+    }
+  ]
+}

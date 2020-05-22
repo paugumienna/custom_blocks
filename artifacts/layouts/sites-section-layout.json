@@ -1,0 +1,16 @@
+{
+  "id": "sites-section-layout",
+  "rev": "156-8d0416b13a8bf195a2ac233686bbd0c1",
+  "name": "sitesSectionLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-section-layout.jpg"
+  },
+  "template": "/templates/sites-section-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

@@ -1,0 +1,78 @@
+<!-- Start page-module-layout -->
+{{#eq $layoutMode "head"}}
+    {{#each head ~}}
+        {{#eq mode "preview"}}
+            {{#if @root.$context.hub.isPreview}}
+                {{#each embed ~}}
+                    {{{trim .}}}
+                {{/each ~}}
+
+                {{! External references }}
+                {{#each reference ~}}
+                    {{{trim $markup}}}
+                {{/each ~}}
+            {{/if}}
+        {{/eq}}
+        {{#eq mode "live"}}
+            {{#unless @root.$context.hub.isPreview}}
+                {{#each embed ~}}
+                    {{{trim .}}}
+                {{/each ~}}
+
+                {{! External references }}
+                {{#each reference ~}}
+                    {{{trim $markup}}}
+                {{/each ~}}
+            {{/unless}}
+        {{/eq}}
+        {{#eq mode "always"}}
+            {{#each embed ~}}
+                {{{trim .}}}
+            {{/each ~}}
+
+            {{! External references }}
+            {{#each reference ~}}
+                {{{trim $markup}}}
+            {{/each ~}}
+        {{/eq}}
+    {{/each ~}}
+{{/eq}}
+{{#eq $layoutMode "body"}}
+    {{#each body ~}}
+        {{#eq mode "preview"}}
+            {{#if @root.$context.hub.isPreview}}
+                {{#each embed ~}}
+                    {{{trim .}}}
+                {{/each ~}}
+
+                {{! External references }}
+                {{#each reference ~}}
+                    {{{trim $markup}}}
+                {{/each ~}}
+            {{/if}}
+        {{/eq}}
+        {{#eq mode "live"}}
+            {{#unless @root.$context.hub.isPreview}}
+                {{#each embed ~}}
+                    {{{trim .}}}
+                {{/each ~}}
+
+                {{! External references }}
+                {{#each reference ~}}
+                    {{{trim $markup}}}
+                {{/each ~}}
+            {{/unless}}
+        {{/eq}}
+        {{#eq mode "always"}}
+            {{#each embed ~}}
+                {{{trim .}}}
+            {{/each ~}}
+
+            {{! External references }}
+            {{#each reference ~}}
+                {{{trim $markup}}}
+            {{/each ~}}
+        {{/eq}}
+    {{/each ~}}
+{{/eq}}
+<!-- End page-module-layout -->

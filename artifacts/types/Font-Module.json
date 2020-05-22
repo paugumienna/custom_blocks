@@ -1,0 +1,76 @@
+{
+  "id": "b67bb0ed-5159-48ba-8e0b-8e24fc1d5de5",
+  "rev": "154-632a05c4fe0421bfeb919e169cc0b401",
+  "name": "✍️ Font Module",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/font-module-type.png"
+  },
+  "contentThumbnail": {
+    "imageElement": "preview",
+    "source": "imageElementOrType"
+  },
+  "description": "Definition of a font as a page module.",
+  "status": "ready",
+  "tags": [
+    "sites-next",
+    "font"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "Font family for the font in question.",
+      "key": "fontFamily",
+      "label": "Font Family",
+      "required": true
+    },
+    {
+      "allowMultipleValues": true,
+      "elementType": "group",
+      "fieldLabel": "Custom Element",
+      "helpText": "Reference a shared page contribution to be included in the \"head\" section of the page.",
+      "key": "head",
+      "label": "head",
+      "minimumValues": 0,
+      "role": [
+        "configuration"
+      ],
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    {
+      "allowMultipleValues": true,
+      "elementType": "group",
+      "fieldLabel": "Custom Element",
+      "helpText": "Reference a shared page contribution to be included in the \"body\" section of the page.",
+      "key": "body",
+      "label": "body",
+      "minimumValues": 0,
+      "role": [
+        "configuration"
+      ],
+      "typeRef": {
+        "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "image",
+      "helpText": "Preview image for this item to be displayed in the authoring UI",
+      "key": "preview",
+      "label": "preview",
+      "role": [
+        "configuration"
+      ]
+    }
+  ]
+}

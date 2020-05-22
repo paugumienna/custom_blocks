@@ -1,0 +1,96 @@
+{
+  "id": "2832162b-3343-4f81-a6f6-de21a63530e9",
+  "rev": "156-a57943da8a0eb829080f52017286065f",
+  "name": "Sites Background gradient",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "key": "gradientType",
+      "label": "Gradient type",
+      "options": [
+        {
+          "label": "linear",
+          "selection": "Linear"
+        },
+        {
+          "label": "radial",
+          "selection": "Radial"
+        }
+      ]
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "key": "angle",
+      "label": "Angle"
+    },
+    {
+      "elementType": "optionselection",
+      "key": "shape",
+      "label": "Shape",
+      "options": [
+        {
+          "label": "Circle",
+          "selection": "circle"
+        },
+        {
+          "label": "Ellipse",
+          "selection": "ellipse"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "key": "position",
+      "label": "Position",
+      "options": [
+        {
+          "label": "Center",
+          "selection": "center"
+        },
+        {
+          "label": "Top Left Corner",
+          "selection": "top left"
+        },
+        {
+          "label": "Top Right Corner",
+          "selection": "top right"
+        },
+        {
+          "label": "Bottom Right Corner",
+          "selection": "bottom right"
+        },
+        {
+          "label": "Bottom Left Corner",
+          "selection": "bottom left"
+        }
+      ]
+    },
+    {
+      "allowMultipleValues": true,
+      "elementType": "group",
+      "fieldLabel": "Custom Element",
+      "key": "gradientOptions",
+      "label": "Gradient options",
+      "minimumValues": 2,
+      "required": true,
+      "typeRef": {
+        "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "BackgroundGradientExtension",
+    "elementConfig": {}
+  }
+}

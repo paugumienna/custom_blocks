@@ -1,0 +1,283 @@
+{
+  "rev": "151-c47aeb447a22f3a9484279dc61644cc5",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-21T06:21:56.572Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "classification": "content",
+  "locale": "en",
+  "tags": [
+    "sites-block",
+    "sites-next"
+  ],
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "sites-divider-layout"
+      }
+    }
+  ],
+  "elements": {
+    "lineColor": {
+      "elementType": "group",
+      "value": {
+        "colorCode": {
+          "elementType": "text",
+          "value": "#5A5D77"
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    "margin": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 0
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 0
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    "background": {
+      "elementType": "group",
+      "value": {
+        "backgroundColor": {
+          "elementType": "group",
+          "value": {
+            "colorCode": {
+              "elementType": "text",
+              "value": "transparent"
+            },
+            "opacity": {
+              "elementType": "number",
+              "value": 100
+            },
+            "key": {
+              "elementType": "text"
+            }
+          },
+          "typeRef": {
+            "id": "713b5843-8fac-40dd-b504-7e03b8c83091"
+          }
+        },
+        "gradient": {
+          "elementType": "group",
+          "value": {
+            "gradientOptions": {
+              "values": [
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 0
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                },
+                {
+                  "gradientColor": {
+                    "elementType": "text",
+                    "value": "transparent"
+                  },
+                  "stop": {
+                    "elementType": "number",
+                    "value": 100
+                  },
+                  "colorOpacity": {
+                    "elementType": "text",
+                    "value": "100"
+                  },
+                  "key": {
+                    "elementType": "text"
+                  }
+                }
+              ],
+              "elementType": "group",
+              "typeRef": {
+                "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416"
+              }
+            },
+            "angle": {
+              "elementType": "number",
+              "value": 0
+            },
+            "gradientType": {
+              "elementType": "optionselection"
+            },
+            "position": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "shape": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "ellipse"
+              }
+            }
+          },
+          "typeRef": {
+            "name": "Sites Background gradient",
+            "id": "2832162b-3343-4f81-a6f6-de21a63530e9"
+          }
+        },
+        "imageBackground": {
+          "elementType": "group",
+          "value": {
+            "image": {
+              "mode": "shared",
+              "elementType": "image"
+            },
+            "backgroundPositionX": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "backgroundPositionY": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            },
+            "display": {
+              "elementType": "optionselection",
+              "value": {
+                "selection": "center"
+              }
+            }
+          },
+          "typeRef": {
+            "id": "ba9cecf3-455d-4f1e-8d9a-bf8ec8e47361"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "fillOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "Solid color"
+          }
+        }
+      },
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    "lineType": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "solid"
+      }
+    },
+    "lineWeight": {
+      "elementType": "number",
+      "value": 1
+    },
+    "lineWidth": {
+      "elementType": "number",
+      "value": 100
+    },
+    "key": {
+      "elementType": "text"
+    },
+    "colorOpacity": {
+      "elementType": "number",
+      "value": 100
+    },
+    "alignment": {
+      "elementType": "group",
+      "value": {
+        "alignmentOptions": {
+          "elementType": "optionselection",
+          "value": {
+            "selection": "center"
+          }
+        },
+        "key": {
+          "elementType": "text"
+        }
+      },
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      }
+    },
+    "opacity": {
+      "elementType": "number",
+      "value": 100
+    },
+    "unit": {
+      "elementType": "optionselection",
+      "value": {
+        "selection": "%"
+      }
+    },
+    "padding": {
+      "elementType": "group",
+      "value": {
+        "bottom": {
+          "elementType": "number",
+          "value": 16
+        },
+        "left": {
+          "elementType": "number",
+          "value": 0
+        },
+        "key": {
+          "elementType": "text"
+        },
+        "top": {
+          "elementType": "number",
+          "value": 16
+        },
+        "right": {
+          "elementType": "number",
+          "value": 0
+        }
+      },
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    }
+  },
+  "name": "Divider",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "d550249a-83b2-4e46-96d1-519732fa5787",
+  "id": "be39b35f-3b19-498b-853c-db00a5c06e6b",
+  "lastModified": "2020-05-21T06:21:56.572Z",
+  "systemModified": "2020-05-21T06:21:56.572Z",
+  "status": "ready"
+}

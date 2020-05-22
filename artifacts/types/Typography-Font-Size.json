@@ -1,0 +1,21 @@
+{
+  "id": "cf4f34c6-aed7-45e1-ba71-f8e0f4d2bc49",
+  "rev": "153-a38697e0ebcbfd70d881a3087009998e",
+  "name": "Typography Font Size",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Size (px)",
+      "key": "fontSize",
+      "minimum": 0
+    }
+  ]
+}

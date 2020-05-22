@@ -1,0 +1,35 @@
+{
+  "id": "eedce4a0-9647-4301-9247-6793e08652ea",
+  "rev": "154-d0392d9623ed50fbd624498492292fcb",
+  "name": "📄 Page Embed Contribution",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/page-embed-contribution-type.png"
+  },
+  "description": "A page markup contribution directly added into the markup",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "The markup to be added.",
+      "key": "embed",
+      "label": "embed",
+      "required": true,
+      "role": [
+        "configuration"
+      ]
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

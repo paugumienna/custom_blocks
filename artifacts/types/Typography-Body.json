@@ -1,0 +1,38 @@
+{
+  "id": "af90edef-5625-48aa-b45d-76efa81c2a97",
+  "rev": "153-c0a050469e2b51ae6faf6c22a5a69975",
+  "name": "Typography Body",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "ba8963a2-6c05-40dc-9bd4-02f817b2db84"
+      },
+      "label": "Font Style",
+      "key": "bodyFontStyle"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "cf4f34c6-aed7-45e1-ba71-f8e0f4d2bc49"
+      },
+      "label": "Font Size",
+      "key": "bodyFontSize"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "4c49edb5-459a-4b76-a74d-c6bd1498223d"
+      },
+      "label": "Font Color",
+      "key": "bodyFontColor"
+    }
+  ]
+}

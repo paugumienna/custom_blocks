@@ -1,0 +1,62 @@
+{
+  "id": "b22d8a64-a0b6-493c-bad8-ee2597415864",
+  "rev": "153-d709c2485e54eca4b8c2ee9b4a45bbbf",
+  "name": "Typography Headings Each",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [],
+  "elements": [
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 1",
+      "key": "heading1"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 2",
+      "key": "heading2"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 3",
+      "key": "heading3"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 4",
+      "key": "heading4"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 5",
+      "key": "heading5"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "159714fc-9f37-46b9-a463-0408645c3bb2"
+      },
+      "label": "Heading 6",
+      "key": "heading6"
+    }
+  ]
+}

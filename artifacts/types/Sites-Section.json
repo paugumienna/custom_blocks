@@ -1,0 +1,117 @@
+{
+  "id": "a4516d24-744d-4650-8477-24aa36145e66",
+  "rev": "156-a7df2d83b80cc6379a1a602e5bf433a2",
+  "name": "Sites Section",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "This item represents a top level container on a page. It contains a list of second level containers of type \"Sites Cell\" which in turn contain the actual page blocks",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "allowMultipleValues": true,
+      "elementType": "group",
+      "fieldLabel": "Column",
+      "helpText": "This element holds the list of cells to be rendered in this section",
+      "key": "cells",
+      "label": "Cells",
+      "maximumValues": 4,
+      "minimumValues": 1,
+      "required": true,
+      "typeRef": {
+        "id": "d1e4dd37-8ac5-43a9-9145-1f194053b27c"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the padding values for this section",
+      "key": "padding",
+      "label": "Padding",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element defines the background for this section",
+      "key": "background",
+      "label": "Background",
+      "required": true,
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "minimum": 0,
+      "key": "gutter",
+      "label": "Gutter width (px)"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "section",
+      "class": "sites-section-element",
+      "tabs": [
+        {
+          "name": "settings",
+          "class": "sites-section-settings",
+          "groups": [
+            {
+              "name": "layout",
+              "class": "sites-section-layout",
+              "type": "basic",
+              "elements": [
+                "cells"
+              ]
+            },
+            {
+              "name": "gutter",
+              "class": "sites-section-gutter",
+              "type": "basic",
+              "elements": [
+                "gutter"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "style",
+          "class": "sites-section-style",
+          "groups": [
+            {
+              "name": "spacing",
+              "class": "sites-section-spacing",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "padding"
+              ]
+            },
+            {
+              "name": "background",
+              "class": "sites-section-background",
+              "type": "twisty",
+              "initialState": "expanded",
+              "elements": [
+                "background"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

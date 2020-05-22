@@ -1,0 +1,24 @@
+{
+  "id": "complex-hbs-layout-mapping",
+  "rev": "70-29f2ed4a4e0c6125c37fa8ee1020238a",
+  "name": "Complex HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "caaaaaaa-bbbb-cccc-eeee-000000000000"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "complex-hbs-layout"
+      },
+      "layouts": [
+        {
+          "id": "complex-hbs-layout"
+        }
+      ]
+    }
+  ]
+}

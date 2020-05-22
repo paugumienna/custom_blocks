@@ -1,0 +1,17 @@
+{{#eq $layoutMode "head"}}
+    {{!-- head contributions for the modules --}}
+    {{#each modules}}
+        {{{$markups.head}}}
+    {{/each}}
+
+    {{!-- head contributions for the style --}}
+    {{{styles.$markups.head}}}
+{{/eq}}
+{{#eq $layoutMode "body"}}
+    {{!-- body contributions for the modules --}}
+    {{#each modules}}
+        {{{$markups.body}}}
+    {{/each}}
+    {{!-- body contributions for the style --}}
+    {{{styles.$markups.body}}}
+{{/eq}}

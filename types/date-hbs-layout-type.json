@@ -1,0 +1,154 @@
+{
+  "id": "1aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "63-8d4c5ff628f95d4eec5b8234a4804afd",
+  "name": "Date HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Date HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "First name",
+      "key": "firstName",
+      "label": "First name",
+      "placeholder": {
+        "show": true,
+        "text": "John"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Last name",
+      "key": "lastName",
+      "label": "Last name",
+      "placeholder": {
+        "show": true,
+        "text": "Doe"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Day",
+      "key": "day",
+      "label": "Day",
+      "placeholder": {
+        "show": true,
+        "text": "01"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "Year",
+      "key": "year",
+      "label": "Year",
+      "placeholder": {
+        "show": true,
+        "text": "2020"
+      }
+    },
+    {
+      "key": "month",
+      "label": "Month",
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "January",
+          "selection": "01"
+        },
+        {
+          "label": "February",
+          "selection": "02"
+        },
+        {
+          "label": "March",
+          "selection": "03"
+        },
+        {
+          "label": "April",
+          "selection": "04"
+        },
+        {
+          "label": "May",
+          "selection": "05"
+        },
+        {
+          "label": "June",
+          "selection": "06"
+        },
+        {
+          "label": "July",
+          "selection": "07"
+        },
+        {
+          "label": "August",
+          "selection": "08"
+        },
+        {
+          "label": "September",
+          "selection": "09"
+        },
+        {
+          "label": "October",
+          "selection": "10"
+        },
+        {
+          "label": "November",
+          "selection": "11"
+        },
+        {
+          "label": "December",
+          "selection": "12"
+        }
+      ]
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "DD/MM/YYYY",
+          "selection": "DD/MM/YYYY"
+        },
+        {
+          "label": "MM/DD/YYYY",
+          "selection": "MM/DD/YYYY"
+        },
+        {
+          "label": "YYYY/MM/DD",
+          "selection": "YYYY/MM/DD"
+        }
+      ],
+      "label": "Date format",
+      "key": "dateFormat"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "Date HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "settings",
+          "elements": [
+            "firstName",
+            "lastName",
+            "day",
+            "month",
+            "year",
+            "dateFormat"
+          ]
+        }
+      ]
+    }
+  }
+}

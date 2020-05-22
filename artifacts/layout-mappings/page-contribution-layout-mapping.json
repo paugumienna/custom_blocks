@@ -1,0 +1,24 @@
+{
+  "id": "ebd55fb5-fc81-4366-b011-d6804b5bab09",
+  "rev": "154-8c907a8f6b8ed64be08b5911ee54d0d4",
+  "name": "🗺️ Page Contribution Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "354743b2-f89a-482b-b447-2b5a2367c8bd"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "c20b06b5-7c60-4027-b5a6-16c4da09754b"
+      },
+      "layouts": [
+        {
+          "id": "c20b06b5-7c60-4027-b5a6-16c4da09754b"
+        }
+      ]
+    }
+  ]
+}

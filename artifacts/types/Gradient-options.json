@@ -1,0 +1,39 @@
+{
+  "id": "b2b13e79-dffc-4c17-8a40-0f94677b3416",
+  "rev": "156-fd9c46c395b5effdce35e03d63b6afa7",
+  "name": "Gradient options",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "allowMultipleValues": false,
+      "elementType": "text",
+      "key": "gradientColor",
+      "label": "Gradient color"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "key": "stop",
+      "label": "Stop",
+      "minimum": 0
+    },
+    {
+      "elementType": "text",
+      "key": "colorOpacity",
+      "label": "Color opacity"
+    },
+    {
+      "elementType": "text",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}

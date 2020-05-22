@@ -1,0 +1,12 @@
+{
+  "id": "list-hbs-layout",
+  "rev": "80-f1dafea1671d734a3b1dc0c7715c0d4b",
+  "name": "List HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/list-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

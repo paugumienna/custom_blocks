@@ -1,0 +1,222 @@
+{
+  "id": "d550249a-83b2-4e46-96d1-519732fa5787",
+  "rev": "156-80cfe8b30b356183833cdb5beed1add1",
+  "name": "Sites Divider",
+  "classification": "content-type",
+  "kind": [
+    "custom-ui",
+    "embedded"
+  ],
+  "description": "This block represents a divider between two blocks",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "helpText": "This element controls the line type",
+      "key": "lineType",
+      "label": "Line type",
+      "options": [
+        {
+          "label": "Dotted",
+          "selection": "dotted"
+        },
+        {
+          "label": "Dashed",
+          "selection": "dashed"
+        },
+        {
+          "label": "Solid",
+          "selection": "solid"
+        },
+        {
+          "label": "Double",
+          "selection": "double"
+        },
+        {
+          "label": "Groove",
+          "selection": "groove"
+        },
+        {
+          "label": "Ridge",
+          "selection": "ridge"
+        },
+        {
+          "label": "Inset",
+          "selection": "inset"
+        },
+        {
+          "label": "Outset",
+          "selection": "outset"
+        }
+      ]
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the line weight for this devider",
+      "key": "lineWeight",
+      "label": "Line weight",
+      "minimum": 1
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls the line color",
+      "key": "lineColor",
+      "label": "Line color",
+      "typeRef": {
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
+      }
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "helpText": "This element controls the line opacity",
+      "key": "opacity",
+      "label": "Line opacity",
+      "uiExtensions": {
+        "elementBuiltin": "OpacitySliderExtension",
+        "elementConfig": {
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Padding",
+      "key": "padding",
+      "helpText": "This element controls padding values for this block"
+    },
+    {
+      "elementType": "group",
+      "helpText": "This element controls margin values for this block",
+      "key": "margin",
+      "label": "Margin",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      }
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
+      },
+      "label": "alignment",
+      "key": "alignment",
+      "allowMultipleValues": false,
+      "locked": false,
+      "helpText": "This element controls horizontal alignment for this block"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Color opacity",
+      "key": "colorOpacity",
+      "helpText": "This element controls the background color opacity of this block",
+      "uiExtensions": {
+        "elementBuiltin": "OpacitySliderExtension",
+        "elementConfig": {
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "elementType": "optionselection",
+      "options": [
+        {
+          "label": "Percentage",
+          "selection": "%"
+        },
+        {
+          "label": "px",
+          "selection": "px"
+        }
+      ],
+      "label": "Unit",
+      "key": "unit",
+      "helpText": "This element controls the width unit"
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Width",
+      "key": "lineWidth",
+      "helpText": "This element controls the width of block"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      },
+      "label": "Background",
+      "key": "background"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "divider",
+      "tabs": [
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "line",
+              "elements": [
+                "lineType",
+                "lineWeight",
+                "lineColor",
+                "opacity"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "size",
+              "elements": [
+                "lineWidth",
+                "unit"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "spacing",
+              "elements": [
+                "padding",
+                "margin",
+                "alignment"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "collapsed",
+              "type": "twisty"
+            }
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

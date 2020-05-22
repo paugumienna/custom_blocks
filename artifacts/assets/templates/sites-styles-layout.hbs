@@ -1,0 +1,220 @@
+
+{{!-- head contributions of the module --}}
+{{#eq $layoutMode "head"}}
+{{!-- assemble the contributions by the fonts --}}
+{{{palette.base.$markups.head}}}
+{{{palette.mono.$markups.head}}}
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+{{~#if @root.$context.hub.isPreview}}
+  {{!-- load all fonts in preview mode --}}
+  <link href="https://fonts.googleapis.com/css?family=Bellota:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ruda:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+{{else}}
+{{!-- load only fonts used by the content item in live mode --}}
+{{~#if typography.typographyBody.bodyFontStyle.fontFamily}}<link href="https://fonts.googleapis.com/css?family={{{typography.typographyBody.bodyFontStyle.fontFamily}}}:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">{{/if}}
+{{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontFamily}}<link href="https://fonts.googleapis.com/css?family={{{typography.typographyHeadings.headingsAll.headingFontStyle.fontFamily}}}:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">{{/if}}
+{{/if}}
+
+
+{{/eq}}
+{{!-- body contributions of the module --}}
+{{#eq $layoutMode "body"}}
+{{!-- assemble the contributions by the fonts --}}
+{{{palette.base.$markups.body}}}
+{{{palette.mono.$markups.body}}}
+{{/eq}}
+
+{{!-- in default mode we create the JSON descriptor for the theme --}}
+{{#unlessEq $layoutMode "head"}}
+{{#unlessEq $layoutMode "body"}}
+{
+  "sites": {
+    "style": {
+      "page": {
+        {{!-- Define defaults in sites.style.scss --}}
+        "pageStyles" : "start"
+        {{~#if page.margin.left}}, "marginLeft": "{{{page.margin.left}}}px"{{/if}}
+        {{~#if page.margin.right}}, "marginRight": "{{{page.margin.right}}}px"{{/if}}
+        {{~#if page.margin.top}}, "marginTop": "{{{page.margin.top}}}px"{{/if}}
+        {{~#if page.margin.bottom}}, "marginBottom": "{{{page.margin.bottom}}}px"{{/if}}
+        {{~#if page.gutterWidth}}, "gutterWidth": "{{{page.gutterWidth}}}px"{{/if}}
+        {{~#if page.maxWidth}}, "maxWidth": "{{{page.maxWidth}}}px"{{/if}}
+        {{~#eq page.background.fillOptions 'Solid color'}}, "backgroundColor": "{{page.background.backgroundColor.colorCode}}{{percenttohex page.background.backgroundColor.opacity}}"{{/eq~}}
+        {{~#eq page.background.fillOptions 'Background image'}}
+            , "backgroundImage": "url({{$context.hub.resourceUrl.origin}}{{page.background.imageBackground.image.url}})"
+            , "backgroundPosition": "{{page.background.imageBackground.backgroundPositionY}} {{page.background.imageBackground.backgroundPositionX}}"
+            , "backgroundColor": "transparent"
+            {{#eq page.background.imageBackground.display 'center'}}
+              , "backgroundImageSize": "contain"
+              , "backgroundImageRepeat": "no-repeat"
+            {{/eq}}
+            {{#eq page.background.imageBackground.display 'tile'}}
+              , "backgroundImageRepeat": "repeat"
+              , "backgroundImageSize": "contain"
+            {{/eq}}
+            {{#eq page.background.imageBackground.display 'full-width'}}
+              , "backgroundImageSize": "cover"
+              , "backgroundImageRepeat": "no-repeat"
+            {{/eq}}
+            {{#eq page.background.imageBackground.display 'fill'}}
+              , "backgroundImageSize": "auto"
+              , "backgroundImageRepeat": "no-repeat"
+            {{/eq}}
+        {{/eq}}
+        {{~#eq page.background.fillOptions 'Gradient' ~}}
+          {{~#eq page.background.gradient.gradientType 'Linear' ~}}
+            , "backgroundImage":"linear-gradient({{page.background.gradient.angle}}deg,{{~#each page.background.gradient.gradientOptions ~}}{{gradientColor}}{{percenttohex colorOpacity}} {{stop}}% {{~#unless @last}},{{~/unless~}}{{~/each ~}})"
+            , "backgroundColor": "transparent"
+          {{/eq}}
+          {{~#eq page.background.gradient.gradientType 'Radial'}}
+            , "backgroundImage":"radial-gradient({{#eq page.background.gradient.shape 'circle'}}circle{{/eq}}{{#eq page.background.gradient.shape 'ellipse'}}ellipse{{/eq}} at {{#eq page.background.gradient.position 'center'}} center{{/eq}}{{#eq page.background.gradient.position 'top left'}} top left{{/eq}}{{#eq page.background.gradient.position 'top right'}} top right{{/eq}}{{#eq page.background.gradient.position 'bottom right'}} bottom right{{/eq}}{{#eq page.background.gradient.position 'bottom left'}} bottom left{{/eq}},{{#each page.background.gradient.gradientOptions}}{{gradientColor}}{{percenttohex colorOpacity}} {{stop}}% {{~#unless @last}},{{~/unless~}}{{/each}})"
+            , "backgroundColor": "transparent"
+          {{/eq}}
+        {{/eq}}
+      },
+      "navigation": {
+        {{!-- Define defaults in sites.style.scss --}}
+        "navigationStyles" : "start"
+        {{~#if navigation.backgroundColor.colorCode}}, "backgroundColor": "{{{navigation.backgroundColor.colorCode}}}"{{/if}}
+        {{~#if navigation.margin.left}}, "marginLeft": "{{{navigation.margin.left}}}px"{{/if}}
+        {{~#if navigation.margin.right}}, "marginRight": "{{{navigation.margin.right}}}px"{{/if}}
+        {{~#if navigation.margin.top}}, "marginTop": "{{{navigation.margin.top}}}px"{{/if}}
+        {{~#if navigation.margin.bottom}}, "marginBottom": "{{{navigation.margin.bottom}}}px"{{/if}}
+        {{~#if navigation.padding.left}}, "paddingLeft": "{{{navigation.padding.left}}}px"{{/if}}
+        {{~#if navigation.padding.right}}, "paddingRight": "{{{navigation.padding.right}}}px"{{/if}}
+        {{~#if navigation.padding.top}}, "paddingTop": "{{{navigation.padding.top}}}px"{{/if}}
+        {{~#if navigation.padding.bottom}}, "paddingBottom": "{{{navigation.padding.bottom}}}px"{{/if}}
+        {{~#if navigation.titleHorizontalAlignment.alignmentOptions}} {{~#eq navigation.titleHorizontalAlignment.alignmentOptions "left"}}, "titleHorizontalAlignment": "flex-start", "titleOrder": 1, "titleFlexGrow": 0 {{/eq}}{{#eq navigation.titleHorizontalAlignment.alignmentOptions "center"}}, "titleHorizontalAlignment": "center", "titleOrder": 2, "titleFlexGrow": 1{{/eq}}{{#eq navigation.titleHorizontalAlignment.alignmentOptions "right"}}, "titleHorizontalAlignment": "flex-end", "titleOrder": 3, "titleFlexGrow": 0{{/eq}}{{/if}}
+        {{~#if navigation.titleVerticalAlignment.alignmentOptions}}, "titleVerticalAlignment": {{#eq navigation.titleVerticalAlignment.alignmentOptions "top"}}"flex-start"{{/eq}}{{#eq navigation.titleVerticalAlignment.alignmentOptions "center"}}"center"{{/eq}}{{#eq navigation.titleVerticalAlignment.alignmentOptions "bottom"}}"flex-end"{{/eq}}{{/if}}
+        {{~#if navigation.imageScale}}, "imageScale": "{{{navigation.imageScale}}}"{{/if}}
+        {{~#if navigation.primaryhorizontalalignment.alignmentOptions}} {{~#eq navigation.primaryhorizontalalignment.alignmentOptions "left"}}, "primaryHorizontalAlignment": "flex-start", "primaryOrder": 1{{/eq}}{{#eq navigation.primaryhorizontalalignment.alignmentOptions "center"}}, "primaryHorizontalAlignment": "center", "primaryOrder": 2{{/eq}}{{#eq navigation.primaryhorizontalalignment.alignmentOptions "right"}}, "primaryHorizontalAlignment": "flex-end", "primaryOrder": 3{{/eq}}{{/if}}
+        {{~#if navigation.primaryVerticalAlignment.alignmentOptions}}, "primaryVerticalAlignment": {{#eq navigation.primaryVerticalAlignment.alignmentOptions "top"}}"flex-start"{{/eq}}{{#eq navigation.primaryVerticalAlignment.alignmentOptions "center"}}"center"{{/eq}}{{#eq navigation.primaryVerticalAlignment.alignmentOptions "bottom"}}"flex-end"{{/eq}}{{/if}}
+        {{~#if navigation.primaryMargin.left}}, "primaryMarginLeft": "{{{navigation.primaryMargin.left}}}px"{{/if}}
+        {{~#if navigation.primaryMargin.right}}, "primaryMarginRight": "{{{navigation.primaryMargin.right}}}px"{{/if}}
+        {{~#if navigation.primaryMargin.top}}, "primaryMarginTop": "{{{navigation.primaryMargin.top}}}px"{{/if}}
+        {{~#if navigation.primaryMargin.bottom}}, "primaryMarginBottom": "{{{navigation.primaryMargin.bottom}}}px"{{/if}}
+        {{~#if navigation.primaryPadding.left}}, "primaryPaddingLeft": "{{{navigation.primaryPadding.left}}}px"{{/if}}
+        {{~#if navigation.primaryPadding.right}}, "primaryPaddingRight": "{{{navigation.primaryPadding.right}}}px"{{/if}}
+        {{~#if navigation.primaryPadding.top}}, "primaryPaddingTop": "{{{navigation.primaryPadding.top}}}px"{{/if}}
+        {{~#if navigation.primaryPadding.bottom}}, "primaryPaddingBottom": "{{{navigation.primaryPadding.bottom}}}px"{{/if}}
+        {{~#if navigation.secondTextAlignment.alignmentOptions}}, "secondTextAlignment": "{{{navigation.secondTextAlignment.alignmentOptions}}}"{{/if}}
+        {{~#if navigation.secondMargin.left}}, "secondMarginLeft": "{{{navigation.secondMargin.left}}}px"{{/if}}
+        {{~#if navigation.secondMargin.right}}, "secondMarginRight": "{{{navigation.secondMargin.right}}}px"{{/if}}
+        {{~#if navigation.secondMargin.top}}, "secondMarginTop": "{{{navigation.secondMargin.top}}}px"{{/if}}
+        {{~#if navigation.secondMargin.bottom}}, "secondMarginBottom": "{{{navigation.secondMargin.bottom}}}px"{{/if}}
+        {{~#if navigation.secondPadding.left}}, "secondPaddingLeft": "{{{navigation.secondPadding.left}}}px"{{/if}}
+        {{~#if navigation.secondPadding.right}}, "secondPaddingRight": "{{{navigation.secondPadding.right}}}px"{{/if}}
+        {{~#if navigation.secondPadding.top}}, "secondPaddingTop": "{{{navigation.secondPadding.top}}}px"{{/if}}
+        {{~#if navigation.secondPadding.bottom}}, "secondPaddingBottom": "{{{navigation.secondPadding.bottom}}}px"{{/if}}
+        {{~#if navigation.secondBackgroundColor.colorCode}}, "secondBackgroundColor": "{{{navigation.secondBackgroundColor.colorCode}}}"{{/if}}
+        {{~#if navigation.hoverOnElementColor.colorCode}}, "hoverOnElementColor": "{{{navigation.hoverOnElementColor.colorCode}}}"{{/if}}
+        {{~#if navigation.supplementalMenuAlignment.alignmentOptions}} {{~#eq navigation.supplementalMenuAlignment.alignmentOptions "left"}}, "supplementalMenuAlignment": "flex-start", "supplementalOrder": 1{{/eq}}{{#eq navigation.supplementalMenuAlignment.alignmentOptions "center"}}, "supplementalMenuAlignment": "center", "supplementalOrder": 2{{/eq}}{{#eq navigation.supplementalMenuAlignment.alignmentOptions "right"}}, "supplementalMenuAlignment": "flex-end", "supplementalOrder": 3{{/eq}}{{/if}}
+        {{~#if navigation.supplementalVerticalAlignment.alignmentOptions}}, "supplementalVerticalAlignment": {{#eq navigation.supplementalVerticalAlignment.alignmentOptions "top"}}"flex-start"{{/eq}}{{#eq navigation.supplementalVerticalAlignment.alignmentOptions "center"}}"center"{{/eq}}{{#eq navigation.supplementalVerticalAlignment.alignmentOptions "bottom"}}"flex-end"{{/eq}}{{/if}}
+        {{~#if navigation.supplementalMargin.left}}, "supplementalMarginLeft": "{{{navigation.supplementalMargin.left}}}px"{{/if}}
+        {{~#if navigation.supplementalMargin.right}}, "supplementalMarginRight": "{{{navigation.supplementalMargin.right}}}px"{{/if}}
+        {{~#if navigation.supplementalMargin.top}}, "supplementalMarginTop": "{{{navigation.supplementalMargin.top}}}px"{{/if}}
+        {{~#if navigation.supplementalMargin.bottom}}, "supplementalMarginBottom": "{{{navigation.supplementalMargin.bottom}}}px"{{/if}}
+        {{~#if navigation.supplementalPadding.left}}, "supplementalPaddingLeft": "{{{navigation.supplementalPadding.left}}}px"{{/if}}
+        {{~#if navigation.supplementalPadding.right}}, "supplementalPaddingRight": "{{{navigation.supplementalPadding.right}}}px"{{/if}}
+        {{~#if navigation.supplementalPadding.top}}, "supplementalPaddingTop": "{{{navigation.supplementalPadding.top}}}px"{{/if}}
+        {{~#if navigation.supplementalPadding.bottom}}, "supplementalPaddingBottom": "{{{navigation.supplementalPadding.bottom}}}px"{{/if}}
+        {{~#if navigation.titleTypography.bodyFontSize.fontSize}}, "titleFontSize": "{{{navigation.titleTypography.bodyFontSize.fontSize}}}px"{{/if}}
+        {{~#if navigation.titleTypography.bodyFontStyle.fontFamily}}, "titleFontFamily": "{{{navigation.titleTypography.bodyFontStyle.fontFamily}}}"{{/if}}
+        {{~#if navigation.titleTypography.bodyFontStyle.fontWeight}}, "titleFontWeight": "{{{navigation.titleTypography.bodyFontStyle.fontWeight}}}"{{/if}}
+        , "titleFontStyle":{{~#if navigation.titleTypography.bodyFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "titleTextDecoration":{{~#if navigation.titleTypography.bodyFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "titleTextTransform":{{~#if navigation.titleTypography.bodyFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if navigation.titleTypography.bodyFontColor.fontPrimaryColor.colorCode}}, "titleFontPrimaryColor": "{{{navigation.titleTypography.bodyFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if navigation.titleTypography.bodyFontColor.fontInverseColor.colorCode}}, "titleFontInverseColor": "{{{navigation.titleTypography.bodyFontColor.fontInverseColor.colorCode}}}"{{/if}}
+        {{~#if navigation.primaryTypography.bodyFontSize.fontSize}}, "primaryFontSize": "{{{navigation.primaryTypography.bodyFontSize.fontSize}}}px"{{/if}}
+        {{~#if navigation.primaryTypography.bodyFontStyle.fontFamily}}, "primaryFontFamily": "{{{navigation.primaryTypography.bodyFontStyle.fontFamily}}}"{{/if}}
+        {{~#if navigation.primaryTypography.bodyFontStyle.fontWeight}}, "primaryFontWeight": "{{{navigation.primaryTypography.bodyFontStyle.fontWeight}}}"{{/if}}
+        , "primaryFontStyle":{{~#if navigation.primaryTypography.bodyFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "primaryTextDecoration":{{~#if navigation.primaryTypography.bodyFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "primaryTextTransform":{{~#if navigation.primaryTypography.bodyFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if navigation.primaryTypography.bodyFontColor.fontPrimaryColor.colorCode}}, "primaryFontPrimaryColor": "{{{navigation.primaryTypography.bodyFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if navigation.primaryTypography.bodyFontColor.fontInverseColor.colorCode}}, "primaryFontInverseColor": "{{{navigation.primaryTypography.bodyFontColor.fontInverseColor.colorCode}}}"{{/if}}
+        {{~#if navigation.secondTypography.bodyFontSize.fontSize}}, "secondFontSize": "{{{navigation.secondTypography.bodyFontSize.fontSize}}}px"{{/if}}
+        {{~#if navigation.secondTypography.bodyFontStyle.fontFamily}}, "secondFontFamily": "{{{navigation.secondTypography.bodyFontStyle.fontFamily}}}"{{/if}}
+        {{~#if navigation.secondTypography.bodyFontStyle.fontWeight}}, "secondFontWeight": "{{{navigation.secondTypography.bodyFontStyle.fontWeight}}}"{{/if}}
+        , "secondFontStyle":{{~#if navigation.secondTypography.bodyFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "secondTextDecoration":{{~#if navigation.secondTypography.bodyFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "secondTextTransform":{{~#if navigation.secondTypography.bodyFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if navigation.secondTypography.bodyFontColor.fontPrimaryColor.colorCode}}, "secondFontPrimaryColor": "{{{navigation.secondTypography.bodyFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if navigation.secondTypography.bodyFontColor.fontInverseColor.colorCode}}, "secondFontInverseColor": "{{{navigation.secondTypography.bodyFontColor.fontInverseColor.colorCode}}}"{{/if}}
+        {{~#if navigation.supplementalTypography.bodyFontSize.fontSize}}, "supplementalFontSize": "{{{navigation.supplementalTypography.bodyFontSize.fontSize}}}px"{{/if}}
+        {{~#if navigation.supplementalTypography.bodyFontStyle.fontFamily}}, "supplementalFontFamily": "{{{navigation.supplementalTypography.bodyFontStyle.fontFamily}}}"{{/if}}
+        {{~#if navigation.supplementalTypography.bodyFontStyle.fontWeight}}, "supplementalFontWeight": "{{{navigation.supplementalTypography.bodyFontStyle.fontWeight}}}"{{/if}}
+        , "supplementalFontStyle":{{~#if navigation.supplementalTypography.bodyFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "supplementalTextDecoration":{{~#if navigation.supplementalTypography.bodyFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "supplementalTextTransform":{{~#if navigation.supplementalTypography.bodyFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if navigation.supplementalTypography.bodyFontColor.fontPrimaryColor.colorCode}}, "supplementalFontPrimaryColor": "{{{navigation.supplementalTypography.bodyFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if navigation.supplementalTypography.bodyFontColor.fontInverseColor.colorCode}}, "supplementalFontInverseColor": "{{{navigation.supplementalTypography.bodyFontColor.fontInverseColor.colorCode}}}"{{/if}}
+      },
+      "typography": {
+        "typographyStyles" : "start"
+        {{~#if typography.typographyBody.bodyFontSize.fontSize}}, "bodyFontSize": "{{{typography.typographyBody.bodyFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyBody.bodyFontStyle.fontFamily}}, "bodyFontFamily": "{{{typography.typographyBody.bodyFontStyle.fontFamily}}}"{{/if}}
+        {{~#if typography.typographyBody.bodyFontStyle.fontWeight}}, "bodyFontWeight": "{{{typography.typographyBody.bodyFontStyle.fontWeight}}}"{{/if}}
+        , "bodyFontStyle":{{~#if typography.typographyBody.bodyFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "bodyTextDecoration":{{~#if typography.typographyBody.bodyFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "bodyTextTransform":{{~#if typography.typographyBody.bodyFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if typography.typographyBody.bodyFontColor.fontPrimaryColor.colorCode}}, "bodyFontPrimaryColor": "{{{typography.typographyBody.bodyFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyBody.bodyFontColor.fontInverseColor.colorCode}}, "bodyFontInverseColor": "{{{typography.typographyBody.bodyFontColor.fontInverseColor.colorCode}}}"{{/if}}
+        , "headingFontStyle":{{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontStyleToggles.fontItalics}}"italic"{{else}}"normal"{{/if}}
+        , "headingTextDecoration":{{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontStyleToggles.fontUnderline}}"underline"{{else}}"none"{{/if}}
+        , "headingTextTransform":{{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontStyleToggles.fontUppercase}}"uppercase"{{else}}"none"{{/if}}
+        {{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontFamily}}, "headingFontFamily": "{{{typography.typographyHeadings.headingsAll.headingFontStyle.fontFamily}}}"{{/if}}
+        {{~#if typography.typographyHeadings.headingsAll.headingFontStyle.fontWeight}}, "headingFontWeight": "{{{typography.typographyHeadings.headingsAll.headingFontStyle.fontWeight}}}"{{/if}}
+        {{~#if typography.typographyHeadings.headingsAll.headingFontColor.fontPrimaryColor.colorCode}}, "headingFontPrimaryColor": "{{{typography.typographyHeadings.headingsAll.headingFontColor.fontPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyHeadings.headingsAll.headingFontColor.fontInverseColor.colorCode}}, "headingFontInverseColor": "{{{typography.typographyHeadings.headingsAll.headingFontColor.fontInverseColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyHeadings.headingsViewToggle}}, "headingsViewToggle": "{{{typography.typographyHeadings.headingsViewToggle}}}"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading1.headingFontSize.fontSize}}, "headingFontSizeH1": "{{{typography.typographyHeadings.headingsEach.heading1.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading3.headingFontSize.fontSize}}, "headingFontSizeH3": "{{{typography.typographyHeadings.headingsEach.heading3.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading6.headingFontSize.fontSize}}, "headingFontSizeH6": "{{{typography.typographyHeadings.headingsEach.heading6.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading2.headingFontSize.fontSize}}, "headingFontSizeH2": "{{{typography.typographyHeadings.headingsEach.heading2.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading5.headingFontSize.fontSize}}, "headingFontSizeH5": "{{{typography.typographyHeadings.headingsEach.heading5.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyHeadings.headingsEach.heading4.headingFontSize.fontSize}}, "headingFontSizeH4": "{{{typography.typographyHeadings.headingsEach.heading4.headingFontSize.fontSize}}}px"{{/if}}
+        {{~#if typography.typographyLink.linkPrimaryColor.colorCode}}, "linkPrimaryColor": "{{{typography.typographyLink.linkPrimaryColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyLink.linkPrimaryHoverColor.colorCode}}, "linkPrimaryHoverColor": "{{{typography.typographyLink.linkPrimaryHoverColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyLink.linkInverseColor.colorCode}}, "linkInverseColor": "{{{typography.typographyLink.linkInverseColor.colorCode}}}"{{/if}}
+        {{~#if typography.typographyLink.linkInverseHoverColor.colorCode}}, "linkInverseHoverColor": "{{{typography.typographyLink.linkInverseHoverColor.colorCode}}}"{{/if}}
+      }
+    },
+    {{!-- include the palette --}}
+    "theme": {{{stringify palette}}}
+    {{!-- override the body color --}}
+    {{~#if page.background.backgroundColor.colorCode}}, "themeBodyBgColorCode": "{{page.background.backgroundColor.colorCode}}{{percenttohex page.background.backgroundColor.opacity}}"{{~/if~}}
+    {{~#eq page.background.fillOptions 'None'}}, "themeBodyBgColorCode": "#ffffff"{{/eq~}}
+    {{~#eq page.background.fillOptions 'Gradient'}}, "themeBodyBgColorCode": "#ffffff"{{/eq~}}
+    {{~#eq page.background.fillOptions 'Background image'}}, "themeBodyBgColorCode": "#ffffff"{{/eq~}}
+
+    {{!-- set the font family --}}
+    {{#if palette.base.$markup}}
+    , "themeBase": {{{palette.base.$markup}}}
+    {{/if}}
+    {{#if palette.mono.$markup}}
+    , "themeMono": {{{palette.mono.$markup}}}
+    {{/if}}
+  }
+}
+{{/unlessEq}}
+{{/unlessEq}}

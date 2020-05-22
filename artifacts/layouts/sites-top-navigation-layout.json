@@ -1,0 +1,10 @@
+{
+  "id": "sites-top-navigation-layout",
+  "rev": "156-7d4b5f462a5025fd88a0225f0212d55f",
+  "name": "sitesTopNavigationLayout",
+  "classification": "layout",
+  "prerender": true,
+  "template": "/templates/sites-top-navigation-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites/{id}.html"
+}

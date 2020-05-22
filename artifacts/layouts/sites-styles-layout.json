@@ -1,0 +1,19 @@
+{
+  "id": "sites-styles-layout",
+  "rev": "156-eeb335e9b3a37133ed23d35787745001",
+  "name": "sitesStylesLayout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next",
+    "mode:head",
+    "mode:body",
+    "mode:json"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/layouts/sites-styles-layout.jpg"
+  },
+  "template": "/templates/sites-styles-layout.hbs",
+  "templateType": "handlebars",
+  "urlTemplate": "{templateLocation}/sites-styles-layout/{id}.html"
+}

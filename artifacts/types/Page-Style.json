@@ -1,0 +1,112 @@
+{
+  "id": "ab6840f0-1ff9-4787-aef0-fd58db9e7203",
+  "rev": "156-c44ac524dd05d3225ac511b3676183cd",
+  "name": "Page Style",
+  "classification": "content-type",
+  "kind": [
+    "embedded"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "optionselection",
+      "key": "maxWidth",
+      "label": "Max width",
+      "options": [
+        {
+          "label": "1584 px",
+          "selection": "1584"
+        },
+        {
+          "label": "1200 px",
+          "selection": "1200"
+        },
+        {
+          "label": "992 px",
+          "selection": "992"
+        },
+        {
+          "label": "768 px",
+          "selection": "768"
+        }
+      ]
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Gutter width (px)",
+      "key": "gutterWidth"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Margin",
+      "key": "margin"
+    },
+    {
+      "elementType": "group",
+      "typeRef": {
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
+      },
+      "label": "Mobile Margin",
+      "key": "mobileMargin"
+    },
+    {
+      "elementType": "group",
+      "key": "background",
+      "label": "Background",
+      "typeRef": {
+        "id": "0a92059b-de6b-476d-b291-1638a435d0af"
+      }
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "page",
+      "tabs": [
+        {
+          "name": "settings",
+          "groups": [
+            {
+              "name": "layout",
+              "elements": [
+                "maxWidth",
+                "gutterWidth"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            }
+          ]
+        },
+        {
+          "name": "style",
+          "groups": [
+            {
+              "name": "spacing",
+              "elements": [
+                "margin"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            },
+            {
+              "name": "background",
+              "elements": [
+                "background"
+              ],
+              "initialState": "expanded",
+              "type": "twisty"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "843fb991-7413-4517-bfcb-b59fc4b1f449",
+  "rev": "154-2e659d613af7ee4c955f78066dc63255",
+  "name": "📄 Site Navigation Descriptor",
+  "classification": "content-type",
+  "kind": [
+    "embedded",
+    "standalone"
+  ],
+  "thumbnail": {
+    "path": "/dxauth/thumbnails/types/site-navigation-descriptor-type.png"
+  },
+  "description": "This content item defines the navigation structure for a site.",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "helpText": "This element contains the serialized JSON object that defines the nested navigation for the site. The individual nodes are referencing individual page content items by ID.",
+      "key": "navigation",
+      "label": "Navigation",
+      "required": true
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element identifies the default page for the site.",
+      "key": "defaultPage",
+      "label": "Default Page"
+    },
+    {
+      "elementType": "text",
+      "helpText": "This element is used to uniquely identify this element in the current content item",
+      "key": "key",
+      "label": "Key"
+    }
+  ]
+}
