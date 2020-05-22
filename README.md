@@ -11,6 +11,7 @@ Linux/Mac:
 ```python
 sudo npm install -g wchtools-cli 
 ```
+Make sure that you have initialized wchtools with your user and tenant API URL. You will be prompted for your user password when deploying to the tenant. For more information go to [wchtools documentation](https://github.com/ibm-wch/wchtools-cli/blob/master/README.md#getting-started)
 
 Update all edited artifacts with
 ```python
