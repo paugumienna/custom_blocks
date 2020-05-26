@@ -2,25 +2,26 @@
 <div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
     data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
     data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="display:flex;   {{{alignment.$markup}}} padding: {{{padding.$markup}}};     justify-content: space-evenly;
-    {{~#if background}} background-color: {{{background.backgroundColor.colorCode}}}; {{/if~}}  {{~#if background.gradient.gradientType }}
-        {{#eq background.gradient.gradientType "Linear"}} background-image:linear-gradient({{background.gradient.color1 }},
-	    {{background.gradient.color2}}) !important; {{/eq~}} 
-	    {{#eq background.gradient.gradientType "Radial"}}
-        background-image: radial-gradient({{background.gradient.color1 }},
-	{{background.gradient.color2}}) !important; {{/eq~}}
-    {{~/if~}}
-    {{~#if background.imageBackground.image.url}}
-    background-image: url({{$context.hub.resourceUrl.origin}}{{background.imageBackground.image.renditions.default.url}});{{/if}}
-    {{#eq background.fillOptions 'center'}}
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position:center;{{/eq}}
-        {{#eq background.fillOptions 'tile'}}
-        background-repeat: repeat;
-        background-size: contain;{{/eq}}
-        {{#eq background.fillOptions 'full-width'}}
-        background-size: cover;
-        background-repeat: no-repeat;{{/eq}}">
+{{~#if background}} 
+    {{#eq background.fillOptions "None"}}
+        background-color: none; background-image:none;
+        {{/eq}} 
+    {{#eq background.fillOptions "Solid color"}} 
+         background-color: {{{background.backgroundColor.colorCode}}}; 
+    {{/eq}}  
+    {{#eq background.fillOptions "Background image"}}
+        {{~#if background.imageBackground.image.url}}
+        background-image: url({{$context.hub.resourceUrl.origin}}{{background.imageBackground.image.renditions.default.url}});{{/if}}
+    {{/eq}}  
+    
+       
+    {{#eq background.fillOptions "Gradient"}} 
+        {{#eq background.gradient.gradientType "Linear"}} color:red; background-image:linear-gradient({{background.gradient.color1 }}, {{background.gradient.color2 }}) !important; 
+        {{/eq~}} 
+	    {{#eq background.gradient.gradientType "Radial"}}color:blue; background-image: radial-gradient({{background.gradient.color1 }}, {{background.gradient.color2 }}) !important; 
+        {{/eq~}}
+    {{/eq}}  
+{{/if~}}">
     <div style="{{textStyle.textStyle.$markup}} padding:{{textStyle.padding.$markup}}; width:46%">
         <p style="font-size:larger !important; margin:5px;">
             {{label}}</p>
@@ -32,5 +33,6 @@
     </div>
     <img src="{{image.url}}" alt="alt text" style="align-self: center;">
 </div>
-{{log .}}
+{{log . }}
+
 <!-- End My Layout -->

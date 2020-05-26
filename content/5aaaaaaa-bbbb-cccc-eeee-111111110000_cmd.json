@@ -1,0 +1,67 @@
+{
+  "rev": "17-8af30245d1a5e383920567a9b302458d",
+  "creator": "paulina.gumienna",
+  "keywords": [],
+  "kind": [],
+  "created": "2020-05-26T12:02:38.580Z",
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "lastModifier": "paulina.gumienna",
+  "classification": "content",
+  "type": "Tabs HBS Layout Type",
+  "locale": "en",
+  "tags": [
+    "user:sites-block",
+    "user:sites-next"
+  ],
+  "elements": {
+    "tabLabelOne": {
+      "elementType": "text",
+      "value": "Label One"
+    },
+    "tabLabelThree": {
+      "elementType": "text",
+      "value": "Label Three"
+    },
+    "tabLabelTwo": {
+      "elementType": "text",
+      "value": "Label Two"
+    },
+    "tabTextOne": {
+      "elementType": "text",
+      "value": "Text One"
+    },
+    "tabTextThree": {
+      "elementType": "text",
+      "value": "Text Three"
+    },
+    "tabTextTwo": {
+      "elementType": "text",
+      "value": "Text Two"
+    }
+  },
+  "name": "Tabs HBS Label",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "typeId": "5aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "links": {
+    "createDraft": {
+      "href": "/authoring/v1/content/5aaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/content/5aaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
+    },
+    "self": {
+      "href": "/authoring/v1/content/5aaaaaaa-bbbb-cccc-eeee-111111110000"
+    },
+    "type": {
+      "href": "/authoring/v1/types/5aaaaaaa-bbbb-cccc-eeee-000000000000"
+    }
+  },
+  "id": "5aaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-26T13:27:09.730Z",
+  "systemModified": "2020-05-26T13:27:09.730Z",
+  "publishing": {
+    "status": "not-available"
+  },
+  "status": "ready"
+}

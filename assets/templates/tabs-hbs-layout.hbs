@@ -1,0 +1,96 @@
+<!-- My Layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}"
+    style="{{{alignment.$markup}}} padding:20px;" ;>
+
+    <div class="tabs">
+        <div class="tab">
+            <input type="radio" name="tabgroup" id="tab-1">
+            <label for="tab-1">{{tabLabelOne}}</label>
+            <div class="content">
+                <p>{{tabTextOne}}</p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="radio" name="tabgroup" id="tab-2">
+            <label for="tab-2">{{tabLabelTwo}}</label>
+            <div class="content">
+                <p>{{tabTextTwo}}</p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <input type="radio" name="tabgroup" id="tab-3">
+            <label for="tab-3">{{tabLabelThree}}</label>
+            <div class="content">
+                <p>{{tabTextThree}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .tabs {
+        position: relative;
+        min-height: 200px;
+        display: block;
+        margin: 1em auto 0;
+    }
+
+    .tab {
+        float: left;
+        padding: 1px;
+    }
+
+    .tab label {
+        top: 1em;
+        cursor: pointer;
+        background: #c69;
+        font-size: 1.2em;
+        border-radius: 5px 5px 0 0;
+        padding: .5em 1em;
+    }
+
+    .tab [type=radio] {
+        position: absolute;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        margin-right: 10px;
+    }
+
+    .content {
+        position: absolute;
+        top: 1em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    [type=radio]:checked~label {
+        z-index: 2;
+        background: #c99;
+    }
+
+    [type=radio]:checked~label~.content {
+        z-index: 1;
+        opacity: 1;
+        background: wheat;
+        border: 1px solid #c69;
+        border-radius: 0 5px 5px;
+        padding: .5em 2em;
+        position: absolute;
+        width: 100%;
+        top: 2em;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 15px;
+    }
+</style>
+{{log .}}
+<!-- End My Layout -->
