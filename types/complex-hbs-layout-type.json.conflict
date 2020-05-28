@@ -1,6 +1,6 @@
 {
   "id": "caaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "170-4a09208f5ceb0189a41ef50637376654",
+  "rev": "157-a83700ceea78b623f98173a08be985b4",
   "name": "Complex HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -8,13 +8,11 @@
     "embedded"
   ],
   "thumbnail": {
-    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
-    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
-    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+    "path": "/dxauth/aa/aaaaaaaa-bbbb-cccc-eeee-000000000001/template.jpg"
   },
   "contentThumbnail": {
     "imageElement": "",
-    "source": "none"
+    "source": "imageElementOrType"
   },
   "description": "Complex HBS Layout Type Description",
   "status": "ready",
@@ -41,8 +39,7 @@
     {
       "elementType": "group",
       "typeRef": {
-        "id": "d403f72d-5383-423c-ba33-5cedd61c9224",
-        "name": "Sites Boundary"
+        "id": "d403f72d-5383-423c-ba33-5cedd61c9224"
       },
       "label": "Margin",
       "key": "margin",
@@ -51,8 +48,7 @@
     {
       "elementType": "group",
       "typeRef": {
-        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5",
-        "name": "Sites Alignment"
+        "id": "d0cf6fd8-e061-4bd6-8f62-fd3ea795b4e5"
       },
       "label": "alignment",
       "key": "alignment",
@@ -104,11 +100,11 @@
       "key": "blockColor",
       "label": "Block color",
       "typeRef": {
-        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac",
-        "name": "Sites Color"
+        "id": "93ed78a8-cea7-4188-8584-a8bedca6ebac"
       }
     }
   ],
+  "icon": "category",
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {

@@ -1,9 +1,13 @@
 {
-  "rev": "136-7c280b18398e9986aa8c3525015c30ab",
+  "rev": "170-cd72ef176a8b900901334e9e02aaf9a8",
   "creator": "paulina.gumienna",
+  "thumbnail": {
+    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
+    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+  },
   "keywords": [],
   "kind": [],
-  "created": "2020-05-26T12:02:38.576Z",
+  "created": "2020-05-28T07:53:51.048Z",
   "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
   "description": "",
   "lastModifier": "paulina.gumienna",
@@ -48,6 +52,9 @@
   "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
   "typeId": "1aaaaaaa-bbbb-cccc-eeee-000000000000",
   "links": {
+    "thumbnail": {
+      "href": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+    },
     "createDraft": {
       "href": "/authoring/v1/content/1aaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
     },
@@ -62,8 +69,8 @@
     }
   },
   "id": "1aaaaaaa-bbbb-cccc-eeee-111111110000",
-  "lastModified": "2020-05-26T13:27:09.716Z",
-  "systemModified": "2020-05-26T13:27:09.716Z",
+  "lastModified": "2020-05-28T08:32:33.914Z",
+  "systemModified": "2020-05-28T08:32:33.914Z",
   "publishing": {
     "status": "not-available"
   },

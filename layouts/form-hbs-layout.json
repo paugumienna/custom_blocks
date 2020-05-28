@@ -1,0 +1,12 @@
+{
+  "id": "form-hbs-layout",
+  "rev": "33-994da39b7d9a248c115ecd8336d71f9c",
+  "name": "Form HBS Layout",
+  "classification": "layout",
+  "prerender": false,
+  "tags": [
+    "sites-next"
+  ],
+  "template": "/templates/form-hbs-layout.hbs",
+  "templateType": "handlebars"
+}

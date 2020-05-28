@@ -1,15 +1,20 @@
 {
   "id": "baaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "190-a6524c9ff83e7c21c8e0d286aa6f4e57",
+  "rev": "231-14c68c895968b411d1f142459dccb675",
   "name": "List HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
+  "thumbnail": {
+    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
+    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
+    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+  },
   "contentThumbnail": {
     "imageElement": "",
-    "source": "imageElementOrType"
+    "source": "none"
   },
   "description": "List HBS Layout Type Description",
   "status": "ready",

@@ -1,15 +1,20 @@
 {
   "id": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "281-e969dbb59bd11d93ea713374f9de82ec",
+  "rev": "322-c6ee8ac55bbf0d9186cfa0244851d3d4",
   "name": "Modal HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
+  "thumbnail": {
+    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
+    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
+    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+  },
   "contentThumbnail": {
     "imageElement": "",
-    "source": "imageElementOrType"
+    "source": "none"
   },
   "description": "Modal HBS Layout Type Description",
   "status": "ready",

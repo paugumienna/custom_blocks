@@ -1,17 +1,12 @@
 {
   "id": "1aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "159-2a09644cef895e1fc42c1e687d6b2de4",
+  "rev": "146-b497d7f7c32e1a11ce7a4ca3df09082b",
   "name": "Date HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
-  "thumbnail": {
-    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
-    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
-    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
-  },
   "contentThumbnail": {
     "imageElement": "",
     "source": "imageElementOrType"
@@ -137,6 +132,7 @@
       "key": "dateFormat"
     }
   ],
+  "icon": "formattedtext",
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {

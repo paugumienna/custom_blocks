@@ -1,7 +1,7 @@
 {
-  "id": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "141-eac236b54767d2f3ec2493afeefcf58e",
-  "name": "Video HBS Layout Type",
+  "id": "6aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "42-7cecff1417f0d09e49e481e5f81f820b",
+  "name": "Form HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
@@ -16,28 +16,32 @@
     "imageElement": "",
     "source": "imageElementOrType"
   },
-  "description": "Video HBS Layout Type Description",
+  "description": "Form HBS Layout Type Description",
   "status": "ready",
   "tags": [
     "sites-next"
   ],
   "elements": [
     {
-      "elementType": "video",
-      "helpText": "This element holds the reference to the video asset",
-      "key": "video",
-      "label": "Video"
+      "elementType": "text",
+      "helpText": "The text label",
+      "key": "label",
+      "label": "Label",
+      "placeholder": {
+        "show": true,
+        "text": "Label text"
+      }
     }
   ],
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {
-      "title": "Video HBS Layout Type Title",
+      "title": "Form HBS Layout Type Title",
       "tabs": [
         {
           "name": "Settings",
           "elements": [
-            "video"
+            "label"
           ],
           "footer": {
             "elements": [

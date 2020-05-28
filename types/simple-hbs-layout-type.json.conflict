@@ -1,20 +1,15 @@
 {
   "id": "daaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "181-3083ebf67eebc5dcfb2c8bd6b418c938",
+  "rev": "140-e00f48992c90ad757825cc2ce32e852e",
   "name": "Simple HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
-  "thumbnail": {
-    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
-    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
-    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
-  },
   "contentThumbnail": {
     "imageElement": "",
-    "source": "none"
+    "source": "imageElementOrType"
   },
   "description": "Simple HBS Layout Type Description",
   "status": "ready",

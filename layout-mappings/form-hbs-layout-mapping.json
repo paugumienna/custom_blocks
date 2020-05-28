@@ -1,0 +1,27 @@
+{
+  "id": "form-hbs-layout-mapping",
+  "rev": "31-625c6788fc7521e62adedeeb96511c9b",
+  "name": "Form HBS Layout Mapping",
+  "classification": "layout-mapping",
+  "tags": [
+    "sites-next"
+  ],
+  "type": {
+    "id": "6aaaaaaa-bbbb-cccc-eeee-000000000000",
+    "name": "Form HBS Layout Type"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "form-hbs-layout",
+        "name": "Form HBS Layout"
+      },
+      "layouts": [
+        {
+          "id": "form-hbs-layout",
+          "name": "Form HBS Layout"
+        }
+      ]
+    }
+  ]
+}

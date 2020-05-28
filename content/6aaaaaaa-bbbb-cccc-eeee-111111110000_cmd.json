@@ -1,5 +1,5 @@
 {
-  "rev": "139-f4ec8faf872625d8c5eb27c23dd45a64",
+  "rev": "42-b44957cfb93a2db82a841753ce50f9bd",
   "creator": "paulina.gumienna",
   "thumbnail": {
     "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
@@ -7,45 +7,46 @@
   },
   "keywords": [],
   "kind": [],
-  "created": "2020-05-28T08:22:30.389Z",
+  "created": "2020-05-28T07:53:51.047Z",
   "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
   "description": "",
   "lastModifier": "paulina.gumienna",
   "classification": "content",
-  "type": "Video HBS Layout Type",
+  "type": "Form HBS Layout Type",
   "locale": "en",
   "tags": [
     "user:sites-block",
     "user:sites-next"
   ],
   "elements": {
-    "video": {
-      "elementType": "video"
+    "label": {
+      "elementType": "text",
+      "value": "This is some new HBS block!"
     }
   },
-  "name": "Video HBS Label",
+  "name": "Form HBS Label",
   "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
-  "typeId": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "typeId": "6aaaaaaa-bbbb-cccc-eeee-000000000000",
   "links": {
     "thumbnail": {
       "href": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
     },
     "createDraft": {
-      "href": "/authoring/v1/content/3aaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
+      "href": "/authoring/v1/content/6aaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
     },
     "retire": {
-      "href": "/authoring/v1/changes/content/3aaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
+      "href": "/authoring/v1/changes/content/6aaaaaaa-bbbb-cccc-eeee-111111110000/status/retire"
     },
     "self": {
-      "href": "/authoring/v1/content/3aaaaaaa-bbbb-cccc-eeee-111111110000"
+      "href": "/authoring/v1/content/6aaaaaaa-bbbb-cccc-eeee-111111110000"
     },
     "type": {
-      "href": "/authoring/v1/types/3aaaaaaa-bbbb-cccc-eeee-000000000000"
+      "href": "/authoring/v1/types/6aaaaaaa-bbbb-cccc-eeee-000000000000"
     }
   },
-  "id": "3aaaaaaa-bbbb-cccc-eeee-111111110000",
-  "lastModified": "2020-05-28T08:32:33.806Z",
-  "systemModified": "2020-05-28T08:32:33.806Z",
+  "id": "6aaaaaaa-bbbb-cccc-eeee-111111110000",
+  "lastModified": "2020-05-28T08:32:33.881Z",
+  "systemModified": "2020-05-28T08:32:33.881Z",
   "publishing": {
     "status": "not-available"
   },

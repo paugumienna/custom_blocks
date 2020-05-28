@@ -1,15 +1,20 @@
 {
   "id": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "113-9c211931638b413d6d5d878d0f60efc5",
+  "rev": "155-75c7332516e2703a090e092cc327b831",
   "name": "IMG HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
+  "thumbnail": {
+    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
+    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
+    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+  },
   "contentThumbnail": {
-    "imageElement": "",
-    "source": "imageElementOrType"
+    "imageElement": "image",
+    "source": "none"
   },
   "description": "IMG HBS Layout Type Description",
   "status": "ready",

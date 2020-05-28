@@ -1,15 +1,20 @@
 {
   "id": "4aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "88-6f246ecb92d78d92a8978a6ff6d20db7",
+  "rev": "130-6e7901d89cfa734ceb4fd5a572ee4449",
   "name": "Promotion HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
+  "thumbnail": {
+    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
+    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
+    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+  },
   "contentThumbnail": {
-    "imageElement": "",
-    "source": "imageElementOrType"
+    "imageElement": "image",
+    "source": "type"
   },
   "description": "Promotion HBS Layout Type Description",
   "status": "ready",
