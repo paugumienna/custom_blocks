@@ -1,45 +1,47 @@
 {
-  "id": "daaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "185-8c67f87deeb86253e53458e2774f65b6",
-  "name": "Simple HBS Layout Type",
+  "id": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "159-3aeb687233b1c45f93e006451c89f399",
+  "name": "IMG HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
   "thumbnail": {
-    "id": "053c5806-deb4-498b-8d73-06f42e17a570"
+    "id": "07c1d40a-726b-4ad0-a3f1-a5087a1a8778"
   },
   "contentThumbnail": {
-    "imageElement": "",
+    "imageElement": "image",
     "source": "none"
   },
-  "description": "Simple HBS Layout Type Description",
+  "description": "IMG HBS Layout Type Description",
   "status": "ready",
   "tags": [
     "sites-next"
   ],
   "elements": [
     {
-      "elementType": "text",
-      "helpText": "The text label",
-      "key": "label",
-      "label": "Label",
-      "placeholder": {
-        "show": true,
-        "text": "Label text"
-      }
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Image"
     }
   ],
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {
-      "title": "Simple HBS Layout Type Title",
+      "title": "IMG HBS Layout Type Title",
       "tabs": [
         {
           "name": "Settings",
           "elements": [
-            "label"
+            "image"
           ],
           "footer": {
             "elements": [

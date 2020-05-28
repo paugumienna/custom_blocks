@@ -1,6 +1,6 @@
 {
   "id": "baaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "243-f687b57f50109e52fd35595ad5dac7da",
+  "rev": "235-fb7ea43b7ec783458a0c4881c0930f04",
   "name": "List HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -8,9 +8,7 @@
     "embedded"
   ],
   "thumbnail": {
-    "id": "d14b5410-73e1-4a69-bca6-afaf4e30be5c",
-    "path": "/dxdam/d1/d14b5410-73e1-4a69-bca6-afaf4e30be5c/template.jpg",
-    "url": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
+    "id": "290196ad-9e2d-4c9c-8d4a-4d322d0c2c53"
   },
   "contentThumbnail": {
     "imageElement": "",

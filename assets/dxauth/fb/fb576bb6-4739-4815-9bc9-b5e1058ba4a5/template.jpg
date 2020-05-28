@@ -1,0 +1,32 @@
+{
+  "name": "template.jpg",
+  "description": "",
+  "id": "1e48a428-a04f-11ea-bb37-0242ac130002",
+  "classification": "asset",
+  "altText": "",
+  "assetType": "image",
+  "caption": "",
+  "categoryIds": [],
+  "digest": "mskEzGxT5EtP7WW4YMsk6A==",
+  "fileName": "template.svg",
+  "fileSize": 6543,
+  "isManaged": true,
+  "mediaId": "e1766235-d446-41b2-95a3-369d8b5f0258",
+  "mediaType": "image/jpeg",
+  "metadata": {
+    "height": 150,
+    "width": 150
+  },
+  "path": "/dxauth/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
+  "status": "ready",
+  "tags": {
+    "analysis": "complete",
+    "declined": [],
+    "suggested": [],
+    "values": []
+  },
+  "usageRights": {
+    "categories": []
+  },
+  "resource": "5866bd0b-3e49-4ba8-803f-78cfbbcf672b"
+}

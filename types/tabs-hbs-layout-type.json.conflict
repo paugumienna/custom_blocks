@@ -1,6 +1,6 @@
 {
   "id": "5aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "71-8403dd87e9aa627bfef5f229e80932fa",
+  "rev": "63-340e8d4e78274100e6d701901703017b",
   "name": "Tabs HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -8,9 +8,7 @@
     "embedded"
   ],
   "thumbnail": {
-    "id": "d14b5410-73e1-4a69-bca6-afaf4e30be5c",
-    "path": "/dxdam/d1/d14b5410-73e1-4a69-bca6-afaf4e30be5c/template.jpg",
-    "url": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
+    "id": "20eba94a-91be-40aa-add6-a1ecaf30e6c8"
   },
   "contentThumbnail": {
     "imageElement": "",

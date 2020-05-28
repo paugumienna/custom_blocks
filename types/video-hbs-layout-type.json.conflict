@@ -1,45 +1,41 @@
 {
-  "id": "daaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "185-8c67f87deeb86253e53458e2774f65b6",
-  "name": "Simple HBS Layout Type",
+  "id": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "145-c0c320a87dd9a41ff9339b7886163173",
+  "name": "Video HBS Layout Type",
   "classification": "content-type",
   "kind": [
     "standalone",
     "embedded"
   ],
   "thumbnail": {
-    "id": "053c5806-deb4-498b-8d73-06f42e17a570"
+    "id": "1d86eeb8-a16b-451c-9263-890cbb08eed4"
   },
   "contentThumbnail": {
     "imageElement": "",
-    "source": "none"
+    "source": "imageElementOrType"
   },
-  "description": "Simple HBS Layout Type Description",
+  "description": "Video HBS Layout Type Description",
   "status": "ready",
   "tags": [
     "sites-next"
   ],
   "elements": [
     {
-      "elementType": "text",
-      "helpText": "The text label",
-      "key": "label",
-      "label": "Label",
-      "placeholder": {
-        "show": true,
-        "text": "Label text"
-      }
+      "elementType": "video",
+      "helpText": "This element holds the reference to the video asset",
+      "key": "video",
+      "label": "Video"
     }
   ],
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {
-      "title": "Simple HBS Layout Type Title",
+      "title": "Video HBS Layout Type Title",
       "tabs": [
         {
           "name": "Settings",
           "elements": [
-            "label"
+            "video"
           ],
           "footer": {
             "elements": [

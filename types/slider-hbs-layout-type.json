@@ -1,6 +1,6 @@
 {
   "id": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "155-75c7332516e2703a090e092cc327b831",
+  "rev": "167-a44a310bb1ee1dae1258f70fc8bd983f",
   "name": "IMG HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -8,9 +8,9 @@
     "embedded"
   ],
   "thumbnail": {
-    "id": "fb576bb6-4739-4815-9bc9-b5e1058ba4a5",
-    "path": "/dxdam/fb/fb576bb6-4739-4815-9bc9-b5e1058ba4a5/template.jpg",
-    "url": "/authoring/v1/resources/f3350f4f-fa67-46b2-8b04-488406b81a58"
+    "id": "d14b5410-73e1-4a69-bca6-afaf4e30be5c",
+    "path": "/dxdam/d1/d14b5410-73e1-4a69-bca6-afaf4e30be5c/template.jpg",
+    "url": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
   },
   "contentThumbnail": {
     "imageElement": "image",
