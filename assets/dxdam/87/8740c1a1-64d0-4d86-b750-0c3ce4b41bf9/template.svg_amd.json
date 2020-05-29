@@ -5,14 +5,14 @@
   "description": "",
   "caption": "",
   "lastModifier": "paulina.gumienna",
-  "mediaId": "ae5eddca-fb28-4d7c-ab5d-0b6ad6892f5c",
+  "mediaId": "215e0caf-c6d7-40a0-bcfe-58d59ab1c55e",
   "path": "/dxdam/87/8740c1a1-64d0-4d86-b750-0c3ce4b41bf9/template.svg",
   "digest": "6iGPwVtrJbfNAPqgCwHTVA==",
   "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
   "renditions": {
     "default": {
-      "id": "r=75b3cb8d-02a1-4346-9916-74f30f4e5834&a=da7ef668-2e02-4c44-9b42-b77430dec5d0",
-      "source": "/authoring/v1/resources/75b3cb8d-02a1-4346-9916-74f30f4e5834"
+      "id": "r=bbce232e-5e67-4ca3-aeb3-d534be3df4be&a=da7ef668-2e02-4c44-9b42-b77430dec5d0",
+      "source": "/authoring/v1/resources/bbce232e-5e67-4ca3-aeb3-d534be3df4be"
     }
   },
   "links": {
@@ -20,10 +20,10 @@
       "href": "/authoring/v1/assets/da7ef668-2e02-4c44-9b42-b77430dec5d0"
     },
     "media": {
-      "href": "/authoring/v1/resources/75b3cb8d-02a1-4346-9916-74f30f4e5834.svg"
+      "href": "/authoring/v1/resources/bbce232e-5e67-4ca3-aeb3-d534be3df4be.svg"
     },
     "thumbnail": {
-      "href": "/authoring/v1/resources/75b3cb8d-02a1-4346-9916-74f30f4e5834"
+      "href": "/authoring/v1/resources/bbce232e-5e67-4ca3-aeb3-d534be3df4be"
     },
     "retire": {
       "href": "/authoring/v1/changes/asset/da7ef668-2e02-4c44-9b42-b77430dec5d0/status/retire"
@@ -34,15 +34,15 @@
   "usageRights": {
     "categories": []
   },
-  "systemModified": "2020-05-28T11:15:44.140Z",
+  "systemModified": "2020-05-29T10:19:25.772Z",
   "publishing": {
     "status": "not-available"
   },
-  "rev": "28-98b16657b436a209a0e87eb5aa0a0f56",
+  "rev": "78-009a929df24f1a71daaa252868426f28",
   "creator": "paulina.gumienna",
   "altText": "",
-  "resource": "75b3cb8d-02a1-4346-9916-74f30f4e5834",
-  "created": "2020-05-28T10:52:26.274Z",
+  "resource": "bbce232e-5e67-4ca3-aeb3-d534be3df4be",
+  "created": "2020-05-29T10:09:02.914Z",
   "mediaType": "image/svg+xml",
   "classification": "asset",
   "tags": {
@@ -58,6 +58,6 @@
   },
   "fileSize": 517,
   "name": "template.svg",
-  "lastModified": "2020-05-28T11:15:44.140Z",
+  "lastModified": "2020-05-29T10:19:25.772Z",
   "status": "ready"
 }

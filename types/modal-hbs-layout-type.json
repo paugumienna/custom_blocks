@@ -1,6 +1,6 @@
 {
   "id": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "334-59e471bbc682fce98ef78d2ee9e300b6",
+  "rev": "367-4d22862808d90e188c5d32e80f995578",
   "name": "Modal HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -8,9 +8,9 @@
     "embedded"
   ],
   "thumbnail": {
-    "id": "d14b5410-73e1-4a69-bca6-afaf4e30be5c",
-    "path": "/dxdam/d1/d14b5410-73e1-4a69-bca6-afaf4e30be5c/template.jpg",
-    "url": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
+    "id": "0b1d7813-76d0-4212-b3bd-8748243f7fa5",
+    "path": "/dxdam/0b/0b1d7813-76d0-4212-b3bd-8748243f7fa5/template.png",
+    "url": "/authoring/v1/resources/339f7922-697b-4a20-bfed-4ad0417fc02a"
   },
   "contentThumbnail": {
     "imageElement": "",

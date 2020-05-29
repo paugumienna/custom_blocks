@@ -1,13 +1,13 @@
 {
-  "rev": "52-f0a17df82907885f491267eb9e9a64ad",
+  "rev": "85-871525e392602515a7a795511f77befe",
   "creator": "paulina.gumienna",
   "thumbnail": {
-    "id": "d14b5410-73e1-4a69-bca6-afaf4e30be5c",
-    "url": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
+    "id": "22839b30-48de-4277-9778-d996acd74b85",
+    "url": "/authoring/v1/resources/6bbbc92b-2ada-41dd-80df-8c2406d5401e"
   },
   "keywords": [],
   "kind": [],
-  "created": "2020-05-28T10:52:32.042Z",
+  "created": "2020-05-29T10:09:09.023Z",
   "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
   "description": "",
   "lastModifier": "paulina.gumienna",
@@ -29,7 +29,7 @@
   "typeId": "6aaaaaaa-bbbb-cccc-eeee-000000000000",
   "links": {
     "thumbnail": {
-      "href": "/authoring/v1/resources/2a19843f-be93-4a54-94d5-397b0a85b6bc"
+      "href": "/authoring/v1/resources/6bbbc92b-2ada-41dd-80df-8c2406d5401e"
     },
     "createDraft": {
       "href": "/authoring/v1/content/6aaaaaaa-bbbb-cccc-eeee-111111110000/create-draft"
@@ -45,8 +45,8 @@
     }
   },
   "id": "6aaaaaaa-bbbb-cccc-eeee-111111110000",
-  "lastModified": "2020-05-28T11:15:48.541Z",
-  "systemModified": "2020-05-28T11:15:48.541Z",
+  "lastModified": "2020-05-29T10:19:30.899Z",
+  "systemModified": "2020-05-29T10:19:30.899Z",
   "publishing": {
     "status": "not-available"
   },
