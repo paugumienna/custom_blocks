@@ -1,0 +1,78 @@
+{
+  "fileName": "template.png",
+  "metadata": {
+    "width": 32,
+    "height": 32
+  },
+  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "description": "",
+  "caption": "",
+  "lastModifier": "paulina.gumienna",
+  "mediaId": "dde20c58-84b0-4ee5-95ac-951a546aebb6",
+  "path": "/dxdam/img/template.png",
+  "digest": "csl2xSC4tLmo7FLXzxPlrw==",
+  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "renditions": {
+    "default": {
+      "id": "r=6a9683db-a493-4946-8074-f457054b816c&a=735edf7f-1468-45fb-932f-7517e47e14bb",
+      "source": "/authoring/v1/resources/6a9683db-a493-4946-8074-f457054b816c"
+    }
+  },
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/735edf7f-1468-45fb-932f-7517e47e14bb"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/6a9683db-a493-4946-8074-f457054b816c.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/6a9683db-a493-4946-8074-f457054b816c"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/735edf7f-1468-45fb-932f-7517e47e14bb/status/retire"
+    }
+  },
+  "id": "735edf7f-1468-45fb-932f-7517e47e14bb",
+  "categories": [],
+  "usageRights": {
+    "categories": []
+  },
+  "systemModified": "2020-06-01T13:06:14.124Z",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "4-1dfa75178ae73fea7993f69d121437e3",
+  "creator": "paulina.gumienna",
+  "altText": "",
+  "resource": "6a9683db-a493-4946-8074-f457054b816c",
+  "created": "2020-06-01T13:06:14.120Z",
+  "mediaType": "image/png",
+  "classification": "asset",
+  "tags": {
+    "declined": [],
+    "values": [
+      "classification:timepiece",
+      "classification:black color",
+      "classification:digital clock",
+      "classification:quadrate",
+      "classification:figure",
+      "classification:polygon",
+      "classification:telecommunication",
+      "classification:coal black color",
+      "classification:clock",
+      "classification:measuring instrument",
+      "classification:electronic equipment"
+    ],
+    "analysis": "pending"
+  },
+  "assetType": "image",
+  "isManaged": true,
+  "categoryIds": [],
+  "cognitive": {
+    "status": "pending"
+  },
+  "fileSize": 319,
+  "name": "template.png",
+  "lastModified": "2020-06-01T13:06:14.124Z",
+  "status": "ready"
+}
