@@ -101,7 +101,10 @@
               "value": 0
             },
             "gradientType": {
-              "elementType": "optionselection"
+              "elementType": "optionselection",
+              "value": {
+                "selection": "Linear"
+              }
             },
             "position": {
               "elementType": "optionselection",
