@@ -12,9 +12,7 @@
   },
   "description": "",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "image",

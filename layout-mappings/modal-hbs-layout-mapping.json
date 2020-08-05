@@ -3,9 +3,7 @@
   "rev": "225-07d7251ef7b8b4fc2af813c0d84cfd9a",
   "name": "Modal HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "aaaaaaaa-bbbb-cccc-eeee-000000000000",
     "name": "Modal HBS Layout Type"

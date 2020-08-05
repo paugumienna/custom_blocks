@@ -4,9 +4,7 @@
   "name": "Date HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/date-hbs-layout.hbs",
   "templateType": "handlebars"
 }

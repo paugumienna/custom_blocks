@@ -10,9 +10,7 @@
   "description": "An empty page with three single column rows",
   "classification": "content",
   "locale": "en",
-  "tags": [
-    "user:sites-next"
-  ],
+  "tags": [],
   "valid": false,
   "linkedDocId": "a47f9d31-dcca-477d-87b5-b4aa16b1652b",
   "selectedLayouts": [

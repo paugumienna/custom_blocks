@@ -9,9 +9,7 @@
   ],
   "description": "This block represents a list of links to be rendered on a page",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "group",

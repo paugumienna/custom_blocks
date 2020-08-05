@@ -8,9 +8,7 @@
   ],
   "description": "This item represents a top level container on a page. It contains a list of second level containers of type \"Sites Cell\" which in turn contain the actual page blocks",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "allowMultipleValues": true,

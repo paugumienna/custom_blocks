@@ -4,9 +4,7 @@
   "name": "Form HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/form-hbs-layout.hbs",
   "templateType": "handlebars"
 }

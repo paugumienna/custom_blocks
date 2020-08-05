@@ -4,9 +4,7 @@
   "name": "sitesPromotionLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/sites-promotion-layout.jpg"
   },

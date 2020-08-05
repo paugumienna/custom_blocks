@@ -9,9 +9,7 @@
   ],
   "description": "This block represents a divider between two blocks",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "optionselection",

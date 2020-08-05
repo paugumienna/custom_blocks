@@ -4,9 +4,7 @@
   "name": "Video HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/video-hbs-layout.hbs",
   "templateType": "handlebars"
 }

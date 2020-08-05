@@ -3,9 +3,7 @@
   "rev": "156-f60275850e41abb80308b7b633d6894c",
   "name": "sitesHbTextLayoutMapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "ac299073-48a2-446d-987d-d893257abdb3"
   },

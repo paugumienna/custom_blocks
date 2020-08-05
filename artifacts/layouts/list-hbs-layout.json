@@ -4,9 +4,7 @@
   "name": "List HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/list-hbs-layout.hbs",
   "templateType": "handlebars"
 }

@@ -3,9 +3,7 @@
   "rev": "72-32c28ed38a3b64f79c138eb5095aa062",
   "name": "Simple HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "daaaaaaa-bbbb-cccc-eeee-000000000000"
   },

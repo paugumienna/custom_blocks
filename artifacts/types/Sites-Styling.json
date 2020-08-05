@@ -8,9 +8,7 @@
   ],
   "description": "This item represents general styling information that can be applied to elements of page blocks.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

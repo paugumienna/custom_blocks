@@ -4,9 +4,7 @@
   "name": "IMG HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/slider-hbs-layout.hbs",
   "templateType": "handlebars"
 }

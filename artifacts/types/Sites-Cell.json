@@ -8,9 +8,7 @@
   ],
   "description": "This element represents a cell container contained in a page row.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "number",

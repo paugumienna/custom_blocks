@@ -11,9 +11,7 @@
   },
   "description": "A page markup contribution directly added into the markup",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "allowMultipleValues": false,

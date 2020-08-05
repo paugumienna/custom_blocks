@@ -8,9 +8,7 @@
   ],
   "description": "This color elements represents a specific managed color represented by a color code",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

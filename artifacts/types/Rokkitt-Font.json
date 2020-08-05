@@ -9,9 +9,7 @@
   ],
   "description": "Definition of the Rokkitt Font",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

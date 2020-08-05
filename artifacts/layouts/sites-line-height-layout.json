@@ -4,9 +4,7 @@
   "name": "sitesLineHeightLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/sites-line-height-layout.jpg"
   },

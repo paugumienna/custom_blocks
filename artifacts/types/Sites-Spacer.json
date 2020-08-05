@@ -13,9 +13,7 @@
   },
   "description": "This block represents a spacer allowing to add extra empty space between blocks.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "number",

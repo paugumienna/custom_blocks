@@ -9,9 +9,7 @@
   ],
   "description": "This element controls the boundary dimensions to be used for radius styling for a given block",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "number",

@@ -8,9 +8,7 @@
   ],
   "description": "This block represnets a vertical rule to be shown on pages.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "toggle",

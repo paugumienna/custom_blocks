@@ -8,8 +8,7 @@
   "classification": "content",
   "locale": "en",
   "tags": [
-    "user:sites-block",
-    "user:sites-next"
+    "user:sites-block"
   ],
   "elements": {
     "year": {

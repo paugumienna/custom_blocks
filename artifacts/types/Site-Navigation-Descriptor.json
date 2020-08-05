@@ -12,9 +12,7 @@
   },
   "description": "This content item defines the navigation structure for a site.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

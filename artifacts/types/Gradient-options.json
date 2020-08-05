@@ -8,9 +8,7 @@
   ],
   "description": "",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "allowMultipleValues": false,

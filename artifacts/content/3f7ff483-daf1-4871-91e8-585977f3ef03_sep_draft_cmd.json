@@ -10,9 +10,7 @@
   "description": "404 Error page template",
   "classification": "content",
   "locale": "en",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "valid": true,
   "linkedDocId": "3f7ff483-daf1-4871-91e8-585977f3ef03",
   "selectedLayouts": [

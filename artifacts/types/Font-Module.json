@@ -16,7 +16,6 @@
   "description": "Definition of a font as a page module.",
   "status": "ready",
   "tags": [
-    "sites-next",
     "font"
   ],
   "elements": [

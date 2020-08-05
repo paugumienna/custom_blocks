@@ -4,9 +4,7 @@
   "name": "Complex HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/complex-hbs-layout.hbs",
   "templateType": "handlebars"
 }

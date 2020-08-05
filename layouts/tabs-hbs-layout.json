@@ -4,9 +4,7 @@
   "name": "Tabs HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/tabs-hbs-layout.hbs",
   "templateType": "handlebars"
 }

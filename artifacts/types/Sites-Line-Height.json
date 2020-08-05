@@ -8,9 +8,7 @@
   ],
   "description": "This item controls the line hight of a text block",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "optionselection",

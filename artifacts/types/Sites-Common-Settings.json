@@ -8,9 +8,7 @@
   ],
   "description": "This element defines a set of common settings that can be appied to all blocks",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "toggle",

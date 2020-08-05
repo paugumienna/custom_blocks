@@ -8,9 +8,7 @@
   ],
   "description": "This element controls the background styling for a given block",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "optionselection",

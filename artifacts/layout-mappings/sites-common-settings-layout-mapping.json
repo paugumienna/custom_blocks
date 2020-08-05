@@ -3,9 +3,7 @@
   "rev": "156-790332c2c52fa9c86264995b12532e98",
   "name": "sitesCommonSettingsLayoutMapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "dba345e3-10a0-44ed-b0aa-6cffe74e1343"
   },

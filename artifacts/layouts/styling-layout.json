@@ -4,9 +4,7 @@
   "name": "stylingLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/styling-layout.jpg"
   },

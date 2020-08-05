@@ -4,9 +4,7 @@
   "name": "Rokkitt Font Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/rokkitt-font-layout.hbs",
   "templateType": "handlebars",
   "urlTemplate": "{templateLocation}/sites/rokkitt/{id}.html"

@@ -12,9 +12,7 @@
   },
   "description": "An set of related markup contributions to be added to markup of individual pages. Page contributions can contribute to both, the \"head\" and the \"body\" element of the page.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "allowMultipleValues": true,

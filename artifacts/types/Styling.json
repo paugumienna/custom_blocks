@@ -8,9 +8,7 @@
   ],
   "description": "This item provides general styling information",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

@@ -10,9 +10,7 @@
   ],
   "description": "This type is used to represent individual pages. Page specific meta data is controlled via the \"descriptor\" element. Page content can be placed into the container elements of this page.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "allowMultipleValues": true,

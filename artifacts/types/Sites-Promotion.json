@@ -9,9 +9,7 @@
   ],
   "description": "This block represents a promotion item to be rendered on a page. A promotion is comprised by an image, a text, and a clickable button.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "group",

@@ -13,9 +13,7 @@
   },
   "description": "Simple HBS Layout Type Description",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

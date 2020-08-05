@@ -3,9 +3,7 @@
   "rev": "225-7f5e36436ef5a0225f99679e6291ea06",
   "name": "Date HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "1aaaaaaa-bbbb-cccc-eeee-000000000000",
     "name": "Date HBS Layout Type"

@@ -4,9 +4,7 @@
   "name": "sitesCellLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/sites-cell-layout.jpg"
   },

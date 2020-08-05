@@ -9,9 +9,7 @@
   ],
   "description": "Simple description of the properties that define the basic styles for an acoustic theme.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "group",

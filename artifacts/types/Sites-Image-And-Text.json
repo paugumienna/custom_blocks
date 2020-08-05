@@ -13,9 +13,7 @@
   },
   "description": "This block represents a combination of image and accompanying text",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "group",

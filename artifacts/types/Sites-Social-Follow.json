@@ -9,9 +9,7 @@
   ],
   "description": "This block represents a clickable \"follow\" link to be rendered on the page",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "group",

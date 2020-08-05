@@ -3,9 +3,7 @@
   "rev": "80-8a1cf33e1c3a956b705c6f79c754f8dc",
   "name": "Form HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "6aaaaaaa-bbbb-cccc-eeee-000000000000",
     "name": "Form HBS Layout Type"

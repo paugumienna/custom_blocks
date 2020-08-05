@@ -4,9 +4,7 @@
   "name": "Modal HBS Layout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "template": "/templates/modal-hbs-layout.hbs",
   "templateType": "handlebars"
 }

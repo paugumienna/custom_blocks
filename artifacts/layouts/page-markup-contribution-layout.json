@@ -5,7 +5,6 @@
   "classification": "layout",
   "prerender": false,
   "tags": [
-    "sites-next",
     "mode:head",
     "mode:body"
   ],

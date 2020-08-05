@@ -6,9 +6,7 @@
   "description": "Rokkitt Font Definition",
   "classification": "content",
   "locale": "en",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": {
     "key": {
       "elementType": "text",

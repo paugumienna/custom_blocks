@@ -13,9 +13,7 @@
   },
   "description": "IMG HBS Layout Type Description",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "acceptType": [

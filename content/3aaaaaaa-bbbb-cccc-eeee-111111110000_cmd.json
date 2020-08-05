@@ -15,8 +15,7 @@
   "type": "Video HBS Layout Type",
   "locale": "en",
   "tags": [
-    "user:sites-block",
-    "user:sites-next"
+    "user:sites-block"
   ],
   "elements": {
     "video": {

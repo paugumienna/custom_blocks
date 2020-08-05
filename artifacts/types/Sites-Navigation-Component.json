@@ -8,9 +8,7 @@
   ],
   "description": "This block renders the navigation for the current site",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "number",

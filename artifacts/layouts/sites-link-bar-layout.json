@@ -4,9 +4,7 @@
   "name": "sitesLinkBarLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/sites-link-bar-layout.jpg"
   },

@@ -3,9 +3,7 @@
   "rev": "201-df5df088ba847aa5f0399e59de143a81",
   "name": "IMG HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
     "name": "IMG HBS Layout Type"

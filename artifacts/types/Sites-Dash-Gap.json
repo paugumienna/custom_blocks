@@ -9,9 +9,7 @@
   ],
   "description": "This element controls the dash and gap dimensions of a dashed border",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "number",

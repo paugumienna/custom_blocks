@@ -11,9 +11,7 @@
   },
   "description": "A style contribution added as a <script> element to the page markup",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "optionselection",

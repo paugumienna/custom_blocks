@@ -3,9 +3,7 @@
   "rev": "105-6c541bb516e90a8a4db981d4f179332e",
   "name": "Tabs HBS Layout Mapping",
   "classification": "layout-mapping",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "type": {
     "id": "5aaaaaaa-bbbb-cccc-eeee-000000000000",
     "name": "Tabs HBS Layout Type"

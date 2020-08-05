@@ -4,9 +4,7 @@
   "name": "sitesSocialLinkLayout",
   "classification": "layout",
   "prerender": false,
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "thumbnail": {
     "path": "/dxauth/thumbnails/layouts/sites-social-link-layout.jpg"
   },

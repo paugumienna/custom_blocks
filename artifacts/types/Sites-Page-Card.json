@@ -13,9 +13,7 @@
   },
   "description": "This page represents a page card comprised of a heading, a summary text, an image and a clickable link.",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "elementType": "text",

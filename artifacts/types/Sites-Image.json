@@ -13,9 +13,7 @@
   },
   "description": "This block represents an image to be shown on the page",
   "status": "ready",
-  "tags": [
-    "sites-next"
-  ],
+  "tags": [],
   "elements": [
     {
       "acceptType": [
