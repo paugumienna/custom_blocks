@@ -1,6 +1,6 @@
 {
   "id": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
-  "rev": "192-736ebdd7c55b6e774f84cb37532c64c5",
+  "rev": "10-38c63cb56fc94a078db109389d0a7b66",
   "name": "Video HBS Layout Type",
   "classification": "content-type",
   "kind": [
@@ -27,23 +27,44 @@
       "helpText": "This element holds the reference to the video asset",
       "key": "video",
       "label": "Video"
+    },
+    {
+      "elementType": "toggle",
+      "key": "muteVideoByDefault",
+      "label": "Mute video by default"
+    },
+    {
+      "elementType": "toggle",
+      "key": "autoPlay",
+      "label": "Autoplay"
+    },
+    {
+      "elementType": "toggle",
+      "key": "loop",
+      "label": "Loop"
+    },
+    {
+      "elementType": "toggle",
+      "key": "showPlayControls",
+      "label": "Show play controls"
     }
   ],
   "uiExtensions": {
     "elementBuiltin": "FormLayoutExtension",
     "elementConfig": {
-      "title": "Video HBS Layout Type Title",
+      "title": "video",
       "tabs": [
         {
-          "name": "Settings",
+          "name": "settings",
           "elements": [
-            "video"
-          ],
-          "footer": {
-            "elements": [
-              "commonSettings"
-            ]
-          }
+            "video",
+            "elementDivider",
+            "autoPlay",
+            "loop",
+            "muteVideoByDefault",
+            "showPlayControls",
+            "acceptAllUpdates"
+          ]
         }
       ]
     }
