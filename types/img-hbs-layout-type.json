@@ -1,0 +1,62 @@
+{
+  "id": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
+  "rev": "4-9ce9083cf34c4c158cf1823e9f235684",
+  "name": "IMG HBS Layout Type",
+  "classification": "content-type",
+  "kind": [
+    "standalone",
+    "embedded"
+  ],
+  "thumbnail": {
+    "id": "735edf7f-1468-45fb-932f-7517e47e14bb",
+    "path": "/dxdam/img/template.png",
+    "url": "/authoring/v1/resources/6a9683db-a493-4946-8074-f457054b816c"
+  },
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "none"
+  },
+  "description": "IMG HBS Layout Type Description",
+  "status": "ready",
+  "tags": [
+    "sites-next"
+  ],
+  "elements": [
+    {
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "elementType": "image",
+      "helpText": "The image for this block",
+      "key": "image",
+      "label": "Source image"
+    },
+    {
+      "elementType": "toggle",
+      "label": "Use alt text from source",
+      "key": "useAltTextFromSource"
+    }
+  ],
+  "uiExtensions": {
+    "elementBuiltin": "FormLayoutExtension",
+    "elementConfig": {
+      "title": "IMG HBS Layout Type Title",
+      "tabs": [
+        {
+          "name": "Settings",
+          "elements": [
+            "image"
+          ],
+          "footer": {
+            "elements": [
+              "commonSettings"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

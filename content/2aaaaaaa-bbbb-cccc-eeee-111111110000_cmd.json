@@ -1,12 +1,10 @@
 {
-  "rev": "201-c895644239dd269d741c81f970248aa3",
-  "creator": "paulina.gumienna",
+  "rev": "4-6b1012f574c246c98848477b3a55bf13",
   "keywords": [],
   "kind": [],
-  "created": "2020-06-01T13:06:20.226Z",
-  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "created": "2020-11-23T12:55:40.631Z",
+  "creatorId": "34a97b4f-0490-4608-ac2c-fe1b6d440517",
   "description": "",
-  "lastModifier": "paulina.gumienna",
   "classification": "content",
   "type": "IMG HBS Layout Type",
   "locale": "en",
@@ -17,10 +15,14 @@
   "elements": {
     "image": {
       "elementType": "image"
+    },
+    "useAltTextFromSource": {
+      "elementType": "toggle",
+      "value": false
     }
   },
   "name": "IMG HBS Label",
-  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "lastModifierId": "34a97b4f-0490-4608-ac2c-fe1b6d440517",
   "typeId": "2aaaaaaa-bbbb-cccc-eeee-000000000000",
   "links": {
     "createDraft": {
@@ -37,8 +39,8 @@
     }
   },
   "id": "2aaaaaaa-bbbb-cccc-eeee-111111110000",
-  "lastModified": "2020-06-01T13:06:20.226Z",
-  "systemModified": "2020-06-01T13:06:20.226Z",
+  "lastModified": "2020-11-23T13:11:29.500Z",
+  "systemModified": "2020-11-23T13:11:29.500Z",
   "publishing": {
     "status": "not-available"
   },

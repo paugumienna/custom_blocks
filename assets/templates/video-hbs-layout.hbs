@@ -1,13 +1,21 @@
 <!-- My Layout -->
 <div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
     data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
-    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}}" ;>
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}}">
 
     My layout is working!
-
+    {{#if video.asset.resourceUri}}
     <video src="{{$context.hub.resourceUrl.origin}}{{$context.hub.apiUrl.pathname}}{{video.asset.resourceUri}}"
-        controls=true autoplay=true style="max-width:100%;">
-    </video>
+        {{#if loop}}loop=true{{/if}} {{#if autoPlay}}autoplay=true{{/if}}>
+    </video>{{/if}}
 </div>
+
+<style>
+    video {
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: 2%;
+    }
+</style>
 {{log .}}
 <!-- End My Layout -->

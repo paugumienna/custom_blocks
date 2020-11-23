@@ -1,3 +1,6 @@
+
+ **/artifacts
+*.conflict
 #Logs
 logs
 *.log

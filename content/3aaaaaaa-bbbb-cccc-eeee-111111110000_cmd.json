@@ -1,16 +1,14 @@
 {
-  "rev": "187-d11df234a3263755e5dc8038e8a27386",
-  "creator": "paulina.gumienna",
+  "rev": "9-76aefd2d6ba346249219595f6e44667f",
   "thumbnail": {
     "id": "735edf7f-1468-45fb-932f-7517e47e14bb",
     "url": "/authoring/v1/resources/6a9683db-a493-4946-8074-f457054b816c"
   },
   "keywords": [],
   "kind": [],
-  "created": "2020-06-01T13:06:20.164Z",
-  "creatorId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "created": "2020-11-23T12:55:40.609Z",
+  "creatorId": "34a97b4f-0490-4608-ac2c-fe1b6d440517",
   "description": "",
-  "lastModifier": "paulina.gumienna",
   "classification": "content",
   "type": "Video HBS Layout Type",
   "locale": "en",
@@ -19,12 +17,28 @@
     "user:sites-next"
   ],
   "elements": {
+    "loop": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "showPlayControls": {
+      "elementType": "toggle",
+      "value": true
+    },
+    "muteVideoByDefault": {
+      "elementType": "toggle",
+      "value": true
+    },
     "video": {
       "elementType": "video"
+    },
+    "autoPlay": {
+      "elementType": "toggle",
+      "value": true
     }
   },
   "name": "Video HBS Label",
-  "lastModifierId": "0d1d48fe-2b6c-4fe7-a4e7-9592602e0f7e",
+  "lastModifierId": "34a97b4f-0490-4608-ac2c-fe1b6d440517",
   "typeId": "3aaaaaaa-bbbb-cccc-eeee-000000000000",
   "links": {
     "thumbnail": {
@@ -44,8 +58,8 @@
     }
   },
   "id": "3aaaaaaa-bbbb-cccc-eeee-111111110000",
-  "lastModified": "2020-06-01T13:06:20.164Z",
-  "systemModified": "2020-06-01T13:06:20.164Z",
+  "lastModified": "2020-11-23T14:21:08.622Z",
+  "systemModified": "2020-11-23T14:21:08.622Z",
   "publishing": {
     "status": "not-available"
   },
