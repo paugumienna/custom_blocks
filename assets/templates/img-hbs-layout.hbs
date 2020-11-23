@@ -1,0 +1,23 @@
+<!-- My Layout -->
+<div data-content-item-id="{{ $metadata.id }}" data-accessor="{{ $metadata.accessor }}"
+    data-wch-selectable="{{ $metadata.id }}#{{ $metadata.accessor }}"
+    data-acoustic-markup-fragment="{{ @root.$metadata.id }}#{{ $metadata.accessor }}" style="{{{alignment.$markup}}}" ;>
+    <span>My layout is working!</span>
+    {{#if image.link}}<a href="{{image.link.url}}" target="{{image.link.target}}">{{/if}}
+        <img data-content-item-id="{{$metadata.id}}" data-wch-editable="{{ $metadata.accessor }}.image"
+            src="{{#if image.asset.renditions.default.source}}{{$context.hub.apiUrl.href}}{{image.asset.renditions.default.source}}{{else}}{{$context.hub.resourceUrl.origin}}{{image.url}}{{/if}}"
+            {{#eq useAltTextFromSource true}}alt="{{image.asset.altText}}" {{/eq~}}
+            {{#eq useAltTextFromSource false}}alt="{{image.altText}}" {{/eq~}}>
+        {{#if image.link}}</a>{{/if}}
+</div>
+
+
+<style>
+    img {
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: 2%;
+    }
+</style>
+{{log .}}
+<!-- End My Layout -->
